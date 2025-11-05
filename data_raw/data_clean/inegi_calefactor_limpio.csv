@@ -1,0 +1,2143 @@
+folio,foliohog,id_calefac,calef_tipo,calef_otro,calef_dia,calef_hor,calef_min,calef_adqu,calef_anio,calef_tipo_desc,calef_adqu_desc
+28,1,1,1, ,10,3,0,1,9,Eléctrico con aceite térmico,Nuevo
+39,1,1,2, ,30,8,0,1,1,Eléctrico de resistencia,Nuevo
+57,1,1,3, ,6,1,0,1,10,Eléctrico de torre,Nuevo
+58,1,1,3, ,30,4,0,1,4,Eléctrico de torre,Nuevo
+68,1,1,1, ,60,3,0,1,1,Eléctrico con aceite térmico,Nuevo
+70,1,1,3, ,20,4,0,1,2,Eléctrico de torre,Nuevo
+70,1,2,2, ,5,10,0,1,1,Eléctrico de resistencia,Nuevo
+98,1,1,2, ,20,4,0,1,1,Eléctrico de resistencia,Nuevo
+99,1,1,3, ,40,8,0,1,2,Eléctrico de torre,Nuevo
+100,1,1,3, ,15,2,0,1,15,Eléctrico de torre,Nuevo
+105,1,1,4, ,5,2,0,1,4,De gas,Nuevo
+111,1,1,4, ,30,1,0,1,10,De gas,Nuevo
+122,1,1,1, ,1,1,0,1,2,Eléctrico con aceite térmico,Nuevo
+132,1,1,2, ,60,2,0,1,1,Eléctrico de resistencia,Nuevo
+161,1,1,1, ,90,4,0,1,8,Eléctrico con aceite térmico,Nuevo
+161,1,2,1, ,90,4,0,1,8,Eléctrico con aceite térmico,Nuevo
+195,1,1,2, ,60,8,0,1,2,Eléctrico de resistencia,Nuevo
+197,1,1,2, ,60,6,0,1,10,Eléctrico de resistencia,Nuevo
+207,1,1,3, ,30,2,0,1,2,Eléctrico de torre,Nuevo
+264,1,1,2, ,30,8,0,1,1,Eléctrico de resistencia,Nuevo
+281,1,1,2, ,60,1,0,1,1,Eléctrico de resistencia,Nuevo
+309,1,1,2, ,60,8,0,2,6,Eléctrico de resistencia,Usado
+313,1,1,3, ,60,8,0,2,2,Eléctrico de torre,Usado
+313,1,2,3, ,60,4,0,2,2,Eléctrico de torre,Usado
+314,1,1,3, ,20,1,0,1,3,Eléctrico de torre,Nuevo
+363,1,1,1, ,30,2,0,1,5,Eléctrico con aceite térmico,Nuevo
+418,1,1,1, ,15,0,30,1,1,Eléctrico con aceite térmico,Nuevo
+426,1,1,2, ,60,2,0,1,1,Eléctrico de resistencia,Nuevo
+457,1,1,2, ,8,2,0,1,1,Eléctrico de resistencia,Nuevo
+490,1,1,3, ,6,2,0,1,6,Eléctrico de torre,Nuevo
+497,1,1,1, ,70,3,0,1,8,Eléctrico con aceite térmico,Nuevo
+502,1,1,4, ,2,7,0,1,3,De gas,Nuevo
+534,1,1,4, ,4,1,0,1,1,De gas,Nuevo
+550,1,1,2, ,8,8,0,1,8,Eléctrico de resistencia,Nuevo
+589,1,1,4, ,30,2,0,1,4,De gas,Nuevo
+593,1,1,2, ,30,2,0,1,4,Eléctrico de resistencia,Nuevo
+623,1,1,2, ,30,4,0,2,1,Eléctrico de resistencia,Usado
+670,1,1,1, ,2,3,0,1,3,Eléctrico con aceite térmico,Nuevo
+676,1,1,3, ,6,1,0,1,3,Eléctrico de torre,Nuevo
+688,1,1,3, ,7,1,0,1,3,Eléctrico de torre,Nuevo
+706,1,1,1, ,15,2,0,1,1,Eléctrico con aceite térmico,Nuevo
+706,1,2,3, ,30,2,0,1,2,Eléctrico de torre,Nuevo
+750,1,1,5,PORTATIL,30,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+765,1,1,4, ,30,1,0,1,7,De gas,Nuevo
+767,1,1,3, ,20,1,0,1,2,Eléctrico de torre,Nuevo
+797,1,1,1, ,30,1,0,1,5,Eléctrico con aceite térmico,Nuevo
+827,1,1,1, ,1,5,0,1,5,Eléctrico con aceite térmico,Nuevo
+837,1,1,2, ,15,6,0,2,99,Eléctrico de resistencia,Usado
+857,1,1,3, ,30,8,0,1,2,Eléctrico de torre,Nuevo
+858,1,2,3, ,30,1,0,1,5,Eléctrico de torre,Nuevo
+858,1,1,1, ,30,0,30,1,5,Eléctrico con aceite térmico,Nuevo
+861,1,1,1, ,15,1,0,1,2,Eléctrico con aceite térmico,Nuevo
+871,1,1,3, ,30,5,0,1,1,Eléctrico de torre,Nuevo
+879,1,1,1, ,60,12,0,1,5,Eléctrico con aceite térmico,Nuevo
+881,1,1,2, ,30,1,0,1,1,Eléctrico de resistencia,Nuevo
+882,1,1,3, ,30,0,30,1,1,Eléctrico de torre,Nuevo
+883,1,1,2, ,10,2,0,1,1,Eléctrico de resistencia,Nuevo
+932,1,1,2, ,30,1,0,1,4,Eléctrico de resistencia,Nuevo
+933,1,1,2, ,20,0,30,1,1,Eléctrico de resistencia,Nuevo
+973,1,1,4, ,15,2,0,1,1,De gas,Nuevo
+975,1,1,1, ,30,3,0,1,2,Eléctrico con aceite térmico,Nuevo
+991,1,1,3, ,30,1,0,1,1,Eléctrico de torre,Nuevo
+998,1,1,3, ,2,1,0,2,2,Eléctrico de torre,Usado
+1006,1,1,3, ,60,1,0,1,3,Eléctrico de torre,Nuevo
+1009,1,1,1, ,30,6,0,1,1,Eléctrico con aceite térmico,Nuevo
+1034,1,1,1, ,30,7,0,1,2,Eléctrico con aceite térmico,Nuevo
+1054,1,1,3, ,90,1,0,1,5,Eléctrico de torre,Nuevo
+1055,1,1,2, ,90,4,0,1,8,Eléctrico de resistencia,Nuevo
+1114,1,1,2, ,60,1,0,1,3,Eléctrico de resistencia,Nuevo
+1124,1,1,4, ,15,2,0,1,2,De gas,Nuevo
+1141,1,2,2, ,60,3,0,1,2,Eléctrico de resistencia,Nuevo
+1141,1,1,1, ,60,3,0,1,3,Eléctrico con aceite térmico,Nuevo
+1156,1,1,1, ,15,2,0,1,1,Eléctrico con aceite térmico,Nuevo
+1157,1,1,3, ,20,2,0,2,2,Eléctrico de torre,Usado
+1160,1,1,3, ,45,12,0,1,1,Eléctrico de torre,Nuevo
+1161,1,1,2, ,30,1,0,1,7,Eléctrico de resistencia,Nuevo
+1171,1,1,3, ,4,4,0,1,2,Eléctrico de torre,Nuevo
+1181,1,1,1, ,30,12,0,1,5,Eléctrico con aceite térmico,Nuevo
+1221,1,1,4, ,90,6,0,2,3,De gas,Usado
+1224,1,1,2, ,7,6,0,1,1,Eléctrico de resistencia,Nuevo
+1225,1,1,2, ,7,2,0,1,2,Eléctrico de resistencia,Nuevo
+1234,1,1,2, ,90,2,0,1,6,Eléctrico de resistencia,Nuevo
+1244,1,1,2, ,2,6,0,1,6,Eléctrico de resistencia,Nuevo
+1247,1,1,2, ,90,3,0,2,8,Eléctrico de resistencia,Usado
+1253,1,1,2, ,7,3,0,1,1,Eléctrico de resistencia,Nuevo
+1256,1,1,1, ,90,1,0,1,8,Eléctrico con aceite térmico,Nuevo
+1269,1,1,1, ,2,0,2,1,8,Eléctrico con aceite térmico,Nuevo
+1277,1,1,3, ,30,2,0,2,1,Eléctrico de torre,Usado
+1280,1,1,1, ,90,2,0,1,2,Eléctrico con aceite térmico,Nuevo
+1288,1,1,2, ,2,1,0,2,4,Eléctrico de resistencia,Usado
+1306,1,1,3, ,30,99,99,1,1,Eléctrico de torre,Nuevo
+1340,1,1,3, ,30,2,0,1,4,Eléctrico de torre,Nuevo
+1358,1,1,3, ,30,0,30,2,3,Eléctrico de torre,Usado
+1372,1,1,2, ,3,3,0,1,2,Eléctrico de resistencia,Nuevo
+1373,1,1,4, ,36,3,0,1,8,De gas,Nuevo
+1375,1,1,1, ,15,4,0,2,2,Eléctrico con aceite térmico,Usado
+1377,1,1,1, ,15,12,0,1,1,Eléctrico con aceite térmico,Nuevo
+1396,1,1,3, ,7,4,0,1,1,Eléctrico de torre,Nuevo
+1403,1,1,2, ,30,1,30,1,8,Eléctrico de resistencia,Nuevo
+1421,1,1,3, ,14,0,30,1,10,Eléctrico de torre,Nuevo
+1428,1,1,3, ,20,3,0,1,3,Eléctrico de torre,Nuevo
+1449,1,1,4, ,20,0,30,1,2,De gas,Nuevo
+1521,1,1,2, ,30,4,0,1,3,Eléctrico de resistencia,Nuevo
+1532,1,1,1, ,8,4,0,2,1,Eléctrico con aceite térmico,Usado
+1533,1,1,5,MINI SPLIT,12,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+1546,1,1,2, ,15,4,0,2,1,Eléctrico de resistencia,Usado
+1559,1,1,2, ,15,1,0,2,1,Eléctrico de resistencia,Usado
+1563,1,1,3, ,30,2,0,2,4,Eléctrico de torre,Usado
+1564,1,1,2, ,22,3,0,1,3,Eléctrico de resistencia,Nuevo
+1565,1,1,2, ,60,3,0,1,3,Eléctrico de resistencia,Nuevo
+1565,1,2,2, ,60,2,30,1,3,Eléctrico de resistencia,Nuevo
+1569,1,1,2, ,24,0,15,1,2,Eléctrico de resistencia,Nuevo
+1595,1,1,2, ,1,1,0,2,1,Eléctrico de resistencia,Usado
+1607,1,1,3, ,30,0,20,1,5,Eléctrico de torre,Nuevo
+1724,1,1,4, ,30,2,0,1,10,De gas,Nuevo
+1726,1,1,4, ,30,6,0,1,1,De gas,Nuevo
+1727,1,1,2, ,16,2,0,1,6,Eléctrico de resistencia,Nuevo
+1746,1,1,2, ,12,5,0,2,1,Eléctrico de resistencia,Usado
+1747,1,1,2, ,7,0,30,1,4,Eléctrico de resistencia,Nuevo
+1842,1,2,1, ,3,4,0,1,3,Eléctrico con aceite térmico,Nuevo
+1842,1,1,1, ,3,4,0,1,6,Eléctrico con aceite térmico,Nuevo
+1896,1,1,1, ,60,8,0,1,1,Eléctrico con aceite térmico,Nuevo
+1984,1,1,1, ,120,5,0,1,2,Eléctrico con aceite térmico,Nuevo
+2301,1,1,1, ,20,1,0,1,10,Eléctrico con aceite térmico,Nuevo
+2437,1,1,2, ,90,8,0,1,3,Eléctrico de resistencia,Nuevo
+3212,1,1,2, ,30,0,30,1,20,Eléctrico de resistencia,Nuevo
+3540,1,1,4, ,60,4,0,2,2,De gas,Usado
+3541,1,2,4, ,90,12,0,1,5,De gas,Nuevo
+3541,1,1,4, ,3,12,0,1,5,De gas,Nuevo
+3542,1,1,4, ,60,2,0,1,5,De gas,Nuevo
+3543,1,1,4, ,90,2,0,1,2,De gas,Nuevo
+3559,1,1,5,MINISPLIT,120,10,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+3560,1,1,5,UTILIZO UN MINISPLIT ENCENDIDO Y APAGADO NO LO UTILLIZO PARA AIRE ACONDICIONADO,90,24,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3561,1,2,5,MINISPLIT INVERTER,90,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3561,1,4,4, ,90,1,0,1,2,De gas,Nuevo
+3561,1,3,5,MINISPLIT INVERTER,90,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3561,1,1,5,MINISPLIT INVERTER,90,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3562,1,4,5,MINISPLIT INVERTER,24,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+3562,1,3,4, ,14,2,0,1,7,De gas,Nuevo
+3562,1,2,4, ,120,0,20,1,9,De gas,Nuevo
+3562,1,1,4, ,30,3,0,1,9,De gas,Nuevo
+3564,1,1,2, ,120,0,30,1,8,Eléctrico de resistencia,Nuevo
+3568,1,2,5,MINISPLIT INVERTER,120,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+3568,1,1,5,MINISPLIT INVERTER,120,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3569,1,1,5,DE LEÑA,60,6,0,2,2,Otro tipo de calefactor (especifica),Usado
+3569,1,2,5,MINISPLI  DE ENCENDIDO Y APAGADO,20,8,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3570,1,2,5,MINISPLIT PAGADO Y ENCENDIDO,90,5,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3570,1,1,5,MINISPLIT APAGADOY ENCENDIDO,90,8,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+3571,1,1,5,CALEACTOR DE LE?A,30,24,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+3572,1,1,4, ,60,4,0,1,10,De gas,Nuevo
+3575,1,1,5,CON LE?A,90,5,0,2,1,Otro tipo de calefactor (especifica),Usado
+3577,1,1,1, ,30,12,0,1,12,Eléctrico con aceite térmico,Nuevo
+3578,1,1,4, ,10,2,0,2,1,De gas,Usado
+3579,1,1,4, ,60,1,0,1,9,De gas,Nuevo
+3580,1,1,2, ,60,3,0,1,2,Eléctrico de resistencia,Nuevo
+3581,1,1,4, ,120,5,0,1,4,De gas,Nuevo
+3584,1,1,4, ,60,1,0,1,15,De gas,Nuevo
+3588,1,1,4, ,90,2,0,1,1,De gas,Nuevo
+3589,1,4,5,MINISPLIT ENCENDIDO-APAGADO,30,2,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3589,1,3,5,MINISPLIT ENCENDIDO-APAGADO,10,0,30,1,2,Otro tipo de calefactor (especifica),Nuevo
+3589,1,2,4, ,60,3,0,1,3,De gas,Nuevo
+3589,1,1,4, ,60,3,0,1,4,De gas,Nuevo
+3593,1,1,2, ,90,2,0,1,10,Eléctrico de resistencia,Nuevo
+3597,1,1,4, ,60,2,0,1,3,De gas,Nuevo
+3598,1,1,4, ,60,7,0,1,3,De gas,Nuevo
+3599,1,1,4, ,60,8,0,1,8,De gas,Nuevo
+3599,1,2,5,MINISPLIT,30,10,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+3600,1,1,4, ,60,4,0,1,8,De gas,Nuevo
+3602,1,1,1, ,30,2,0,1,5,Eléctrico con aceite térmico,Nuevo
+3602,1,2,1, ,30,2,0,1,5,Eléctrico con aceite térmico,Nuevo
+3603,1,2,5,MINISPLIT ENCENDIDO APAGADO,5,1,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+3603,1,1,5,MINISPLIT INVERTER,20,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+3604,1,2,5,MINISPLIN INTERVER,30,1,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+3604,1,1,5,MINISPLIN INVERTER,30,1,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3605,1,1,1, ,60,1,0,1,10,Eléctrico con aceite térmico,Nuevo
+3606,1,1,2, ,70,3,0,2,1,Eléctrico de resistencia,Usado
+3607,1,2,5,MINISPLIT,50,5,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+3607,1,1,4, ,50,4,0,1,6,De gas,Nuevo
+3607,1,3,5,MINISPLIT,50,5,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+3607,1,4,5,MINISPLIT,50,5,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+3608,1,1,4, ,30,3,0,1,36,De gas,Nuevo
+3610,1,1,4, ,30,4,0,1,3,De gas,Nuevo
+3610,1,2,5,MINISPLIT,30,8,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+3610,1,3,5,MINISPLIT,30,8,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+3611,1,1,4, ,10,3,0,1,7,De gas,Nuevo
+3612,1,4,5,MINISPLIT,1,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3612,1,3,5,MINISPLIT,4,1,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+3612,1,2,5,MINISPLIT,4,5,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3612,1,1,4, ,8,8,0,2,25,De gas,Usado
+3614,1,2,5,MINISPLIT INVERTER,45,3,0,2,2,Otro tipo de calefactor (especifica),Usado
+3614,1,1,5,MINISPLIT INVERTER,40,3,0,2,2,Otro tipo de calefactor (especifica),Usado
+3614,1,3,5,MINISPLIT INVERTER,45,5,0,2,2,Otro tipo de calefactor (especifica),Usado
+3614,1,4,5,MINISPLIT INVERTER,45,8,0,2,2,Otro tipo de calefactor (especifica),Usado
+3615,1,1,2, ,120,8,0,1,2,Eléctrico de resistencia,Nuevo
+3620,1,1,4, ,30,3,0,1,10,De gas,Nuevo
+3621,1,1,4, ,90,2,0,1,2,De gas,Nuevo
+3623,1,1,5,COMENTA INFORMANTE QUE USA EL MINISPLIT CON ENCENDIDO Y APAGADO,60,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3623,1,3,5,USA EL MINISPLIT DE ENCENDIDO Y APAGADO PARA TEMPERATURA CALIENTE,60,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3623,1,2,5,USA EL MINISPLIT CON ENCENDIDO Y APAGADO,60,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3627,1,1,4, ,60,4,0,1,20,De gas,Nuevo
+3630,1,1,4, ,50,3,0,1,5,De gas,Nuevo
+3635,1,2,4, ,15,3,0,1,5,De gas,Nuevo
+3635,1,1,4, ,15,2,0,1,5,De gas,Nuevo
+3635,1,4,5,MINIPLIST ENCENDIDO PAGADO,15,1,30,1,3,Otro tipo de calefactor (especifica),Nuevo
+3635,1,3,5,MINIPLIST ENCENDIDO Y APAGADO,15,1,30,1,3,Otro tipo de calefactor (especifica),Nuevo
+3637,1,1,5,MINISPLIT,20,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+3639,1,1,4, ,30,0,40,1,3,De gas,Nuevo
+3644,1,1,2, ,40,3,0,1,1,Eléctrico de resistencia,Nuevo
+3645,1,1,2, ,90,1,30,1,5,Eléctrico de resistencia,Nuevo
+3647,1,1,4, ,60,7,0,2,1,De gas,Usado
+3648,1,1,5,MINISPLIT DE ENCENDIDO,60,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3648,1,2,5,MINISPLIT DE ENCENDIDO,60,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3649,1,1,4, ,90,12,0,1,8,De gas,Nuevo
+3649,1,2,4, ,90,3,0,1,5,De gas,Nuevo
+3650,1,1,1, ,90,4,0,1,6,Eléctrico con aceite térmico,Nuevo
+3650,1,2,1, ,90,4,0,1,6,Eléctrico con aceite térmico,Nuevo
+3651,1,1,5,CENTRAL,90,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+3652,1,1,4, ,60,6,0,1,2,De gas,Nuevo
+3654,1,1,5,CENTRAL,90,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3654,1,2,5,CENTRAL,90,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+3656,1,1,4, ,999,4,0,2,99,De gas,Usado
+3658,1,1,2, ,30,2,0,2,99,Eléctrico de resistencia,Usado
+3663,1,1,3, ,90,11,0,1,1,Eléctrico de torre,Nuevo
+3666,1,1,2, ,60,3,0,1,1,Eléctrico de resistencia,Nuevo
+3667,1,1,2, ,90,3,0,2,1,Eléctrico de resistencia,Usado
+3668,1,1,4, ,40,5,0,1,8,De gas,Nuevo
+3669,1,1,2, ,60,0,30,1,5,Eléctrico de resistencia,Nuevo
+3673,1,1,4, ,60,4,0,1,2,De gas,Nuevo
+3674,1,1,2, ,90,3,0,2,9,Eléctrico de resistencia,Usado
+3675,1,2,2, ,60,1,0,1,1,Eléctrico de resistencia,Nuevo
+3675,1,3,2, ,60,2,0,1,1,Eléctrico de resistencia,Nuevo
+3675,1,1,4, ,60,3,0,2,1,De gas,Usado
+3676,1,1,4, ,90,4,0,1,3,De gas,Nuevo
+3680,1,1,2, ,12,2,0,1,2,Eléctrico de resistencia,Nuevo
+3683,1,1,3, ,60,2,0,1,1,Eléctrico de torre,Nuevo
+3688,1,2,4, ,30,2,0,1,12,De gas,Nuevo
+3688,1,1,4, ,60,4,0,1,12,De gas,Nuevo
+3689,1,2,3, ,60,4,0,1,3,Eléctrico de torre,Nuevo
+3689,1,1,3, ,60,4,0,1,3,Eléctrico de torre,Nuevo
+3691,1,2,4, ,60,2,0,1,3,De gas,Nuevo
+3691,1,1,4, ,60,2,0,1,2,De gas,Nuevo
+3697,1,1,4, ,15,3,0,2,5,De gas,Usado
+3701,1,1,4, ,30,2,0,1,4,De gas,Nuevo
+3701,1,2,5,MINISPLIT ENCENDIDO Y APAGADO,3,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3704,1,1,1, ,60,3,0,1,6,Eléctrico con aceite térmico,Nuevo
+3704,1,2,4, ,90,5,0,1,8,De gas,Nuevo
+3704,1,3,4, ,90,4,0,1,2,De gas,Nuevo
+3706,1,1,4, ,30,1,0,1,6,De gas,Nuevo
+3710,1,1,4, ,20,5,0,1,12,De gas,Nuevo
+3714,1,3,4, ,120,2,0,1,12,De gas,Nuevo
+3714,1,2,4, ,120,2,0,1,8,De gas,Nuevo
+3714,1,1,4, ,120,2,0,1,10,De gas,Nuevo
+3715,1,2,5,MINISPLIT ENCENDIDO Y APAGADO,90,5,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+3715,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+3716,1,1,4, ,30,12,0,1,1,De gas,Nuevo
+3718,1,1,4, ,60,3,0,1,2,De gas,Nuevo
+3720,1,1,4, ,60,0,20,2,5,De gas,Usado
+3728,1,1,4, ,90,12,0,1,5,De gas,Nuevo
+3728,1,2,4, ,60,12,0,1,5,De gas,Nuevo
+3728,1,3,4, ,60,12,0,1,5,De gas,Nuevo
+3729,1,1,5,MINISPLIT INVERTER,120,8,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+3730,1,1,4, ,20,0,30,1,15,De gas,Nuevo
+3730,1,2,4, ,40,0,30,1,1,De gas,Nuevo
+3731,1,1,4, ,30,2,0,1,7,De gas,Nuevo
+3735,1,1,4, ,90,4,0,1,1,De gas,Nuevo
+3736,1,1,2, ,20,2,0,1,6,Eléctrico de resistencia,Nuevo
+3737,1,1,4, ,30,2,0,1,1,De gas,Nuevo
+3738,1,1,4, ,60,0,40,1,4,De gas,Nuevo
+3738,1,2,4, ,60,1,30,1,4,De gas,Nuevo
+3739,1,2,4, ,20,5,0,1,10,De gas,Nuevo
+3739,1,1,4, ,60,8,0,1,8,De gas,Nuevo
+3741,1,1,4, ,30,4,0,1,4,De gas,Nuevo
+3751,1,2,4, ,7,4,0,2,8,De gas,Usado
+3751,1,1,1, ,3,3,0,1,5,Eléctrico con aceite térmico,Nuevo
+3758,1,1,4, ,20,2,0,1,10,De gas,Nuevo
+3763,1,1,2, ,30,5,0,1,3,Eléctrico de resistencia,Nuevo
+3766,1,1,4, ,60,2,0,1,1,De gas,Nuevo
+3767,1,1,4, ,60,1,0,1,5,De gas,Nuevo
+3768,1,1,4, ,30,1,0,2,1,De gas,Usado
+3774,1,1,4, ,60,5,0,2,10,De gas,Usado
+3783,1,1,2, ,30,4,0,1,1,Eléctrico de resistencia,Nuevo
+3785,1,1,4, ,120,2,0,1,8,De gas,Nuevo
+3794,1,1,1, ,30,5,0,1,1,Eléctrico con aceite térmico,Nuevo
+3798,1,1,4, ,90,4,0,1,3,De gas,Nuevo
+3800,1,1,2, ,60,2,0,1,5,Eléctrico de resistencia,Nuevo
+3802,1,1,4, ,60,2,0,1,5,De gas,Nuevo
+3802,1,2,4, ,60,3,0,1,5,De gas,Nuevo
+3804,1,1,2, ,30,6,0,1,2,Eléctrico de resistencia,Nuevo
+3806,1,1,4, ,60,2,0,1,1,De gas,Nuevo
+3816,1,1,1, ,90,0,30,1,1,Eléctrico con aceite térmico,Nuevo
+3825,1,1,4, ,14,1,0,2,2,De gas,Usado
+3839,1,1,4, ,30,0,30,1,6,De gas,Nuevo
+3843,1,1,4, ,60,12,0,1,4,De gas,Nuevo
+3844,1,2,4, ,120,5,0,1,1,De gas,Nuevo
+3844,1,1,4, ,120,5,0,1,2,De gas,Nuevo
+3846,1,1,2, ,20,1,0,2,3,Eléctrico de resistencia,Usado
+3848,1,1,2, ,20,2,0,1,5,Eléctrico de resistencia,Nuevo
+3849,1,1,4, ,30,24,0,1,9,De gas,Nuevo
+3849,1,2,4, ,30,24,0,2,99,De gas,Usado
+3850,1,1,1, ,4,1,0,1,1,Eléctrico con aceite térmico,Nuevo
+3852,1,1,4, ,10,1,0,2,7,De gas,Usado
+3856,1,1,2, ,15,3,0,1,3,Eléctrico de resistencia,Nuevo
+3857,1,1,4, ,60,2,0,1,10,De gas,Nuevo
+3857,1,2,4, ,60,2,0,1,2,De gas,Nuevo
+3858,1,1,4, ,20,4,0,1,2,De gas,Nuevo
+3863,1,1,4, ,50,1,0,1,4,De gas,Nuevo
+3864,1,1,1, ,120,20,0,1,4,Eléctrico con aceite térmico,Nuevo
+3864,1,2,4, ,120,6,0,1,1,De gas,Nuevo
+3865,1,2,4, ,20,3,0,1,3,De gas,Nuevo
+3865,1,1,1, ,10,3,0,2,10,Eléctrico con aceite térmico,Usado
+3866,1,1,4, ,90,0,30,2,1,De gas,Usado
+3867,1,1,2, ,24,6,0,1,5,Eléctrico de resistencia,Nuevo
+3868,1,1,2, ,60,20,0,1,1,Eléctrico de resistencia,Nuevo
+3872,1,1,2, ,15,1,0,1,6,Eléctrico de resistencia,Nuevo
+3874,1,1,4, ,70,5,0,1,10,De gas,Nuevo
+3876,1,1,2, ,15,3,0,2,3,Eléctrico de resistencia,Usado
+3878,1,1,4, ,90,5,0,1,2,De gas,Nuevo
+3879,1,1,5,MINISPLIT APAGADO ENCENDIDO,60,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+3880,1,1,2, ,60,24,0,1,1,Eléctrico de resistencia,Nuevo
+3882,1,1,2, ,60,1,0,1,8,Eléctrico de resistencia,Nuevo
+3884,1,1,2, ,60,5,0,1,1,Eléctrico de resistencia,Nuevo
+3888,1,1,2, ,30,1,0,1,1,Eléctrico de resistencia,Nuevo
+3889,1,1,2, ,30,1,0,1,1,Eléctrico de resistencia,Nuevo
+3893,1,1,4, ,90,1,0,1,6,De gas,Nuevo
+3894,1,1,2, ,4,1,0,1,3,Eléctrico de resistencia,Nuevo
+3896,1,1,2, ,10,5,0,1,4,Eléctrico de resistencia,Nuevo
+3897,1,1,4, ,60,2,0,1,1,De gas,Nuevo
+3897,1,2,2, ,30,3,0,2,14,Eléctrico de resistencia,Usado
+3900,1,1,2, ,30,8,0,1,1,Eléctrico de resistencia,Nuevo
+3901,1,1,4, ,60,5,0,1,3,De gas,Nuevo
+3905,1,1,4, ,90,3,0,1,7,De gas,Nuevo
+3905,1,2,4, ,90,3,0,1,7,De gas,Nuevo
+3907,1,1,4, ,30,5,0,1,2,De gas,Nuevo
+3908,1,1,4, ,10,2,0,2,32,De gas,Usado
+3911,1,1,4, ,30,2,0,1,1,De gas,Nuevo
+3912,1,1,4, ,60,0,30,1,1,De gas,Nuevo
+3913,1,1,4, ,5,3,0,2,1,De gas,Usado
+3913,1,2,5,MINISPLI,5,0,40,2,1,Otro tipo de calefactor (especifica),Usado
+3913,1,3,5,MINISPLIT,5,0,40,2,1,Otro tipo de calefactor (especifica),Usado
+3913,1,4,5,MINISPLIT,5,0,40,1,1,Otro tipo de calefactor (especifica),Nuevo
+3915,1,1,4, ,40,5,0,1,3,De gas,Nuevo
+3916,1,1,4, ,20,4,0,2,2,De gas,Usado
+3921,1,2,2, ,90,10,0,1,2,Eléctrico de resistencia,Nuevo
+3921,1,1,2, ,90,10,0,1,2,Eléctrico de resistencia,Nuevo
+3922,1,1,5,MINISPLIT,15,6,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+3922,1,2,5,MINISPLIT,15,6,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+3922,1,3,5,MINISPLIT,15,6,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+3922,1,4,5,MINISPLIT,15,6,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+3923,1,1,4, ,20,2,0,1,4,De gas,Nuevo
+3924,1,1,3, ,60,8,0,1,1,Eléctrico de torre,Nuevo
+3929,1,1,2, ,60,3,0,1,1,Eléctrico de resistencia,Nuevo
+3933,1,1,4, ,30,2,0,1,1,De gas,Nuevo
+3934,1,1,4, ,20,2,0,1,20,De gas,Nuevo
+3936,1,1,3, ,60,12,0,1,3,Eléctrico de torre,Nuevo
+3937,1,1,3, ,30,3,0,1,3,Eléctrico de torre,Nuevo
+3941,1,1,4, ,15,1,0,2,2,De gas,Usado
+3944,1,1,1, ,60,3,0,1,10,Eléctrico con aceite térmico,Nuevo
+3944,1,3,1, ,60,3,0,1,10,Eléctrico con aceite térmico,Nuevo
+3944,1,2,1, ,60,3,0,1,10,Eléctrico con aceite térmico,Nuevo
+3957,1,1,2, ,30,6,0,1,3,Eléctrico de resistencia,Nuevo
+3959,1,1,2, ,45,0,30,2,3,Eléctrico de resistencia,Usado
+3960,1,1,4, ,30,2,0,2,3,De gas,Usado
+3970,1,1,2, ,60,2,0,1,3,Eléctrico de resistencia,Nuevo
+3974,1,1,5,MINISPLIT,120,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+3974,1,2,2, ,120,3,0,1,2,Eléctrico de resistencia,Nuevo
+3974,1,3,2, ,60,3,0,1,99,Eléctrico de resistencia,Nuevo
+3985,1,1,1, ,60,6,0,1,2,Eléctrico con aceite térmico,Nuevo
+3989,1,1,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+3994,1,1,4, ,60,2,0,1,3,De gas,Nuevo
+3998,1,1,1, ,10,12,0,1,1,Eléctrico con aceite térmico,Nuevo
+4001,1,1,4, ,60,2,0,1,5,De gas,Nuevo
+4001,1,2,4, ,60,0,30,1,1,De gas,Nuevo
+4017,1,1,4, ,30,3,0,1,8,De gas,Nuevo
+4018,1,1,2, ,60,3,0,1,20,Eléctrico de resistencia,Nuevo
+4029,1,1,2, ,60,5,0,1,2,Eléctrico de resistencia,Nuevo
+4036,1,1,2, ,30,1,0,1,2,Eléctrico de resistencia,Nuevo
+4037,1,1,4, ,15,3,0,1,5,De gas,Nuevo
+4040,1,1,2, ,30,6,0,2,22,Eléctrico de resistencia,Usado
+4051,1,5,5,MINISPLIT,30,2,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+4051,1,4,5,MINISPLIT,30,2,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+4051,1,2,5,MINISPLIT,60,7,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+4051,1,1,5,MINISPLIT,60,7,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+4051,1,3,5,MINISPLIT,60,2,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+4052,1,2,4, ,30,3,0,1,4,De gas,Nuevo
+4052,1,1,4, ,30,5,0,1,4,De gas,Nuevo
+4057,1,1,4, ,30,2,0,1,10,De gas,Nuevo
+4062,1,1,2, ,90,8,0,1,5,Eléctrico de resistencia,Nuevo
+4065,1,1,3, ,12,10,0,2,4,Eléctrico de torre,Usado
+4071,1,1,2, ,60,8,0,1,3,Eléctrico de resistencia,Nuevo
+4083,1,1,2, ,90,5,0,1,4,Eléctrico de resistencia,Nuevo
+4084,1,1,2, ,80,13,0,2,2,Eléctrico de resistencia,Usado
+4102,1,2,2, ,120,4,0,1,2,Eléctrico de resistencia,Nuevo
+4102,1,3,2, ,120,4,0,2,3,Eléctrico de resistencia,Usado
+4102,1,1,1, ,120,4,0,2,3,Eléctrico con aceite térmico,Usado
+4106,1,1,4, ,60,4,0,1,20,De gas,Nuevo
+4112,1,1,5,MINISPLIT ENCENDIDO APAGADO,7,3,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+4113,1,1,5,MINISPLT ENCENDIDO APAGADO,15,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+4123,1,1,2, ,15,2,0,1,1,Eléctrico de resistencia,Nuevo
+4124,1,2,2, ,90,8,0,1,3,Eléctrico de resistencia,Nuevo
+4124,1,1,2, ,90,12,0,1,5,Eléctrico de resistencia,Nuevo
+4128,1,1,2, ,30,5,0,2,30,Eléctrico de resistencia,Usado
+4132,1,1,2, ,15,7,0,1,2,Eléctrico de resistencia,Nuevo
+4140,1,1,2, ,60,6,0,2,2,Eléctrico de resistencia,Usado
+4142,1,1,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+4154,1,1,4, ,45,2,0,1,4,De gas,Nuevo
+4162,1,1,4, ,60,2,0,1,6,De gas,Nuevo
+4165,1,1,4, ,30,2,0,1,1,De gas,Nuevo
+4165,1,2,2, ,60,7,0,1,1,Eléctrico de resistencia,Nuevo
+4169,1,1,4, ,75,2,0,1,3,De gas,Nuevo
+4182,1,1,5,MINISPLIT,50,5,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+4182,1,2,4, ,50,5,0,1,1,De gas,Nuevo
+4186,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,3,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+4186,1,2,5,MINISPLIT ENCENDIDO APAGADO,90,3,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+4188,1,1,4, ,90,5,0,1,1,De gas,Nuevo
+4200,1,2,2, ,60,3,0,1,3,Eléctrico de resistencia,Nuevo
+4200,1,1,4, ,60,3,0,1,5,De gas,Nuevo
+4207,1,1,2, ,30,4,0,1,3,Eléctrico de resistencia,Nuevo
+4209,1,1,2, ,60,10,0,1,1,Eléctrico de resistencia,Nuevo
+4210,1,1,2, ,30,1,0,1,2,Eléctrico de resistencia,Nuevo
+4220,1,1,4, ,60,3,0,1,5,De gas,Nuevo
+4221,1,1,4, ,90,1,0,1,1,De gas,Nuevo
+4222,1,1,2, ,30,5,0,1,1,Eléctrico de resistencia,Nuevo
+4226,1,1,4, ,30,3,0,1,8,De gas,Nuevo
+4235,1,1,4, ,20,4,0,1,5,De gas,Nuevo
+4237,1,1,4, ,30,5,0,1,2,De gas,Nuevo
+4238,1,1,4, ,60,0,20,1,4,De gas,Nuevo
+4241,1,1,5,MINISPLIT INVERTER,60,4,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+4245,1,2,5,MINI SPLIT INVERTER,120,24,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+4245,1,1,5,MINI SPLIT INVERTER,120,24,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+4246,1,1,2, ,90,1,0,1,1,Eléctrico de resistencia,Nuevo
+4247,1,1,1, ,60,12,0,1,2,Eléctrico con aceite térmico,Nuevo
+4249,1,1,1, ,60,2,0,1,7,Eléctrico con aceite térmico,Nuevo
+4249,1,2,4, ,60,2,0,1,10,De gas,Nuevo
+4250,1,1,4, ,60,10,0,1,4,De gas,Nuevo
+4253,1,1,4, ,50,3,0,1,1,De gas,Nuevo
+4254,1,1,4, ,20,2,0,2,1,De gas,Usado
+4256,1,1,4, ,4,5,0,1,11,De gas,Nuevo
+4262,1,1,2, ,15,5,0,2,1,Eléctrico de resistencia,Usado
+4264,1,1,4, ,69,2,30,2,99,De gas,Usado
+4265,1,1,4, ,4,2,0,1,8,De gas,Nuevo
+4273,1,1,4, ,60,4,0,1,2,De gas,Nuevo
+4277,1,1,4, ,30,3,0,1,5,De gas,Nuevo
+4280,1,1,5,CALENTADOR DE LE?A,30,2,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+4281,1,1,4, ,30,8,0,1,10,De gas,Nuevo
+4284,1,1,4, ,90,2,0,2,3,De gas,Usado
+4284,1,2,5,MINISPLIT,90,1,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+4286,1,1,4, ,30,7,0,1,2,De gas,Nuevo
+4294,1,1,2, ,2,2,0,1,10,Eléctrico de resistencia,Nuevo
+4337,1,1,2, ,30,0,30,1,10,Eléctrico de resistencia,Nuevo
+4374,1,1,2, ,60,3,0,2,30,Eléctrico de resistencia,Usado
+4390,1,1,2, ,60,1,0,1,3,Eléctrico de resistencia,Nuevo
+4392,1,1,2, ,10,1,0,2,3,Eléctrico de resistencia,Usado
+5510,1,1,2, ,60,1,0,1,99,Eléctrico de resistencia,Nuevo
+5528,1,1,3, ,60,0,30,1,1,Eléctrico de torre,Nuevo
+6212,1,2,5,DE LEÑA,90,1,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6212,1,1,4, ,90,1,0,1,6,De gas,Nuevo
+6213,1,1,4, ,180,3,0,1,20,De gas,Nuevo
+6213,1,2,5,DE DIESEL,180,4,0,1,45,Otro tipo de calefactor (especifica),Nuevo
+6218,1,1,4, ,90,4,0,1,5,De gas,Nuevo
+6220,1,2,4, ,120,3,0,2,10,De gas,Usado
+6220,1,1,4, ,120,3,0,2,10,De gas,Usado
+6225,1,1,5,CALENTON DE LE?A,150,12,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6226,1,1,2, ,60,1,0,1,5,Eléctrico de resistencia,Nuevo
+6226,1,3,4, ,90,4,0,1,6,De gas,Nuevo
+6226,1,2,4, ,7,1,0,1,6,De gas,Nuevo
+6227,1,1,2, ,60,2,0,1,1,Eléctrico de resistencia,Nuevo
+6228,1,1,4, ,80,1,0,1,1,De gas,Nuevo
+6229,1,1,5,CALENTON DE LEÑA,150,10,0,1,9,Otro tipo de calefactor (especifica),Nuevo
+6230,1,1,4, ,70,5,0,1,3,De gas,Nuevo
+6231,1,1,5,CALENTON DE LEÑA,90,2,0,2,10,Otro tipo de calefactor (especifica),Usado
+6232,1,1,4, ,30,2,0,1,2,De gas,Nuevo
+6233,1,2,5,CALENTON DE LEÑA,150,7,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6233,1,1,4, ,120,3,0,1,6,De gas,Nuevo
+6235,1,1,4, ,30,3,0,1,15,De gas,Nuevo
+6235,1,2,4, ,60,5,0,1,4,De gas,Nuevo
+6236,1,1,5,CALENTON DE LEÑA,60,12,0,2,2,Otro tipo de calefactor (especifica),Usado
+6238,1,1,4, ,45,4,0,1,10,De gas,Nuevo
+6239,1,1,2, ,45,2,0,1,3,Eléctrico de resistencia,Nuevo
+6242,1,1,5,MINISPLIT,120,1,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6243,1,2,4, ,120,4,0,2,2,De gas,Usado
+6243,1,1,2, ,60,3,0,1,2,Eléctrico de resistencia,Nuevo
+6248,1,1,4, ,30,5,0,1,5,De gas,Nuevo
+6250,1,1,4, ,90,3,0,1,15,De gas,Nuevo
+6251,1,1,5,CALENTON DE LE?A,90,2,0,1,99,Otro tipo de calefactor (especifica),Nuevo
+6252,1,1,4, ,90,2,0,1,16,De gas,Nuevo
+6257,1,2,4, ,90,4,0,1,5,De gas,Nuevo
+6257,1,1,4, ,90,4,0,1,5,De gas,Nuevo
+6258,1,1,2, ,90,5,0,2,3,Eléctrico de resistencia,Usado
+6259,1,1,4, ,60,6,0,2,2,De gas,Usado
+6260,1,1,4, ,120,5,0,2,5,De gas,Usado
+6263,1,1,4, ,90,8,0,1,10,De gas,Nuevo
+6264,1,1,5,CALENTON DE LE?A,90,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6265,1,1,4, ,45,4,0,1,5,De gas,Nuevo
+6266,1,1,4, ,60,4,0,1,4,De gas,Nuevo
+6267,1,1,5,CALENTON DE LE?A,90,6,0,2,5,Otro tipo de calefactor (especifica),Usado
+6268,1,1,5,CALENTON DE LE?A,20,5,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6269,1,1,5,CALENTON DE LE?A,30,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6270,1,2,4, ,60,6,0,1,7,De gas,Nuevo
+6270,1,1,4, ,60,4,0,1,7,De gas,Nuevo
+6272,1,1,4, ,90,8,0,1,5,De gas,Nuevo
+6272,1,2,4, ,90,5,0,1,5,De gas,Nuevo
+6273,1,1,5,CALDERAV DIESEL,120,12,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6274,1,1,5,CALEFACCION CENTRAL,105,24,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+6275,1,2,5,CALEFACCION CENTRAL,180,24,0,2,20,Otro tipo de calefactor (especifica),Usado
+6275,1,1,5,CALEFACCION CENTRAL,150,24,0,2,20,Otro tipo de calefactor (especifica),Usado
+6276,1,1,4, ,21,4,0,2,3,De gas,Usado
+6277,1,1,5,CALENTON DE LEÑA,30,4,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6280,1,1,3, ,40,2,0,1,1,Eléctrico de torre,Nuevo
+6280,1,2,4, ,50,3,0,1,1,De gas,Nuevo
+6281,1,1,2, ,60,2,0,2,1,Eléctrico de resistencia,Usado
+6282,1,1,5,ESTUFA DE LEÑA LA USA PARA CALENTARSE,60,5,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6283,1,1,2, ,60,0,15,1,5,Eléctrico de resistencia,Nuevo
+6288,1,1,2, ,120,24,0,2,6,Eléctrico de resistencia,Usado
+6291,1,1,2, ,2,10,0,1,5,Eléctrico de resistencia,Nuevo
+6292,1,1,3, ,90,1,0,2,3,Eléctrico de torre,Usado
+6293,1,1,1, ,8,0,30,1,5,Eléctrico con aceite térmico,Nuevo
+6294,1,1,4, ,60,8,0,1,4,De gas,Nuevo
+6299,1,1,4, ,90,1,0,1,13,De gas,Nuevo
+6300,1,2,5,MINISPLET,120,5,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6300,1,1,4, ,120,24,0,1,10,De gas,Nuevo
+6302,1,1,4, ,90,5,0,2,99,De gas,Usado
+6303,1,1,4, ,2,5,0,2,30,De gas,Usado
+6304,1,4,4, ,30,4,0,1,1,De gas,Nuevo
+6304,1,3,4, ,120,8,0,1,5,De gas,Nuevo
+6304,1,2,4, ,60,6,0,1,5,De gas,Nuevo
+6304,1,1,1, ,60,3,0,1,5,Eléctrico con aceite térmico,Nuevo
+6305,1,1,4, ,20,1,0,1,15,De gas,Nuevo
+6306,1,1,5,CALEFACCION CENTRAL UTILIZA GAS Y ELECTRICIDAD,120,8,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6307,1,1,4, ,60,4,0,1,1,De gas,Nuevo
+6308,1,1,4, ,60,3,0,1,15,De gas,Nuevo
+6308,1,2,4, ,60,4,0,1,10,De gas,Nuevo
+6311,1,1,4, ,90,8,0,1,4,De gas,Nuevo
+6312,1,1,5,CALENTON DE LEÑA,30,2,0,2,10,Otro tipo de calefactor (especifica),Usado
+6313,1,1,4, ,30,4,0,2,99,De gas,Usado
+6314,1,2,4, ,90,3,0,1,2,De gas,Nuevo
+6314,1,1,4, ,120,4,0,1,5,De gas,Nuevo
+6315,1,1,5,CALENTON LEÑA,60,4,0,1,12,Otro tipo de calefactor (especifica),Nuevo
+6316,1,1,4, ,60,2,0,2,25,De gas,Usado
+6316,1,2,4, ,90,4,0,1,15,De gas,Nuevo
+6316,1,3,4, ,90,3,0,1,5,De gas,Nuevo
+6317,1,2,4, ,60,5,0,1,5,De gas,Nuevo
+6317,1,1,4, ,60,5,0,1,12,De gas,Nuevo
+6319,1,1,4, ,120,5,0,1,9,De gas,Nuevo
+6320,1,1,4, ,60,6,0,1,4,De gas,Nuevo
+6322,1,1,4, ,60,4,0,1,8,De gas,Nuevo
+6323,1,1,5,DE ACEITE 0 CERAMICA,60,6,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+6324,1,1,4, ,90,2,0,1,5,De gas,Nuevo
+6329,1,1,5,CALENTON DE LE?A,30,4,0,1,17,Otro tipo de calefactor (especifica),Nuevo
+6333,1,1,4, ,120,14,0,1,2,De gas,Nuevo
+6333,1,2,4, ,120,14,0,1,2,De gas,Nuevo
+6335,1,1,4, ,90,2,0,1,9,De gas,Nuevo
+6339,1,1,4, ,80,5,0,2,1,De gas,Usado
+6340,1,2,4, ,120,4,0,2,15,De gas,Usado
+6340,1,1,4, ,120,5,0,2,15,De gas,Usado
+6346,1,1,4, ,100,2,0,1,5,De gas,Nuevo
+6347,1,1,4, ,30,2,0,1,40,De gas,Nuevo
+6348,1,1,4, ,90,8,0,1,10,De gas,Nuevo
+6351,1,1,4, ,90,3,0,1,8,De gas,Nuevo
+6352,1,1,2, ,120,9,0,1,10,Eléctrico de resistencia,Nuevo
+6353,1,1,4, ,60,6,0,1,6,De gas,Nuevo
+6353,1,2,4, ,90,4,0,1,10,De gas,Nuevo
+6354,1,1,2, ,60,4,0,2,2,Eléctrico de resistencia,Usado
+6355,1,1,5,CALENTON DE LE?A,50,4,0,2,3,Otro tipo de calefactor (especifica),Usado
+6356,1,1,4, ,60,2,0,1,6,De gas,Nuevo
+6357,1,1,4, ,60,4,0,2,8,De gas,Usado
+6359,1,1,5,CALEFACCION CENTRAL,30,2,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+6361,1,1,4, ,60,4,0,1,10,De gas,Nuevo
+6362,1,1,2, ,75,0,45,1,5,Eléctrico de resistencia,Nuevo
+6363,1,1,4, ,60,2,0,1,4,De gas,Nuevo
+6364,1,1,4, ,60,2,0,1,10,De gas,Nuevo
+6365,1,1,4, ,60,4,0,1,3,De gas,Nuevo
+6366,1,1,5,CENTRAL,8,2,0,1,15,Otro tipo de calefactor (especifica),Nuevo
+6367,1,2,4, ,15,2,0,1,10,De gas,Nuevo
+6367,1,1,4, ,30,3,0,1,15,De gas,Nuevo
+6368,1,1,4, ,10,1,0,1,8,De gas,Nuevo
+6368,1,2,4, ,15,0,20,1,8,De gas,Nuevo
+6370,1,1,4, ,120,2,0,1,98,De gas,Nuevo
+6370,1,2,4, ,120,5,0,1,6,De gas,Nuevo
+6370,1,3,4, ,90,3,0,1,2,De gas,Nuevo
+6370,1,4,4, ,90,2,0,1,3,De gas,Nuevo
+6373,1,1,5,CALENTADOR DE LE?A,60,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6376,1,1,5,CALENTON DE LEÑA,150,12,0,2,25,Otro tipo de calefactor (especifica),Usado
+6377,1,1,5,CALENTON DE LEÑA,12,3,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+6378,1,1,5,CALENTON DE LEÑA,30,3,0,2,99,Otro tipo de calefactor (especifica),Usado
+6379,1,1,4, ,45,9,0,1,4,De gas,Nuevo
+6382,1,1,5,CALENTON DE LE?A,20,5,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6383,1,1,4, ,30,4,0,1,3,De gas,Nuevo
+6385,1,1,5,CALENTON DE LE?A,6,4,0,2,3,Otro tipo de calefactor (especifica),Usado
+6390,1,1,5,CHIMENEA DE LE?A,1,5,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6391,1,1,5,CALENTON DE LEÑA,120,24,0,2,4,Otro tipo de calefactor (especifica),Usado
+6392,1,1,4, ,60,3,0,1,5,De gas,Nuevo
+6394,1,1,5,CALENTON DE LEÑA,60,5,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6395,1,1,4, ,2,3,0,1,2,De gas,Nuevo
+6396,1,1,5,CALENTON DE LEÑA,90,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6397,1,1,4, ,90,12,0,2,12,De gas,Usado
+6398,1,1,4, ,60,3,0,2,99,De gas,Usado
+6399,1,1,5,CHIMENEA DE LEÑA,60,6,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6400,1,1,5,CALENTON DE LEÑA,60,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6401,1,1,4, ,60,3,0,1,4,De gas,Nuevo
+6402,1,1,2, ,90,6,30,2,3,Eléctrico de resistencia,Usado
+6403,1,2,4, ,120,2,0,1,12,De gas,Nuevo
+6403,1,1,4, ,120,4,0,1,3,De gas,Nuevo
+6405,1,1,5,CALENTON DE LEÑA,90,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6407,1,1,4, ,90,4,0,1,10,De gas,Nuevo
+6407,1,3,2, ,90,10,0,1,1,Eléctrico de resistencia,Nuevo
+6407,1,2,4, ,90,2,0,1,10,De gas,Nuevo
+6408,1,1,5,CALEFACCION CENTRAL DE GAS,120,5,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6410,1,1,4, ,60,3,0,1,99,De gas,Nuevo
+6411,1,2,4, ,120,2,0,1,10,De gas,Nuevo
+6411,1,1,4, ,120,2,0,1,3,De gas,Nuevo
+6412,1,2,4, ,60,3,0,1,2,De gas,Nuevo
+6412,1,1,4, ,90,3,0,1,5,De gas,Nuevo
+6413,1,1,5,CALENTON DE LE?A,90,6,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6414,1,1,4, ,90,2,0,2,10,De gas,Usado
+6414,1,2,4, ,90,3,0,1,5,De gas,Nuevo
+6415,1,1,5,MINISPLIT,120,4,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+6418,1,1,5,CALENTON DE LEÑA,5,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6419,1,2,5,CENTRAL,75,2,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+6419,1,1,5,CENTRAL,75,2,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+6420,1,1,4, ,30,2,0,1,5,De gas,Nuevo
+6422,1,1,4, ,90,4,0,1,8,De gas,Nuevo
+6424,1,1,2, ,60,2,0,2,3,Eléctrico de resistencia,Usado
+6431,1,1,4, ,60,2,0,1,10,De gas,Nuevo
+6431,1,2,5,LEÑA DE LEÑA,60,1,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6432,1,3,4, ,90,5,0,1,10,De gas,Nuevo
+6432,1,1,2, ,90,0,30,1,13,Eléctrico de resistencia,Nuevo
+6432,1,2,1, ,90,6,0,1,10,Eléctrico con aceite térmico,Nuevo
+6433,1,1,5,LEÑA LEÑA,120,4,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+6434,1,1,3, ,30,2,0,1,1,Eléctrico de torre,Nuevo
+6436,1,1,4, ,120,6,0,1,8,De gas,Nuevo
+6436,1,2,4, ,190,6,0,1,8,De gas,Nuevo
+6437,1,1,4, ,90,3,0,1,5,De gas,Nuevo
+6437,1,2,4, ,90,3,0,1,5,De gas,Nuevo
+6438,1,1,5,EQUIPO DE AIRE CENTRAL,120,1,0,1,15,Otro tipo de calefactor (especifica),Nuevo
+6439,1,1,5,EQUIPO DE AIRE CENTRAL,90,1,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6440,1,1,4, ,120,4,0,1,5,De gas,Nuevo
+6440,1,2,4, ,120,5,0,1,5,De gas,Nuevo
+6440,1,3,4, ,120,5,0,1,5,De gas,Nuevo
+6442,1,1,5,EQUIPO CENTRAL,90,1,30,1,15,Otro tipo de calefactor (especifica),Nuevo
+6444,1,1,5,CENTRAL DE 80000 BTU,75,8,0,1,12,Otro tipo de calefactor (especifica),Nuevo
+6445,1,1,4, ,90,1,0,1,10,De gas,Nuevo
+6445,1,2,4, ,90,2,0,1,10,De gas,Nuevo
+6446,1,1,5,CALEFACCION SUBTERRANEA,30,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6447,1,1,5,SISTEMA DE BAPOR QUE CORRE POR TUBERIAS POR EL PISO Y SALE POR RENDIJAS ESPECIALES,30,0,30,1,1,Otro tipo de calefactor (especifica),Nuevo
+6448,1,1,4, ,90,4,0,1,15,De gas,Nuevo
+6448,1,2,4, ,60,2,0,1,15,De gas,Nuevo
+6451,1,1,4, ,90,4,0,1,1,De gas,Nuevo
+6452,1,1,2, ,90,4,0,1,3,Eléctrico de resistencia,Nuevo
+6452,1,2,4, ,90,3,0,1,9,De gas,Nuevo
+6456,1,1,2, ,90,3,0,1,1,Eléctrico de resistencia,Nuevo
+6458,1,2,5,MINI SPLIT,50,4,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6458,1,1,4, ,80,3,0,1,5,De gas,Nuevo
+6459,1,1,4, ,60,8,0,1,1,De gas,Nuevo
+6459,1,2,4, ,60,8,0,2,6,De gas,Usado
+6461,1,1,4, ,90,3,0,1,10,De gas,Nuevo
+6462,1,2,5,CENTRAL,2,0,20,2,8,Otro tipo de calefactor (especifica),Usado
+6462,1,1,4, ,45,0,45,1,4,De gas,Nuevo
+6463,1,1,5,CALEFACCION CENTRAL,90,6,0,2,99,Otro tipo de calefactor (especifica),Usado
+6464,1,1,4, ,60,4,0,1,3,De gas,Nuevo
+6465,1,1,4, ,90,2,0,1,10,De gas,Nuevo
+6466,1,1,4, ,30,4,0,1,3,De gas,Nuevo
+6466,1,2,4, ,60,5,0,1,6,De gas,Nuevo
+6467,1,1,4, ,60,2,0,1,1,De gas,Nuevo
+6472,1,1,4, ,120,5,0,1,8,De gas,Nuevo
+6472,1,2,1, ,90,0,30,1,1,Eléctrico con aceite térmico,Nuevo
+6473,1,1,4, ,60,4,0,1,3,De gas,Nuevo
+6474,1,1,4, ,75,10,0,1,5,De gas,Nuevo
+6477,1,1,4, ,50,4,0,1,8,De gas,Nuevo
+6477,1,2,3, ,50,6,0,2,3,Eléctrico de torre,Usado
+6479,1,1,4, ,60,3,0,1,4,De gas,Nuevo
+6480,1,1,4, ,60,7,0,1,2,De gas,Nuevo
+6484,1,1,2, ,90,3,0,2,3,Eléctrico de resistencia,Usado
+6487,1,1,5,CALENTON DE LEÑA,60,5,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+6488,1,1,4, ,90,4,0,1,15,De gas,Nuevo
+6493,1,1,5,DE LE?A,90,2,0,2,20,Otro tipo de calefactor (especifica),Usado
+6494,1,1,4, ,3,0,30,1,5,De gas,Nuevo
+6496,1,1,5,CALENTON DE LE?A,60,1,0,1,99,Otro tipo de calefactor (especifica),Nuevo
+6497,1,2,4, ,115,1,30,1,2,De gas,Nuevo
+6497,1,1,4, ,115,1,0,1,1,De gas,Nuevo
+6502,1,1,5,CALENTON DE LEÑA,30,2,0,2,8,Otro tipo de calefactor (especifica),Usado
+6503,1,1,5,USA UN CALENTON DE LEÑA HECHO A BASE DE RINES AUTOMOTRICES,90,5,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6504,1,1,5,CALENTON QUE USA COMO COMBUSTIBLE  LEÑA,120,12,0,1,30,Otro tipo de calefactor (especifica),Nuevo
+6505,1,1,5,CALENTON DE LEÑA,30,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6510,1,1,1, ,120,8,0,2,2,Eléctrico con aceite térmico,Usado
+6511,1,1,4, ,60,2,0,1,1,De gas,Nuevo
+6512,1,1,4, ,60,3,0,1,2,De gas,Nuevo
+6513,1,1,4, ,90,5,0,1,1,De gas,Nuevo
+6514,1,1,2, ,60,9,0,1,1,Eléctrico de resistencia,Nuevo
+6515,1,1,4, ,30,4,0,2,1,De gas,Usado
+6516,1,1,4, ,90,4,0,2,5,De gas,Usado
+6517,1,1,4, ,60,2,0,1,4,De gas,Nuevo
+6524,1,1,4, ,120,8,0,1,5,De gas,Nuevo
+6525,1,1,4, ,120,3,0,2,2,De gas,Usado
+6526,1,1,4, ,90,6,0,1,6,De gas,Nuevo
+6527,1,1,1, ,90,6,0,1,5,Eléctrico con aceite térmico,Nuevo
+6528,1,2,2, ,90,6,0,1,5,Eléctrico de resistencia,Nuevo
+6528,1,1,2, ,90,2,0,1,5,Eléctrico de resistencia,Nuevo
+6529,1,1,5,CALENTON DE LE?A,120,6,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+6530,1,1,5,CALENTON DE LE?A,90,2,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6531,1,1,1, ,90,24,0,1,6,Eléctrico con aceite térmico,Nuevo
+6531,1,2,4, ,90,4,0,1,2,De gas,Nuevo
+6532,1,1,5,CENTRAL,120,12,0,2,3,Otro tipo de calefactor (especifica),Usado
+6534,1,1,4, ,120,3,0,2,15,De gas,Usado
+6536,1,1,5,CALEFACCION CENTRAL FUNCIONA A GAS Y ELECTRICIDAD,90,8,0,2,1,Otro tipo de calefactor (especifica),Usado
+6538,1,1,5,CALEFACCION CENTRAL,12,1,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+6540,1,1,4, ,90,24,0,1,67,De gas,Nuevo
+6540,1,2,4, ,90,1,0,2,8,De gas,Usado
+6541,1,1,4, ,150,5,0,1,10,De gas,Nuevo
+6542,1,1,5,PAQUETE DE EQUIPO CENTRAL,180,1,30,1,4,Otro tipo de calefactor (especifica),Nuevo
+6543,1,3,5,EQUIPO DE CALEFACION CENTRAL,12,0,40,2,2,Otro tipo de calefactor (especifica),Usado
+6543,1,1,2, ,20,0,30,1,8,Eléctrico de resistencia,Nuevo
+6543,1,2,4, ,45,1,30,1,12,De gas,Nuevo
+6544,1,2,3, ,110,5,0,1,1,Eléctrico de torre,Nuevo
+6544,1,1,4, ,110,8,0,1,6,De gas,Nuevo
+6545,1,1,1, ,120,4,0,1,2,Eléctrico con aceite térmico,Nuevo
+6545,1,2,2, ,120,3,0,2,3,Eléctrico de resistencia,Usado
+6545,1,3,3, ,12,2,0,1,2,Eléctrico de torre,Nuevo
+6546,1,1,5,CALENTON DE LE?A,90,9,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6547,1,1,4, ,60,6,0,1,1,De gas,Nuevo
+6548,1,1,4, ,60,3,0,1,1,De gas,Nuevo
+6548,1,2,4, ,60,4,0,1,1,De gas,Nuevo
+6549,1,1,4, ,90,4,0,1,15,De gas,Nuevo
+6554,1,1,2, ,120,2,0,2,4,Eléctrico de resistencia,Usado
+6554,1,2,3, ,10,3,0,1,1,Eléctrico de torre,Nuevo
+6557,1,1,4, ,10,3,0,2,10,De gas,Usado
+6558,1,1,5,EQUIPO DE AIRE CENTRAL,120,4,0,1,14,Otro tipo de calefactor (especifica),Nuevo
+6559,1,2,5,EQUIPO DE AIRE CENTRAL,90,1,0,2,4,Otro tipo de calefactor (especifica),Usado
+6559,1,1,4, ,90,2,30,1,2,De gas,Nuevo
+6560,1,1,4, ,90,4,0,1,5,De gas,Nuevo
+6561,1,1,4, ,90,6,0,1,1,De gas,Nuevo
+6563,1,1,5,EQUIPO CENTRAL,90,2,0,1,15,Otro tipo de calefactor (especifica),Nuevo
+6564,1,1,4, ,60,3,0,1,7,De gas,Nuevo
+6569,1,3,4, ,180,6,0,1,8,De gas,Nuevo
+6569,1,1,4, ,180,6,0,1,24,De gas,Nuevo
+6569,1,2,4, ,180,6,0,1,24,De gas,Nuevo
+6571,1,2,4, ,30,2,0,1,4,De gas,Nuevo
+6571,1,1,2, ,10,1,30,1,2,Eléctrico de resistencia,Nuevo
+6573,1,1,1, ,120,7,0,2,99,Eléctrico con aceite térmico,Usado
+6574,1,1,3, ,135,5,0,1,1,Eléctrico de torre,Nuevo
+6576,1,1,2, ,120,8,0,1,4,Eléctrico de resistencia,Nuevo
+6576,1,2,4, ,150,12,0,1,3,De gas,Nuevo
+6578,1,1,4, ,60,3,0,1,12,De gas,Nuevo
+6579,1,1,4, ,80,4,0,1,5,De gas,Nuevo
+6580,1,1,4, ,90,8,0,1,5,De gas,Nuevo
+6584,1,1,4, ,60,14,0,1,4,De gas,Nuevo
+6585,1,1,4, ,135,4,0,1,3,De gas,Nuevo
+6586,1,1,4, ,90,11,0,1,10,De gas,Nuevo
+6589,1,2,4, ,30,1,0,1,5,De gas,Nuevo
+6589,1,1,4, ,60,3,0,1,5,De gas,Nuevo
+6590,1,3,4, ,150,6,0,1,4,De gas,Nuevo
+6590,1,2,4, ,150,3,0,1,4,De gas,Nuevo
+6590,1,1,4, ,150,13,0,1,3,De gas,Nuevo
+6591,1,1,5,CALEFACCION CENTRAL,75,4,0,2,99,Otro tipo de calefactor (especifica),Usado
+6592,1,2,4, ,90,2,0,1,2,De gas,Nuevo
+6592,1,1,4, ,90,3,0,1,2,De gas,Nuevo
+6593,1,1,5,CALEFACCION CENTRAL,60,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6594,1,1,5,CALEFACCION CENTRAL,120,8,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6595,1,1,5,CALEFACCION CENTRAL,90,2,0,2,2,Otro tipo de calefactor (especifica),Usado
+6596,1,1,5,EQUIPO CENTRAL,120,10,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6596,1,2,4, ,120,7,0,1,5,De gas,Nuevo
+6597,1,1,4, ,75,2,0,2,5,De gas,Usado
+6605,1,1,5,CALENTON DE LEÑA,120,3,0,2,8,Otro tipo de calefactor (especifica),Usado
+6606,1,1,5,CALENTON DE LEÑA,96,6,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6606,1,2,4, ,96,4,0,1,12,De gas,Nuevo
+6607,1,1,5,CALENTON DE LEÑA,60,2,0,2,2,Otro tipo de calefactor (especifica),Usado
+6608,1,2,2, ,30,1,0,1,10,Eléctrico de resistencia,Nuevo
+6608,1,1,2, ,30,0,15,1,10,Eléctrico de resistencia,Nuevo
+6611,1,1,4, ,60,2,0,2,10,De gas,Usado
+6613,1,1,5,CALENT0OJ DE LE?A,60,12,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6614,1,1,4, ,90,12,0,1,3,De gas,Nuevo
+6616,1,1,4, ,90,3,0,2,1,De gas,Usado
+6617,1,1,4, ,150,10,0,1,3,De gas,Nuevo
+6618,1,1,4, ,90,3,0,1,2,De gas,Nuevo
+6619,1,1,4, ,90,8,0,1,2,De gas,Nuevo
+6621,1,2,2, ,120,4,0,1,4,Eléctrico de resistencia,Nuevo
+6621,1,1,2, ,120,2,0,1,4,Eléctrico de resistencia,Nuevo
+6622,1,1,4, ,45,15,0,1,8,De gas,Nuevo
+6623,1,1,5,EQUIPO CENTRAL,70,5,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+6624,1,1,2, ,90,2,0,1,5,Eléctrico de resistencia,Nuevo
+6633,1,1,4, ,75,5,0,1,6,De gas,Nuevo
+6634,1,1,4, ,60,2,0,1,12,De gas,Nuevo
+6634,1,2,5,CHIMENEA,60,4,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+6635,1,1,4, ,60,3,0,2,10,De gas,Usado
+6636,1,2,4, ,90,8,0,1,6,De gas,Nuevo
+6636,1,1,4, ,90,6,0,1,4,De gas,Nuevo
+6641,1,1,4, ,90,5,0,1,2,De gas,Nuevo
+6641,1,2,4, ,90,5,0,1,10,De gas,Nuevo
+6642,1,1,4, ,120,8,0,1,2,De gas,Nuevo
+6642,1,2,4, ,120,8,0,1,2,De gas,Nuevo
+6644,1,1,4, ,10,0,20,1,2,De gas,Nuevo
+6646,1,1,4, ,60,3,0,1,1,De gas,Nuevo
+6647,1,1,4, ,90,8,0,1,2,De gas,Nuevo
+6649,1,1,4, ,90,2,0,2,1,De gas,Usado
+6653,1,1,5,CALENTON DE LE?A,45,2,0,2,99,Otro tipo de calefactor (especifica),Usado
+6654,1,1,4, ,30,1,0,1,2,De gas,Nuevo
+6656,1,1,4, ,60,8,0,1,10,De gas,Nuevo
+6657,1,1,4, ,120,8,0,1,10,De gas,Nuevo
+6658,1,1,4, ,120,3,30,1,6,De gas,Nuevo
+6659,1,1,2, ,105,8,0,1,1,Eléctrico de resistencia,Nuevo
+6660,1,1,5,CHIMENEA,120,4,0,1,30,Otro tipo de calefactor (especifica),Nuevo
+6664,1,1,4, ,90,2,0,1,5,De gas,Nuevo
+6665,1,1,5,CALENTON DE LE?A,16,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6666,1,1,4, ,120,2,0,1,8,De gas,Nuevo
+6667,1,1,4, ,60,3,0,1,4,De gas,Nuevo
+6668,1,2,5,CALENTON DE LE?A,120,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6668,1,1,4, ,120,0,15,1,5,De gas,Nuevo
+6669,1,2,4, ,90,4,0,1,5,De gas,Nuevo
+6669,1,1,4, ,90,4,0,1,1,De gas,Nuevo
+6671,1,1,4, ,120,6,0,2,2,De gas,Usado
+6672,1,1,4, ,120,0,30,1,7,De gas,Nuevo
+6674,1,1,4, ,60,5,0,1,20,De gas,Nuevo
+6675,1,1,4, ,90,8,0,1,4,De gas,Nuevo
+6679,1,1,4, ,90,3,0,1,5,De gas,Nuevo
+6681,1,1,2, ,90,6,0,1,1,Eléctrico de resistencia,Nuevo
+6682,1,2,4, ,90,8,0,1,3,De gas,Nuevo
+6682,1,1,4, ,90,10,0,1,3,De gas,Nuevo
+6683,1,1,5,CALENTON DE LEÑA,90,4,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+6685,1,1,2, ,120,4,0,2,1,Eléctrico de resistencia,Usado
+6688,1,1,5,CALEFACION CENTRAL,30,7,0,2,12,Otro tipo de calefactor (especifica),Usado
+6689,1,1,5,CALEFACCION CENTRAL,3,2,0,1,18,Otro tipo de calefactor (especifica),Nuevo
+6690,1,1,4, ,60,4,0,1,25,De gas,Nuevo
+6691,1,1,4, ,130,3,0,1,4,De gas,Nuevo
+6692,1,1,4, ,10,4,30,2,10,De gas,Usado
+6693,1,1,4, ,45,4,0,1,1,De gas,Nuevo
+6694,1,1,2, ,60,3,0,2,99,Eléctrico de resistencia,Usado
+6696,1,1,4, ,30,2,0,1,2,De gas,Nuevo
+6698,1,1,2, ,150,3,0,2,1,Eléctrico de resistencia,Usado
+6700,1,1,4, ,90,3,0,2,3,De gas,Usado
+6703,1,1,4, ,60,1,30,1,3,De gas,Nuevo
+6704,1,1,4, ,50,3,0,1,9,De gas,Nuevo
+6706,1,2,4, ,90,2,0,2,1,De gas,Usado
+6706,1,1,2, ,90,0,30,2,1,Eléctrico de resistencia,Usado
+6707,1,1,4, ,90,3,0,1,4,De gas,Nuevo
+6708,1,1,4, ,90,4,0,1,4,De gas,Nuevo
+6709,1,1,5,CALEFACCION CNETRAL,120,4,0,1,17,Otro tipo de calefactor (especifica),Nuevo
+6710,1,1,4, ,60,5,0,1,8,De gas,Nuevo
+6710,1,2,4, ,15,0,30,1,5,De gas,Nuevo
+6711,1,1,5,CALEFACCION CENTRAL,60,5,0,2,99,Otro tipo de calefactor (especifica),Usado
+6711,1,2,4, ,30,6,0,1,4,De gas,Nuevo
+6712,1,1,4, ,80,3,0,1,5,De gas,Nuevo
+6713,1,1,4, ,150,2,0,2,1,De gas,Usado
+6715,1,1,4, ,80,3,0,1,12,De gas,Nuevo
+6717,1,1,4, ,30,6,0,1,3,De gas,Nuevo
+6718,1,1,4, ,150,14,0,1,15,De gas,Nuevo
+6718,1,2,4, ,80,2,0,1,15,De gas,Nuevo
+6719,1,1,4, ,120,3,0,1,6,De gas,Nuevo
+6720,1,1,5,EQUIPO DE CALEFACCION CENTRAL,90,12,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6723,1,1,4, ,60,5,0,1,5,De gas,Nuevo
+6728,1,1,4, ,90,2,30,1,3,De gas,Nuevo
+6729,1,1,5,CALEFACCION,90,3,0,2,99,Otro tipo de calefactor (especifica),Usado
+6730,1,1,2, ,60,3,0,1,2,Eléctrico de resistencia,Nuevo
+6731,1,1,4, ,90,2,0,1,1,De gas,Nuevo
+6732,1,1,4, ,30,5,0,1,6,De gas,Nuevo
+6733,1,1,4, ,60,4,0,1,1,De gas,Nuevo
+6733,1,2,4, ,90,6,0,2,99,De gas,Usado
+6734,1,1,4, ,120,6,0,1,1,De gas,Nuevo
+6735,1,1,4, ,45,2,0,1,5,De gas,Nuevo
+6736,1,1,5,CALENTON DE LE?A,15,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6737,1,1,4, ,1,5,0,1,3,De gas,Nuevo
+6739,1,1,4, ,90,5,0,1,6,De gas,Nuevo
+6740,1,1,2, ,90,5,0,1,1,Eléctrico de resistencia,Nuevo
+6741,1,1,4, ,60,2,0,1,8,De gas,Nuevo
+6742,1,1,1, ,60,10,0,2,7,Eléctrico con aceite térmico,Usado
+6744,1,1,4, ,30,20,0,1,10,De gas,Nuevo
+6746,1,1,4, ,120,5,0,1,1,De gas,Nuevo
+6748,1,1,4, ,120,3,0,1,12,De gas,Nuevo
+6749,1,1,4, ,160,3,0,1,1,De gas,Nuevo
+6751,1,1,5,CHIMENEA DE LE?A,60,4,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+6752,1,2,2, ,90,4,0,2,5,Eléctrico de resistencia,Usado
+6752,1,1,4, ,90,4,0,1,5,De gas,Nuevo
+6756,1,1,2, ,60,2,0,1,2,Eléctrico de resistencia,Nuevo
+6757,1,1,5,CALENTON DE LEÑA,80,4,0,2,15,Otro tipo de calefactor (especifica),Usado
+6759,1,1,5,CALENTON DE LE?A,120,5,0,2,1,Otro tipo de calefactor (especifica),Usado
+6760,1,1,2, ,60,1,0,2,2,Eléctrico de resistencia,Usado
+6762,1,1,4, ,60,2,0,2,10,De gas,Usado
+6763,1,1,4, ,120,5,0,1,1,De gas,Nuevo
+6765,1,1,4, ,60,7,0,2,2,De gas,Usado
+6773,1,1,5,CALEFACCION CENTRAL,90,24,0,1,15,Otro tipo de calefactor (especifica),Nuevo
+6774,1,1,2, ,90,2,0,2,99,Eléctrico de resistencia,Usado
+6775,1,1,4, ,120,2,0,2,10,De gas,Usado
+6776,1,1,5,CALENTON DE LE?A,90,4,0,2,2,Otro tipo de calefactor (especifica),Usado
+6781,1,1,2, ,60,5,0,2,1,Eléctrico de resistencia,Usado
+6784,1,1,4, ,90,6,0,1,10,De gas,Nuevo
+6784,1,2,4, ,90,6,0,1,6,De gas,Nuevo
+6788,1,1,5,CALENTON DE LE?A,60,4,0,2,4,Otro tipo de calefactor (especifica),Usado
+6789,1,1,5,CALENTON DE LEÑA,60,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6790,1,1,2, ,105,2,0,1,4,Eléctrico de resistencia,Nuevo
+6790,1,2,5,CALENTON DE LE?A,60,15,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6792,1,1,2, ,120,3,0,2,3,Eléctrico de resistencia,Usado
+6793,1,1,5,CALENTON DE LE?A,60,4,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6799,1,1,1, ,60,2,0,1,1,Eléctrico con aceite térmico,Nuevo
+6802,1,1,4, ,45,6,0,1,1,De gas,Nuevo
+6803,1,1,2, ,180,4,0,2,2,Eléctrico de resistencia,Usado
+6804,1,1,5,CHIMENEA DE LE?A,120,4,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+6806,1,1,1, ,30,1,0,1,1,Eléctrico con aceite térmico,Nuevo
+6807,1,1,4, ,90,5,0,1,9,De gas,Nuevo
+6808,1,1,3, ,90,5,0,1,3,Eléctrico de torre,Nuevo
+6811,1,1,5,LE?A CALENTON,60,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6812,1,1,5,MINISPLIT,30,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6813,1,1,4, ,120,3,0,2,2,De gas,Usado
+6813,1,2,4, ,120,3,0,2,1,De gas,Usado
+6814,1,1,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+6815,1,1,4, ,60,2,0,2,8,De gas,Usado
+6817,1,2,5,CALEWNTON DE LE?A,120,8,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6817,1,1,3, ,120,1,0,1,2,Eléctrico de torre,Nuevo
+6818,1,1,2, ,60,10,0,1,1,Eléctrico de resistencia,Nuevo
+6819,1,1,5,CALEFACCION CENTRAL,90,1,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+6820,1,1,4, ,90,5,0,1,2,De gas,Nuevo
+6821,1,1,5,EQIPO CENTRAL,120,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6822,1,1,5,EQUIPO DE CALEFACCION CENTRAL,160,8,0,2,2,Otro tipo de calefactor (especifica),Usado
+6826,1,1,4, ,90,2,0,1,5,De gas,Nuevo
+6827,1,1,4, ,60,2,0,1,3,De gas,Nuevo
+6827,1,2,1, ,120,12,0,1,12,Eléctrico con aceite térmico,Nuevo
+6830,1,1,4, ,60,5,0,1,1,De gas,Nuevo
+6830,1,2,2, ,30,6,0,1,2,Eléctrico de resistencia,Nuevo
+6831,1,2,2, ,60,6,0,1,1,Eléctrico de resistencia,Nuevo
+6831,1,1,4, ,90,6,0,2,3,De gas,Usado
+6832,1,1,4, ,120,7,0,1,6,De gas,Nuevo
+6835,1,1,4, ,120,5,0,1,6,De gas,Nuevo
+6836,1,1,2, ,75,1,0,1,3,Eléctrico de resistencia,Nuevo
+6837,1,1,5,CALEFACCION CENTRAL,90,4,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+6838,1,1,5,EQUIPO CENTRAL,120,5,0,2,5,Otro tipo de calefactor (especifica),Usado
+6839,1,1,4, ,120,3,0,2,7,De gas,Usado
+6841,1,1,4, ,8,4,0,1,9,De gas,Nuevo
+6842,1,1,5,MINISPLIT,90,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6843,1,1,4, ,60,3,0,1,1,De gas,Nuevo
+6846,1,1,4, ,45,3,0,1,15,De gas,Nuevo
+6846,1,2,5,CHIMENEA DE LE?A,60,10,0,1,32,Otro tipo de calefactor (especifica),Nuevo
+6847,1,1,5,CALENTON DE LE?A,15,2,0,1,20,Otro tipo de calefactor (especifica),Nuevo
+6849,1,1,5,MINISPLIT INVERTER,2,3,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6854,1,1,5,CALENTON DE LE?A,45,6,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6856,1,1,4, ,2,3,0,1,1,De gas,Nuevo
+6857,1,2,5,MINISPLIT,999,99,99,1,1,Otro tipo de calefactor (especifica),Nuevo
+6857,1,1,4, ,30,2,0,1,8,De gas,Nuevo
+6860,1,2,4, ,2,2,0,1,2,De gas,Nuevo
+6860,1,1,3, ,9,1,0,1,3,Eléctrico de torre,Nuevo
+6861,1,3,5,MINISPLIT,90,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6861,1,1,4, ,90,1,0,1,3,De gas,Nuevo
+6861,1,2,5,MINISPLIT,90,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6863,1,1,4, ,90,8,0,1,1,De gas,Nuevo
+6864,1,1,5,CALENTON DE LE?A,60,8,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+6866,1,1,2, ,30,24,0,1,1,Eléctrico de resistencia,Nuevo
+6867,1,1,4, ,60,1,0,1,7,De gas,Nuevo
+6868,1,1,2, ,45,5,0,1,2,Eléctrico de resistencia,Nuevo
+6869,1,1,2, ,60,1,0,2,4,Eléctrico de resistencia,Usado
+6870,1,2,3, ,90,18,0,1,1,Eléctrico de torre,Nuevo
+6870,1,1,2, ,120,12,0,1,1,Eléctrico de resistencia,Nuevo
+6871,1,1,1, ,60,1,0,2,2,Eléctrico con aceite térmico,Usado
+6872,1,1,4, ,180,5,0,1,4,De gas,Nuevo
+6873,1,1,5,CALENTON LE?A,160,10,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6873,1,2,5,CHIMENEA DE LE?A,160,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6873,1,3,4, ,160,2,0,1,3,De gas,Nuevo
+6874,1,2,4, ,30,24,0,1,6,De gas,Nuevo
+6874,1,1,4, ,120,18,0,1,2,De gas,Nuevo
+6878,1,1,2, ,60,1,30,1,2,Eléctrico de resistencia,Nuevo
+6879,1,1,5,CALENTON DE LE?A,90,6,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6880,1,2,5,CHIMENEA DE LE?A,10,8,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+6880,1,1,4, ,4,1,0,1,15,De gas,Nuevo
+6882,1,1,3, ,60,3,0,1,10,Eléctrico de torre,Nuevo
+6884,1,1,5,CALENBTON DE LE?A,60,12,0,1,20,Otro tipo de calefactor (especifica),Nuevo
+6886,1,1,2, ,60,1,30,1,2,Eléctrico de resistencia,Nuevo
+6888,1,1,4, ,90,1,0,2,15,De gas,Usado
+6889,1,1,2, ,90,2,0,1,12,Eléctrico de resistencia,Nuevo
+6892,1,1,4, ,20,3,0,2,3,De gas,Usado
+6893,1,1,5,CALENTON DE LE?A,4,1,0,2,99,Otro tipo de calefactor (especifica),Usado
+6894,1,1,2, ,40,1,0,2,20,Eléctrico de resistencia,Usado
+6894,1,2,3, ,90,4,0,1,2,Eléctrico de torre,Nuevo
+6898,1,1,4, ,120,12,0,1,99,De gas,Nuevo
+6901,1,1,4, ,90,0,20,1,8,De gas,Nuevo
+6906,1,1,4, ,30,0,15,1,15,De gas,Nuevo
+6907,1,1,4, ,60,0,30,1,4,De gas,Nuevo
+6910,1,1,5,CALENTON DE LE?A,90,3,0,1,21,Otro tipo de calefactor (especifica),Nuevo
+6911,1,1,5,CALENTON DE LE?A,75,8,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6913,1,1,5,CALENTON DE LE?A,90,6,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6914,1,1,5,MINIESPLIT,90,12,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+6916,1,1,5,DE LE?A,60,24,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6917,1,1,4, ,30,2,0,2,99,De gas,Usado
+6918,1,1,4, ,120,6,0,1,2,De gas,Nuevo
+6918,1,2,4, ,120,6,0,1,2,De gas,Nuevo
+6919,1,1,4, ,75,0,10,1,6,De gas,Nuevo
+6920,1,1,5,CALENTON DE LE?A,90,12,0,1,20,Otro tipo de calefactor (especifica),Nuevo
+6921,1,1,5,CALENTON DE LE?A,120,3,0,2,4,Otro tipo de calefactor (especifica),Usado
+6922,1,1,5,CALENTON DE METAL FUNCIONA A BASE DE LE?A,150,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6923,1,2,5,CALENTON DE LE?A,60,7,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6923,1,1,4, ,30,1,0,1,4,De gas,Nuevo
+6924,1,1,4, ,90,6,0,1,10,De gas,Nuevo
+6925,1,1,2, ,60,0,30,1,10,Eléctrico de resistencia,Nuevo
+6926,1,2,5,CALENTON DE LE?A,150,12,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+6926,1,1,5,ESTUFA DE LE?A,150,12,0,1,29,Otro tipo de calefactor (especifica),Nuevo
+6927,1,1,5,CALENTON DE LE?A,120,12,0,2,3,Otro tipo de calefactor (especifica),Usado
+6928,1,1,5,CALENTON DE LE?A,120,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+6930,1,1,5,CALENTON DE LE?A,180,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6931,1,2,5,CALENTON DE LE?A,180,2,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+6931,1,1,5,CALENTON DE L?A,180,1,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+6932,1,1,5,CALENTON DE LE?A,120,6,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6934,1,2,4, ,150,4,0,1,5,De gas,Nuevo
+6934,1,1,4, ,150,8,0,1,1,De gas,Nuevo
+6935,1,1,4, ,90,4,0,1,1,De gas,Nuevo
+6936,1,1,5,CALENTON DE LE?A,90,2,0,1,99,Otro tipo de calefactor (especifica),Nuevo
+6939,1,1,5,CALEFACTOR DE LEÑA,180,10,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+6941,1,1,5,CALENTON DE LE?A,90,2,30,1,1,Otro tipo de calefactor (especifica),Nuevo
+6942,1,1,5,CALENTON DE LE?A,150,1,30,1,8,Otro tipo de calefactor (especifica),Nuevo
+6948,1,1,5,CALENTON DE LE?A,60,12,0,2,4,Otro tipo de calefactor (especifica),Usado
+6953,1,1,4, ,60,2,0,1,5,De gas,Nuevo
+6956,1,1,4, ,60,3,0,1,1,De gas,Nuevo
+6957,1,1,5,CALENTON DE LE?A,30,1,0,2,99,Otro tipo de calefactor (especifica),Usado
+6958,1,1,5,CALENTPON DE LE?LA,60,3,0,2,5,Otro tipo de calefactor (especifica),Usado
+6964,1,1,5,CALENTON DE LEÑA,90,2,0,1,15,Otro tipo de calefactor (especifica),Nuevo
+6965,1,1,5,CALENTON DE LEÑA,120,99,99,2,99,Otro tipo de calefactor (especifica),Usado
+6966,1,1,5,CALENTONN DE LEÑA,120,10,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6967,1,1,4, ,90,6,0,1,30,De gas,Nuevo
+6968,1,1,4, ,150,8,0,1,10,De gas,Nuevo
+6969,1,1,4, ,120,12,0,1,6,De gas,Nuevo
+6970,1,1,5,CALENTON DE LEÑA,60,4,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+6971,1,1,5,CALENTON DE DIESEL,100,6,0,2,10,Otro tipo de calefactor (especifica),Usado
+6972,1,1,4, ,120,4,0,1,7,De gas,Nuevo
+6973,1,1,4, ,150,6,0,1,9,De gas,Nuevo
+6975,1,1,5,CALENTON DE LEÑA,120,2,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+6976,1,1,5,CALENTON DE LEÑA,150,12,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+6977,1,1,4, ,120,1,0,1,15,De gas,Nuevo
+6978,1,1,4, ,120,24,0,1,4,De gas,Nuevo
+6979,1,1,4, ,120,3,0,1,7,De gas,Nuevo
+6989,1,1,3, ,120,10,0,1,7,Eléctrico de torre,Nuevo
+7000,1,1,5,CALENTON DE LEÑA,30,6,0,2,1,Otro tipo de calefactor (especifica),Usado
+7002,1,1,4, ,45,2,0,1,10,De gas,Nuevo
+7003,1,1,5,CALENTON DE LEÑA,20,3,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+7009,1,1,5,CHIMENEA DE LEÑA,120,12,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+7026,1,1,5,CALENTON DE LEÑA,365,4,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+7036,1,1,5,CALENTON DE LEÑA,60,4,0,2,3,Otro tipo de calefactor (especifica),Usado
+7037,1,1,5,CALENTON DE LEÑA,90,12,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+7042,1,1,5,CALENTON DE LEÑA,365,8,0,2,7,Otro tipo de calefactor (especifica),Usado
+7045,1,1,2, ,90,4,0,1,1,Eléctrico de resistencia,Nuevo
+7047,1,1,5,ESTUFA DE LEÑA LA USA COMO CALEFACTOR EN INVIERNO,120,1,0,2,4,Otro tipo de calefactor (especifica),Usado
+7048,1,1,5,CALENTON DE LEÑA,120,2,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+7051,1,1,5,ESTUFA DE LEÑA LA UTILIZAN PARA CALENTARSE,120,24,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+7054,1,1,5,CALENTON DE LENA,60,8,0,2,1,Otro tipo de calefactor (especifica),Usado
+7055,1,1,5,CALENTON DE LEÑA,180,2,30,1,4,Otro tipo de calefactor (especifica),Nuevo
+7056,1,1,5,CALENTON DE LEÑA,30,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+7060,1,1,2, ,90,4,0,1,5,Eléctrico de resistencia,Nuevo
+7062,1,1,5,ESTUFA DE LEÑA LA USAN COMO CALEFACTOR,60,5,0,2,20,Otro tipo de calefactor (especifica),Usado
+7065,1,1,2, ,90,5,0,2,3,Eléctrico de resistencia,Usado
+7070,1,1,2, ,60,0,10,1,5,Eléctrico de resistencia,Nuevo
+7072,1,1,5,CALENTON DE LE?A,180,6,0,2,2,Otro tipo de calefactor (especifica),Usado
+7077,1,1,2, ,120,3,0,2,1,Eléctrico de resistencia,Usado
+7078,1,1,2, ,30,4,0,1,4,Eléctrico de resistencia,Nuevo
+7079,1,1,5,ESTUFA DE LE?A ?A USAN COMO CALEFACTOR,60,10,0,2,3,Otro tipo de calefactor (especifica),Usado
+7080,1,1,4, ,30,2,0,1,1,De gas,Nuevo
+7081,1,1,5,CALENTON DE LE?A,120,3,0,1,9,Otro tipo de calefactor (especifica),Nuevo
+7122,1,2,1, ,30,2,0,1,30,Eléctrico con aceite térmico,Nuevo
+7122,1,1,1, ,30,2,0,1,30,Eléctrico con aceite térmico,Nuevo
+7154,1,2,2, ,15,8,0,2,2,Eléctrico de resistencia,Usado
+7154,1,1,2, ,15,8,0,1,2,Eléctrico de resistencia,Nuevo
+7184,1,1,3, ,15,8,0,1,3,Eléctrico de torre,Nuevo
+7186,1,1,3, ,30,4,0,1,4,Eléctrico de torre,Nuevo
+7189,1,1,3, ,15,2,0,1,2,Eléctrico de torre,Nuevo
+7298,1,1,2, ,15,3,0,2,12,Eléctrico de resistencia,Usado
+7303,1,1,5,DIGITAL,30,2,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+7376,1,1,1, ,8,8,0,1,10,Eléctrico con aceite térmico,Nuevo
+7381,1,1,3, ,30,2,0,1,1,Eléctrico de torre,Nuevo
+7384,1,1,2, ,60,3,0,1,10,Eléctrico de resistencia,Nuevo
+7410,1,1,1, ,20,3,0,1,3,Eléctrico con aceite térmico,Nuevo
+7413,1,1,1, ,5,1,0,1,4,Eléctrico con aceite térmico,Nuevo
+7436,1,1,1, ,30,1,0,1,6,Eléctrico con aceite térmico,Nuevo
+7542,1,1,2, ,30,8,0,2,10,Eléctrico de resistencia,Usado
+7551,1,1,2, ,5,0,40,1,1,Eléctrico de resistencia,Nuevo
+7572,1,1,2, ,5,4,0,2,8,Eléctrico de resistencia,Usado
+7573,1,1,1, ,999,12,0,1,5,Eléctrico con aceite térmico,Nuevo
+7573,1,2,1, ,90,5,0,1,8,Eléctrico con aceite térmico,Nuevo
+7592,1,1,1, ,10,5,0,1,5,Eléctrico con aceite térmico,Nuevo
+7595,1,1,1, ,90,2,0,1,3,Eléctrico con aceite térmico,Nuevo
+7597,1,1,2, ,15,1,0,1,3,Eléctrico de resistencia,Nuevo
+7597,1,2,2, ,15,0,30,1,3,Eléctrico de resistencia,Nuevo
+7607,1,1,2, ,40,2,0,2,5,Eléctrico de resistencia,Usado
+7654,1,1,3, ,60,5,0,1,2,Eléctrico de torre,Nuevo
+7662,1,1,3, ,30,2,0,2,1,Eléctrico de torre,Usado
+7701,1,1,1, ,60,3,0,1,1,Eléctrico con aceite térmico,Nuevo
+7712,1,1,1, ,90,12,0,1,3,Eléctrico con aceite térmico,Nuevo
+7737,1,1,1, ,60,4,0,1,10,Eléctrico con aceite térmico,Nuevo
+7782,1,1,3, ,30,0,30,2,1,Eléctrico de torre,Usado
+7783,1,1,1, ,30,5,0,1,1,Eléctrico con aceite térmico,Nuevo
+7796,1,1,4, ,15,0,30,1,5,De gas,Nuevo
+7815,1,1,1, ,30,5,0,1,1,Eléctrico con aceite térmico,Nuevo
+7815,1,2,1, ,20,5,0,1,1,Eléctrico con aceite térmico,Nuevo
+7832,1,1,3, ,30,4,0,1,12,Eléctrico de torre,Nuevo
+7833,1,1,2, ,30,3,0,1,2,Eléctrico de resistencia,Nuevo
+7839,1,1,1, ,60,4,0,2,6,Eléctrico con aceite térmico,Usado
+7883,1,1,2, ,15,5,0,1,1,Eléctrico de resistencia,Nuevo
+7887,1,1,2, ,4,0,15,2,6,Eléctrico de resistencia,Usado
+7895,1,1,2, ,80,6,0,1,1,Eléctrico de resistencia,Nuevo
+7972,1,1,2, ,2,3,0,1,11,Eléctrico de resistencia,Nuevo
+7979,1,2,3, ,4,1,0,1,1,Eléctrico de torre,Nuevo
+7979,1,1,2, ,16,3,0,1,5,Eléctrico de resistencia,Nuevo
+8012,1,1,3, ,40,1,0,1,1,Eléctrico de torre,Nuevo
+8019,1,1,5,MINIESPLIT,30,0,20,1,11,Otro tipo de calefactor (especifica),Nuevo
+8021,1,1,1, ,30,2,0,1,10,Eléctrico con aceite térmico,Nuevo
+8035,1,1,2, ,3,6,0,1,3,Eléctrico de resistencia,Nuevo
+8044,1,1,1, ,60,4,0,1,2,Eléctrico con aceite térmico,Nuevo
+8062,1,1,2, ,30,2,0,1,5,Eléctrico de resistencia,Nuevo
+8088,1,1,1, ,15,4,0,1,6,Eléctrico con aceite térmico,Nuevo
+8089,1,1,3, ,30,1,0,2,99,Eléctrico de torre,Usado
+8120,1,1,2, ,60,3,0,1,1,Eléctrico de resistencia,Nuevo
+8126,1,1,2, ,3,1,30,1,2,Eléctrico de resistencia,Nuevo
+8139,1,1,2, ,30,1,0,1,1,Eléctrico de resistencia,Nuevo
+8144,1,1,4, ,60,2,0,1,2,De gas,Nuevo
+8154,1,1,4, ,30,4,0,1,6,De gas,Nuevo
+8162,1,1,2, ,60,8,0,2,14,Eléctrico de resistencia,Usado
+8162,1,2,2, ,12,12,0,2,8,Eléctrico de resistencia,Usado
+8163,1,1,2, ,7,0,30,1,1,Eléctrico de resistencia,Nuevo
+8164,1,1,1, ,2,2,0,2,1,Eléctrico con aceite térmico,Usado
+8171,1,1,3, ,15,1,0,1,1,Eléctrico de torre,Nuevo
+8172,1,1,5,MINISPLIT,999,99,99,1,8,Otro tipo de calefactor (especifica),Nuevo
+8177,1,2,4, ,365,0,20,1,4,De gas,Nuevo
+8177,1,1,4, ,365,0,20,1,2,De gas,Nuevo
+8179,1,1,4, ,40,2,0,1,5,De gas,Nuevo
+8189,1,1,2, ,30,1,0,1,20,Eléctrico de resistencia,Nuevo
+8197,1,1,4, ,30,0,30,1,4,De gas,Nuevo
+8212,1,1,2, ,8,6,0,2,99,Eléctrico de resistencia,Usado
+8219,1,1,2, ,3,1,0,1,1,Eléctrico de resistencia,Nuevo
+8232,1,1,2, ,7,1,0,1,4,Eléctrico de resistencia,Nuevo
+8235,1,1,4, ,5,2,0,2,7,De gas,Usado
+8239,1,1,3, ,30,3,0,1,1,Eléctrico de torre,Nuevo
+8240,1,1,1, ,60,8,0,1,4,Eléctrico con aceite térmico,Nuevo
+8240,1,2,3, ,60,10,0,1,3,Eléctrico de torre,Nuevo
+8246,1,1,3, ,10,0,45,2,2,Eléctrico de torre,Usado
+8252,1,1,2, ,30,3,0,1,3,Eléctrico de resistencia,Nuevo
+8261,1,1,3, ,90,2,0,1,6,Eléctrico de torre,Nuevo
+8267,1,1,3, ,7,2,0,1,1,Eléctrico de torre,Nuevo
+8276,1,1,4, ,20,0,30,1,3,De gas,Nuevo
+8279,1,1,2, ,15,5,0,1,5,Eléctrico de resistencia,Nuevo
+8283,1,1,3, ,4,6,0,1,3,Eléctrico de torre,Nuevo
+8283,1,2,3, ,4,6,0,1,7,Eléctrico de torre,Nuevo
+8290,1,1,2, ,30,3,0,1,14,Eléctrico de resistencia,Nuevo
+8290,1,2,2, ,30,4,0,1,14,Eléctrico de resistencia,Nuevo
+8295,1,1,1, ,10,5,0,1,30,Eléctrico con aceite térmico,Nuevo
+8302,1,1,1, ,15,6,0,1,1,Eléctrico con aceite térmico,Nuevo
+8313,1,2,2, ,90,3,0,2,1,Eléctrico de resistencia,Usado
+8313,1,1,1, ,90,6,0,2,99,Eléctrico con aceite térmico,Usado
+8326,1,1,1, ,3,3,0,2,99,Eléctrico con aceite térmico,Usado
+8332,1,1,2, ,90,0,30,1,1,Eléctrico de resistencia,Nuevo
+8344,1,1,1, ,12,2,0,1,5,Eléctrico con aceite térmico,Nuevo
+8355,1,1,1, ,30,2,0,1,8,Eléctrico con aceite térmico,Nuevo
+8370,1,2,2, ,39,1,30,1,3,Eléctrico de resistencia,Nuevo
+8370,1,1,2, ,30,1,0,1,1,Eléctrico de resistencia,Nuevo
+8371,1,1,4, ,16,2,0,1,5,De gas,Nuevo
+8376,1,1,2, ,60,10,0,1,1,Eléctrico de resistencia,Nuevo
+8378,1,1,4, ,30,99,99,1,6,De gas,Nuevo
+8386,1,1,3, ,60,0,20,1,3,Eléctrico de torre,Nuevo
+8401,1,1,1, ,30,8,0,1,9,Eléctrico con aceite térmico,Nuevo
+8411,1,1,2, ,90,7,0,1,2,Eléctrico de resistencia,Nuevo
+8442,1,1,1, ,30,3,0,2,99,Eléctrico con aceite térmico,Usado
+8454,1,1,1, ,15,2,0,1,4,Eléctrico con aceite térmico,Nuevo
+8480,1,1,3, ,60,2,0,2,1,Eléctrico de torre,Usado
+8504,1,1,1, ,1,6,0,2,99,Eléctrico con aceite térmico,Usado
+8506,1,1,2, ,60,3,0,1,2,Eléctrico de resistencia,Nuevo
+8510,1,1,4, ,60,10,0,1,2,De gas,Nuevo
+8525,1,1,1, ,31,99,99,1,1,Eléctrico con aceite térmico,Nuevo
+8551,1,1,3, ,6,0,30,1,2,Eléctrico de torre,Nuevo
+8588,1,1,4, ,999,99,99,1,10,De gas,Nuevo
+8607,1,1,2, ,7,6,0,2,99,Eléctrico de resistencia,Usado
+8613,1,1,2, ,5,1,0,1,2,Eléctrico de resistencia,Nuevo
+8624,1,1,2, ,30,99,99,1,1,Eléctrico de resistencia,Nuevo
+8627,1,1,3, ,30,5,0,1,1,Eléctrico de torre,Nuevo
+8629,1,1,3, ,30,8,0,2,3,Eléctrico de torre,Usado
+8633,1,1,3, ,30,3,0,1,2,Eléctrico de torre,Nuevo
+8647,1,1,3, ,8,0,20,1,1,Eléctrico de torre,Nuevo
+8673,1,1,2, ,120,3,0,1,1,Eléctrico de resistencia,Nuevo
+8693,1,1,3, ,16,4,0,1,2,Eléctrico de torre,Nuevo
+8740,1,1,2, ,10,1,0,1,10,Eléctrico de resistencia,Nuevo
+8741,1,1,2, ,30,0,30,1,1,Eléctrico de resistencia,Nuevo
+8751,1,1,2, ,90,6,0,1,2,Eléctrico de resistencia,Nuevo
+8758,1,1,4, ,7,0,20,1,11,De gas,Nuevo
+8761,1,1,2, ,10,0,15,1,1,Eléctrico de resistencia,Nuevo
+8766,1,1,3, ,2,2,0,2,4,Eléctrico de torre,Usado
+8766,1,2,3, ,2,2,0,2,4,Eléctrico de torre,Usado
+8776,1,1,1, ,3,4,0,2,1,Eléctrico con aceite térmico,Usado
+8776,1,2,2, ,7,5,0,1,1,Eléctrico de resistencia,Nuevo
+8781,1,1,2, ,33,2,0,1,1,Eléctrico de resistencia,Nuevo
+8804,1,1,1, ,15,5,0,2,2,Eléctrico con aceite térmico,Usado
+8826,1,2,3, ,60,2,0,1,1,Eléctrico de torre,Nuevo
+8826,1,1,3, ,60,2,0,1,1,Eléctrico de torre,Nuevo
+8829,1,1,2, ,30,2,0,1,4,Eléctrico de resistencia,Nuevo
+8839,1,1,2, ,120,2,0,1,4,Eléctrico de resistencia,Nuevo
+8858,1,1,1, ,30,8,0,1,3,Eléctrico con aceite térmico,Nuevo
+9026,1,1,2, ,60,2,0,1,1,Eléctrico de resistencia,Nuevo
+9050,1,1,1, ,200,0,20,1,5,Eléctrico con aceite térmico,Nuevo
+9165,1,1,1, ,16,2,0,1,3,Eléctrico con aceite térmico,Nuevo
+9172,1,1,1, ,20,4,0,1,2,Eléctrico con aceite térmico,Nuevo
+9181,1,1,1, ,90,1,0,1,1,Eléctrico con aceite térmico,Nuevo
+9212,1,1,3, ,15,3,0,1,3,Eléctrico de torre,Nuevo
+9217,1,1,2, ,90,1,0,1,2,Eléctrico de resistencia,Nuevo
+9239,1,1,2, ,45,3,0,1,1,Eléctrico de resistencia,Nuevo
+9249,1,1,4, ,90,3,0,1,3,De gas,Nuevo
+9440,1,1,1, ,30,3,0,2,5,Eléctrico con aceite térmico,Usado
+9448,1,1,2, ,10,4,0,1,1,Eléctrico de resistencia,Nuevo
+9451,1,1,2, ,30,3,0,1,15,Eléctrico de resistencia,Nuevo
+9463,1,1,1, ,60,0,30,1,1,Eléctrico con aceite térmico,Nuevo
+9484,1,1,2, ,30,1,0,1,7,Eléctrico de resistencia,Nuevo
+9596,1,1,2, ,30,12,0,1,1,Eléctrico de resistencia,Nuevo
+9658,1,1,2, ,60,4,0,1,1,Eléctrico de resistencia,Nuevo
+9727,1,1,1, ,20,8,0,1,1,Eléctrico con aceite térmico,Nuevo
+9793,1,1,9, ,30,1,30,1,5,No sabe,Nuevo
+10158,1,1,2, ,15,1,0,1,5,Eléctrico de resistencia,Nuevo
+10700,1,1,1, ,30,1,0,1,1,Eléctrico con aceite térmico,Nuevo
+10705,1,1,2, ,16,3,0,1,15,Eléctrico de resistencia,Nuevo
+10709,1,1,3, ,30,0,20,1,5,Eléctrico de torre,Nuevo
+10736,1,1,5,ES  TIPO PEDESTAL PEQUEÑO COMO VENTILADOR,40,2,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+10743,1,1,1, ,1,0,30,1,5,Eléctrico con aceite térmico,Nuevo
+10761,1,1,4, ,4,0,30,1,1,De gas,Nuevo
+10824,1,1,1, ,30,3,0,2,4,Eléctrico con aceite térmico,Usado
+10883,1,1,2, ,60,2,0,1,1,Eléctrico de resistencia,Nuevo
+10895,1,1,2, ,7,0,30,1,10,Eléctrico de resistencia,Nuevo
+10904,1,1,2, ,30,0,20,1,2,Eléctrico de resistencia,Nuevo
+10927,1,1,3, ,30,2,0,1,1,Eléctrico de torre,Nuevo
+10948,1,1,1, ,30,0,40,1,1,Eléctrico con aceite térmico,Nuevo
+10988,1,1,1, ,40,6,0,2,1,Eléctrico con aceite térmico,Usado
+11178,1,1,3, ,999,1,30,1,2,Eléctrico de torre,Nuevo
+11223,1,1,1, ,4,0,45,1,1,Eléctrico con aceite térmico,Nuevo
+11230,1,1,2, ,60,4,0,2,3,Eléctrico de resistencia,Usado
+11241,1,1,2, ,25,2,0,1,2,Eléctrico de resistencia,Nuevo
+11536,1,1,2, ,15,3,0,1,1,Eléctrico de resistencia,Nuevo
+11545,1,1,3, ,3,3,0,1,10,Eléctrico de torre,Nuevo
+11567,1,1,2, ,30,12,0,1,1,Eléctrico de resistencia,Nuevo
+11599,1,1,3, ,70,2,0,1,3,Eléctrico de torre,Nuevo
+11837,1,1,2, ,30,8,0,1,1,Eléctrico de resistencia,Nuevo
+11845,1,1,2, ,999,99,99,1,6,Eléctrico de resistencia,Nuevo
+11941,1,1,2, ,60,1,0,2,99,Eléctrico de resistencia,Usado
+12031,1,1,9, ,3,2,0,1,3,No sabe,Nuevo
+12038,1,1,2, ,20,5,0,1,1,Eléctrico de resistencia,Nuevo
+12038,1,2,2, ,20,5,0,1,1,Eléctrico de resistencia,Nuevo
+12186,1,1,2, ,30,1,0,1,4,Eléctrico de resistencia,Nuevo
+12518,1,1,2, ,6,1,0,1,1,Eléctrico de resistencia,Nuevo
+12661,1,1,2, ,30,2,0,1,5,Eléctrico de resistencia,Nuevo
+12760,1,1,4, ,90,12,0,1,1,De gas,Nuevo
+12760,1,2,4, ,90,12,0,1,1,De gas,Nuevo
+12897,1,1,3, ,30,0,10,1,4,Eléctrico de torre,Nuevo
+12924,1,1,1, ,30,3,0,1,1,Eléctrico con aceite térmico,Nuevo
+12943,1,1,1, ,30,6,0,1,6,Eléctrico con aceite térmico,Nuevo
+12994,1,1,2, ,30,2,0,1,4,Eléctrico de resistencia,Nuevo
+13075,1,1,2, ,60,4,0,1,1,Eléctrico de resistencia,Nuevo
+13120,1,2,1, ,30,3,0,1,10,Eléctrico con aceite térmico,Nuevo
+13120,1,1,1, ,30,2,0,1,10,Eléctrico con aceite térmico,Nuevo
+13165,1,1,1, ,90,6,0,1,2,Eléctrico con aceite térmico,Nuevo
+13179,1,1,1, ,80,2,0,1,10,Eléctrico con aceite térmico,Nuevo
+13180,1,1,2, ,90,2,0,1,5,Eléctrico de resistencia,Nuevo
+13243,1,1,2, ,20,2,0,1,1,Eléctrico de resistencia,Nuevo
+13364,1,1,2, ,15,3,0,1,4,Eléctrico de resistencia,Nuevo
+13384,1,1,2, ,60,3,0,2,6,Eléctrico de resistencia,Usado
+13430,1,3,3, ,45,3,0,1,3,Eléctrico de torre,Nuevo
+13430,1,2,3, ,45,3,0,1,3,Eléctrico de torre,Nuevo
+13430,1,1,3, ,45,3,0,1,3,Eléctrico de torre,Nuevo
+13552,1,1,5,UN APARATO MUY MODRNO,3,8,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+13587,1,1,1, ,20,3,0,1,5,Eléctrico con aceite térmico,Nuevo
+13617,1,1,1, ,30,0,30,1,15,Eléctrico con aceite térmico,Nuevo
+13707,1,1,2, ,20,0,20,1,2,Eléctrico de resistencia,Nuevo
+13734,1,1,1, ,60,4,0,1,2,Eléctrico con aceite térmico,Nuevo
+13821,1,1,4, ,20,2,0,1,10,De gas,Nuevo
+14086,1,1,2, ,104,1,0,1,1,Eléctrico de resistencia,Nuevo
+14102,1,1,3, ,7,8,0,1,8,Eléctrico de torre,Nuevo
+14177,1,1,2, ,5,0,30,2,2,Eléctrico de resistencia,Usado
+14227,1,1,2, ,15,3,0,1,3,Eléctrico de resistencia,Nuevo
+14508,1,1,2, ,15,4,0,1,8,Eléctrico de resistencia,Nuevo
+14577,1,1,1, ,3,1,0,1,6,Eléctrico con aceite térmico,Nuevo
+15223,1,1,2, ,30,10,0,1,2,Eléctrico de resistencia,Nuevo
+15241,1,1,2, ,60,0,20,1,3,Eléctrico de resistencia,Nuevo
+15307,1,1,2, ,36,4,0,2,2,Eléctrico de resistencia,Usado
+15380,1,1,3, ,30,1,30,1,3,Eléctrico de torre,Nuevo
+15414,1,1,2, ,60,0,30,2,1,Eléctrico de resistencia,Usado
+15532,1,1,2, ,60,3,0,1,2,Eléctrico de resistencia,Nuevo
+15956,1,1,5,ES TIPO VENTILADOR,15,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16021,1,1,2, ,1,4,0,2,3,Eléctrico de resistencia,Usado
+16091,1,1,5,MINISPLIT,10,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16093,1,1,5,MINISPLIT INVERTER,10,5,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16096,1,1,5,MINISPLIT,90,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16101,1,1,2, ,20,4,0,1,1,Eléctrico de resistencia,Nuevo
+16102,1,1,3, ,20,1,0,2,1,Eléctrico de torre,Usado
+16106,1,1,5,MINISPLIT,10,6,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16110,1,2,5,MINISPLIT INVERTER,5,4,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+16110,1,1,2, ,5,2,0,1,2,Eléctrico de resistencia,Nuevo
+16113,1,1,5,MINISPLIT,5,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16114,1,1,3, ,30,4,0,1,3,Eléctrico de torre,Nuevo
+16116,1,1,2, ,4,1,0,1,1,Eléctrico de resistencia,Nuevo
+16117,1,1,4, ,10,2,0,1,1,De gas,Nuevo
+16118,1,1,1, ,15,8,0,1,3,Eléctrico con aceite térmico,Nuevo
+16119,1,1,1, ,5,10,0,1,6,Eléctrico con aceite térmico,Nuevo
+16123,1,1,4, ,30,3,0,1,5,De gas,Nuevo
+16127,1,1,2, ,60,9,0,1,2,Eléctrico de resistencia,Nuevo
+16134,1,1,2, ,20,2,0,1,5,Eléctrico de resistencia,Nuevo
+16144,1,1,4, ,14,3,0,1,1,De gas,Nuevo
+16146,1,1,4, ,30,6,0,1,2,De gas,Nuevo
+16147,1,1,2, ,60,5,0,1,1,Eléctrico de resistencia,Nuevo
+16148,1,1,5,MINISPLIT INVERTER,30,6,0,2,2,Otro tipo de calefactor (especifica),Usado
+16153,1,1,5,MINISPLIT,15,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16154,1,1,1, ,15,3,0,1,2,Eléctrico con aceite térmico,Nuevo
+16157,1,1,3, ,3,2,0,2,3,Eléctrico de torre,Usado
+16159,1,1,2, ,10,5,0,1,2,Eléctrico de resistencia,Nuevo
+16163,1,1,4, ,30,6,0,1,3,De gas,Nuevo
+16164,1,1,4, ,40,5,0,1,6,De gas,Nuevo
+16164,1,2,4, ,40,3,0,1,5,De gas,Nuevo
+16165,1,1,5,MINISPLIT ENCENDIDO/APAGADO,90,8,0,2,7,Otro tipo de calefactor (especifica),Usado
+16166,1,1,4, ,60,4,0,1,10,De gas,Nuevo
+16170,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,90,8,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16170,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,90,8,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16171,1,2,5,MINISPLIT,90,12,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+16171,1,1,5,MINISPLIT,90,12,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16172,1,5,4, ,90,6,0,1,3,De gas,Nuevo
+16172,1,3,5,MINISPLIT,90,6,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+16172,1,2,5,MINISPLIT,90,6,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+16172,1,1,5,MINISPLIT,60,6,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+16172,1,4,4, ,90,3,0,1,5,De gas,Nuevo
+16174,1,1,4, ,3,10,0,1,8,De gas,Nuevo
+16176,1,1,4, ,21,2,0,1,1,De gas,Nuevo
+16178,1,1,5,MINI SPLIT INVERTER,5,4,0,2,1,Otro tipo de calefactor (especifica),Usado
+16179,1,1,5,DE VENTANA,15,4,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+16179,1,2,5,MINISPILT DE ENCENDIDO Y APAGADO,30,7,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+16182,1,1,4, ,30,4,0,1,2,De gas,Nuevo
+16183,1,1,3, ,20,5,0,1,2,Eléctrico de torre,Nuevo
+16188,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,3,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16189,1,1,2, ,15,0,30,1,2,Eléctrico de resistencia,Nuevo
+16194,1,1,2, ,40,4,0,1,1,Eléctrico de resistencia,Nuevo
+16194,1,2,2, ,40,3,0,1,1,Eléctrico de resistencia,Nuevo
+16203,1,1,2, ,40,17,0,2,8,Eléctrico de resistencia,Usado
+16209,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,5,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16219,1,1,4, ,10,6,0,1,6,De gas,Nuevo
+16222,1,1,2, ,10,4,0,1,3,Eléctrico de resistencia,Nuevo
+16226,1,1,1, ,90,1,0,1,3,Eléctrico con aceite térmico,Nuevo
+16227,1,1,4, ,10,2,0,1,9,De gas,Nuevo
+16228,1,1,2, ,5,1,0,2,3,Eléctrico de resistencia,Usado
+16229,1,1,1, ,90,2,0,1,5,Eléctrico con aceite térmico,Nuevo
+16231,1,1,5,MINISPLI,10,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16232,1,1,3, ,10,3,0,1,1,Eléctrico de torre,Nuevo
+16233,1,1,5,MINISPLIT,3,2,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+16235,1,1,4, ,30,4,0,1,4,De gas,Nuevo
+16253,1,1,5,MINISPLIT ENCENDIDO APAGADO,30,4,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+16253,1,2,5,MINISPLIT ENCENDIDO APAGADO,30,2,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+16254,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,60,2,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+16254,1,1,4, ,30,4,0,1,20,De gas,Nuevo
+16257,1,1,5,CENTRAL,90,12,0,2,10,Otro tipo de calefactor (especifica),Usado
+16259,1,1,5,MINISPLIT INVERTER,90,4,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16259,1,2,5,MINISPLIT INVERTER,90,7,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16260,1,1,5,CALENTADOR DE GAS DE PIEDRAS REFRACTARIAS,30,4,0,1,15,Otro tipo de calefactor (especifica),Nuevo
+16261,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,90,8,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16262,1,3,5,MINISPLIT ENCENDIDO APAGADO,5,5,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16262,1,2,4, ,60,5,0,1,11,De gas,Nuevo
+16262,1,1,5,MINISPLIT ENCENDIDO Y APAGADO,5,5,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16267,1,3,5,MINISPLIT ENCENDIDO APAGADO,12,3,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16267,1,2,5,MINISPLIT ENCENDIDO APAGADO,45,3,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16267,1,1,5,MINISPLIT ENCENDIDO APAGADO,45,3,0,1,10,Otro tipo de calefactor (especifica),Nuevo
+16277,1,1,1, ,60,1,0,2,3,Eléctrico con aceite térmico,Usado
+16280,1,1,3, ,60,1,0,1,2,Eléctrico de torre,Nuevo
+16286,1,1,2, ,10,4,0,2,2,Eléctrico de resistencia,Usado
+16302,1,1,5,MINISPLIT ENCENDIDO Y APAGADO,7,6,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16305,1,2,5,MINISPLIT INVERTER,90,9,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16305,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,8,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16306,1,1,5,MINISPLIT INVERTER,90,2,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16307,1,1,5,MINISPLIT INVERTER,90,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16307,1,2,5,MINISPLIT INVERTER,90,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16308,1,1,2, ,90,2,0,1,34,Eléctrico de resistencia,Nuevo
+16312,1,1,3, ,32,0,20,1,1,Eléctrico de torre,Nuevo
+16316,1,1,4, ,30,8,0,1,7,De gas,Nuevo
+16321,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,6,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16328,1,1,5,MINISPLIT DE ENCENDIDO APAGADO,30,2,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16328,1,2,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+16336,1,1,3, ,20,4,0,1,4,Eléctrico de torre,Nuevo
+16336,1,2,5,CLIMA DE VENTANA,10,1,0,1,20,Otro tipo de calefactor (especifica),Nuevo
+16338,1,1,5,MINISPLIT ENCENDIDO/APAGADO,30,3,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16339,1,1,2, ,15,4,0,1,1,Eléctrico de resistencia,Nuevo
+16344,1,1,2, ,7,3,0,2,1,Eléctrico de resistencia,Usado
+16348,1,1,4, ,35,8,0,2,6,De gas,Usado
+16351,1,1,5,MINISPLIT ENCENDIDO APAGADO,40,5,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16351,1,2,5,MINISPLIT ENCENDIDO APAGADO,120,5,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16351,1,3,5,MINISPLIT INVERTER,120,5,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16365,1,1,2, ,30,0,30,1,2,Eléctrico de resistencia,Nuevo
+16367,1,2,2, ,6,1,0,1,1,Eléctrico de resistencia,Nuevo
+16367,1,1,2, ,21,2,0,1,1,Eléctrico de resistencia,Nuevo
+16368,1,1,5,MINISPLIT ENCENDIDO Y APAGADO,18,7,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16369,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,5,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16369,1,2,5,MINISPLIT INVERTER,90,5,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16370,1,1,5,MINISPLIT INVERTE,15,5,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16371,1,1,3, ,9,3,0,2,1,Eléctrico de torre,Usado
+16376,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,30,6,30,1,3,Otro tipo de calefactor (especifica),Nuevo
+16383,1,1,5,NMINISPLIT DE ENCENDIDO APAGADO,90,3,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16388,1,1,2, ,13,3,0,1,1,Eléctrico de resistencia,Nuevo
+16396,1,1,2, ,6,4,0,1,3,Eléctrico de resistencia,Nuevo
+16398,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,40,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16398,1,1,5,SON MINISPLIT DE ENCENDIDO Y APAGADO,40,6,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16400,1,1,5,INVERTER,30,8,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16401,1,1,4, ,25,5,0,2,3,De gas,Usado
+16405,1,1,2, ,45,3,0,1,2,Eléctrico de resistencia,Nuevo
+16415,1,1,5,MINISPLIT,1,8,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16421,1,2,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+16421,1,1,3, ,30,2,0,1,3,Eléctrico de torre,Nuevo
+16426,1,2,5,MINISPLIT DE ENCENDIDO APAGADO,90,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16426,1,1,5,MINISPLIT DE ENCENDIDO APADADO,90,8,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16432,1,1,5,MINISPLIT INVERTER,90,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16433,1,1,5,MINISPLIT INVERTER,30,6,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+16439,1,1,3, ,60,5,0,1,8,Eléctrico de torre,Nuevo
+16440,1,1,2, ,60,4,0,1,2,Eléctrico de resistencia,Nuevo
+16440,1,2,2, ,60,4,0,1,2,Eléctrico de resistencia,Nuevo
+16441,1,1,5,MINSPLIT ENCENDIDO APAGADO,150,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16450,1,1,2, ,4,2,0,2,2,Eléctrico de resistencia,Usado
+16454,1,1,4, ,30,6,0,2,6,De gas,Usado
+16455,1,2,2, ,60,2,0,1,6,Eléctrico de resistencia,Nuevo
+16455,1,1,2, ,60,8,0,1,1,Eléctrico de resistencia,Nuevo
+16456,1,1,2, ,30,4,0,1,1,Eléctrico de resistencia,Nuevo
+16457,1,1,2, ,30,3,0,1,99,Eléctrico de resistencia,Nuevo
+16458,1,1,1, ,30,4,0,1,4,Eléctrico con aceite térmico,Nuevo
+16459,1,1,2, ,7,6,0,1,2,Eléctrico de resistencia,Nuevo
+16460,1,1,4, ,90,12,0,1,8,De gas,Nuevo
+16463,1,1,2, ,60,8,0,2,1,Eléctrico de resistencia,Usado
+16463,1,2,3, ,45,2,0,1,5,Eléctrico de torre,Nuevo
+16465,1,1,2, ,15,4,0,1,4,Eléctrico de resistencia,Nuevo
+16470,1,1,4, ,90,3,0,2,20,De gas,Usado
+16472,1,1,2, ,7,3,0,1,17,Eléctrico de resistencia,Nuevo
+16476,1,1,1, ,120,10,0,1,8,Eléctrico con aceite térmico,Nuevo
+16477,1,1,4, ,30,0,30,1,10,De gas,Nuevo
+16477,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,12,0,30,1,6,Otro tipo de calefactor (especifica),Nuevo
+16479,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,90,8,0,2,4,Otro tipo de calefactor (especifica),Usado
+16487,1,1,4, ,6,4,0,1,6,De gas,Nuevo
+16490,1,2,5,MINISPLIT ENCENDIDO APAGADO,60,2,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16490,1,1,5,MINISPLIT ENCENDIDO APAGADO,60,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16491,1,1,1, ,30,8,0,1,1,Eléctrico con aceite térmico,Nuevo
+16491,1,2,4, ,30,3,0,1,4,De gas,Nuevo
+16492,1,1,5,MINISPLIT INVERTER,60,8,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16492,1,2,5,MINISPLIT INVERTER,60,8,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16493,1,1,5,MINISPLIT  INVERTER,60,24,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16493,1,2,5,MINISPLIT ENCENDIDO APAGADO,60,8,0,1,14,Otro tipo de calefactor (especifica),Nuevo
+16515,1,1,5,MINISPLIT,5,8,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16516,1,1,3, ,90,6,0,1,6,Eléctrico de torre,Nuevo
+16518,1,1,2, ,120,5,0,2,10,Eléctrico de resistencia,Usado
+16520,1,1,5,MINISPLIT INVERTER,60,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16520,1,2,5,MINISPLIT INVERTER,60,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16521,1,2,5,MINISPLIT INVERTER,90,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16521,1,1,5,MINISPLIT INVERTER,90,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16522,1,1,5,MINISPLIT INVERTE,90,12,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16522,1,2,5,MINISPLIT INVERTER,90,12,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16522,1,5,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+16522,1,4,4, ,120,6,0,1,3,De gas,Nuevo
+16522,1,3,5,MINISPLIT INVERTER,90,12,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16524,1,1,5,MINISPLIT ENCENDIDO APAGADO,30,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16524,1,2,5,MINISPLIT ENCENDIDO APAGADO,30,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16524,1,3,1, ,120,8,0,1,20,Eléctrico con aceite térmico,Nuevo
+16533,1,1,2, ,120,3,0,1,1,Eléctrico de resistencia,Nuevo
+16534,1,1,4, ,10,8,0,1,5,De gas,Nuevo
+16540,1,2,2, ,15,3,0,1,2,Eléctrico de resistencia,Nuevo
+16540,1,1,2, ,15,2,0,1,5,Eléctrico de resistencia,Nuevo
+16557,1,1,5,MINISPLIT DE ENCENDIDO/APAGADO,45,8,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16559,1,1,5,MINISPLIT DE ENCENDIDO/APAGADO,10,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16561,1,1,2, ,15,4,0,2,3,Eléctrico de resistencia,Usado
+16562,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,40,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16562,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,40,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16563,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,60,2,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16563,1,1,5,MINISPLIT DE ENCENDIDO APAGADO,100,4,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16564,1,2,5,MINISPLIT INVERTER,30,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16564,1,1,5,MINISPLIT DE ENCENDIDO APAGADO,30,2,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16570,1,1,2, ,60,5,0,1,4,Eléctrico de resistencia,Nuevo
+16572,1,1,2, ,60,3,0,2,6,Eléctrico de resistencia,Usado
+16580,1,1,2, ,30,10,0,2,1,Eléctrico de resistencia,Usado
+16583,1,1,1, ,30,0,30,1,8,Eléctrico con aceite térmico,Nuevo
+16583,1,3,3, ,30,1,0,1,3,Eléctrico de torre,Nuevo
+16583,1,2,2, ,30,1,0,1,3,Eléctrico de resistencia,Nuevo
+16584,1,2,2, ,180,6,0,1,1,Eléctrico de resistencia,Nuevo
+16584,1,1,2, ,180,6,0,1,1,Eléctrico de resistencia,Nuevo
+16584,1,3,4, ,180,6,0,1,1,De gas,Nuevo
+16585,1,2,4, ,60,12,0,1,5,De gas,Nuevo
+16585,1,1,4, ,60,12,0,1,8,De gas,Nuevo
+16586,1,1,4, ,60,24,0,1,10,De gas,Nuevo
+16586,1,2,4, ,20,4,0,1,4,De gas,Nuevo
+16586,1,3,4, ,20,4,0,1,4,De gas,Nuevo
+16589,1,4,4, ,60,1,0,1,2,De gas,Nuevo
+16589,1,1,5,MINISPLIT INVERTER,120,6,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16589,1,2,4, ,120,1,0,1,2,De gas,Nuevo
+16589,1,5,4, ,60,1,0,1,2,De gas,Nuevo
+16589,1,3,4, ,120,1,0,1,2,De gas,Nuevo
+16591,1,2,4, ,15,2,0,1,10,De gas,Nuevo
+16591,1,1,4, ,25,2,0,1,10,De gas,Nuevo
+16593,1,1,5,MINISPLIT ENCENDIDO APAGADO,60,3,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16593,1,2,5,MINISPLIT ENCENDIDO APAGADO,90,6,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16594,1,1,4, ,90,2,0,1,1,De gas,Nuevo
+16595,1,1,2, ,30,2,0,1,10,Eléctrico de resistencia,Nuevo
+16596,1,2,5,MINISPLIT INVERTER,30,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16596,1,3,5,MINISPLIT INVERTER,30,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16596,1,1,5,MINSPLIT INVERTER,30,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16597,1,2,1, ,180,9,0,1,99,Eléctrico con aceite térmico,Nuevo
+16597,1,1,1, ,180,9,0,1,99,Eléctrico con aceite térmico,Nuevo
+16600,1,1,3, ,90,1,0,1,2,Eléctrico de torre,Nuevo
+16601,1,2,4, ,30,6,0,1,5,De gas,Nuevo
+16601,1,1,4, ,30,6,0,1,1,De gas,Nuevo
+16607,1,1,5,MINISPLIT ENCENDIDO APAGADO,1,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16610,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,6,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16614,1,1,5,MINI SPLIT ENCENDIDO APAGADO,30,2,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16614,1,2,5,MINISPLIT ENCENDIDO APAGADO,30,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16616,1,1,5,MINISPLIT INVERTER,20,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16618,1,2,5,MINISPLIT ENCENDIDO APAGADO,90,8,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16618,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,10,0,1,8,Otro tipo de calefactor (especifica),Nuevo
+16619,1,1,4, ,60,12,0,1,30,De gas,Nuevo
+16621,1,1,5,MINISPLIT DE ENCENDIDO APAGADO,30,8,0,1,9,Otro tipo de calefactor (especifica),Nuevo
+16621,1,2,5,MINISPLIT DE ENCENDIDO APAGADO,30,1,0,1,9,Otro tipo de calefactor (especifica),Nuevo
+16622,1,1,5,MINISPLIT,60,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16623,1,1,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+16623,1,3,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+16623,1,2,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+16628,1,1,4, ,6,6,0,1,10,De gas,Nuevo
+16630,1,1,4, ,60,3,0,1,2,De gas,Nuevo
+16631,1,1,5,MINISPILT,20,5,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16632,1,1,5,MINISPLIT DE ENCENDIDO APAGADO,4,6,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16636,1,1,3, ,20,2,0,1,3,Eléctrico de torre,Nuevo
+16640,1,1,5,MINISPLIT INVERTER,20,2,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16641,1,1,4, ,30,1,0,2,20,De gas,Usado
+16647,1,1,2, ,15,8,0,1,1,Eléctrico de resistencia,Nuevo
+16648,1,2,2, ,60,2,0,1,5,Eléctrico de resistencia,Nuevo
+16648,1,1,5,MINISPLIT INVERTER,120,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16659,1,1,4, ,310,12,0,1,10,De gas,Nuevo
+16659,1,2,4, ,3,12,0,1,10,De gas,Nuevo
+16662,1,1,2, ,60,2,0,2,6,Eléctrico de resistencia,Usado
+16663,1,1,5,MINIPLIT,90,12,0,2,3,Otro tipo de calefactor (especifica),Usado
+16663,1,2,3, ,90,6,0,1,1,Eléctrico de torre,Nuevo
+16678,1,2,2, ,30,3,0,2,15,Eléctrico de resistencia,Usado
+16678,1,1,2, ,30,3,0,2,15,Eléctrico de resistencia,Usado
+16684,1,1,4, ,90,14,0,2,9,De gas,Usado
+16685,1,2,5,MINISPLIT ENCENDIDO APAGADO,10,8,0,2,1,Otro tipo de calefactor (especifica),Usado
+16685,1,1,5,MINISPLIT ENCENDIDO APAGADO,3,5,0,2,1,Otro tipo de calefactor (especifica),Usado
+16686,1,1,5,MINISPLIT ENCENDIDO APAGADO,60,2,0,2,5,Otro tipo de calefactor (especifica),Usado
+16688,1,1,4, ,8,2,0,1,5,De gas,Nuevo
+16690,1,1,4, ,15,5,0,1,3,De gas,Nuevo
+16692,1,1,4, ,5,0,30,1,20,De gas,Nuevo
+16694,1,1,4, ,60,3,0,1,1,De gas,Nuevo
+16697,1,1,1, ,3,1,0,1,5,Eléctrico con aceite térmico,Nuevo
+16699,1,1,5,MINISPLIT INVERTER,30,5,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16706,1,1,4, ,30,3,0,2,12,De gas,Usado
+16710,1,1,4, ,20,1,30,1,3,De gas,Nuevo
+16722,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,2,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16722,1,2,5,MINISPLIT ENCENDIDO APAGADO,90,2,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16723,1,1,5,CLIMA DE VENTANA,60,4,0,1,12,Otro tipo de calefactor (especifica),Nuevo
+16725,1,1,5,MINISPLIT INVERTER,90,2,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16732,1,1,5,MINISPLIT ENCENDIDO APAGADO,90,1,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16743,1,1,1, ,120,8,0,1,1,Eléctrico con aceite térmico,Nuevo
+16748,1,1,4, ,20,6,0,1,1,De gas,Nuevo
+16753,1,1,2, ,30,5,0,1,2,Eléctrico de resistencia,Nuevo
+16753,1,2,2, ,30,3,0,2,1,Eléctrico de resistencia,Usado
+16757,1,1,2, ,120,5,0,1,8,Eléctrico de resistencia,Nuevo
+16758,1,1,2, ,60,1,30,2,1,Eléctrico de resistencia,Usado
+16759,1,1,5,MINISPLIT INVERTER,60,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16767,1,1,5,MINISPLIT ENCENDIDO APAGADO,60,5,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16767,1,2,5,MINISPLIT ENCENDIDO APAGADO,60,8,0,2,5,Otro tipo de calefactor (especifica),Usado
+16768,1,1,4, ,90,12,0,1,10,De gas,Nuevo
+16770,1,3,5,MINISPLIT ENCENDICO APAGADO,90,6,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16770,1,2,5,MINISPLIT ENCENDIDO APAGADO,90,6,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16770,1,1,5,MINISPLIT ENCENDICO APAGADO,90,6,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16777,1,1,2, ,3,5,0,2,1,Eléctrico de resistencia,Usado
+16780,1,1,5,MINISPLIT,24,1,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16780,1,2,3, ,10,8,0,1,1,Eléctrico de torre,Nuevo
+16781,1,1,1, ,90,10,0,2,1,Eléctrico con aceite térmico,Usado
+16781,1,2,1, ,90,10,0,1,1,Eléctrico con aceite térmico,Nuevo
+16795,1,1,2, ,30,1,0,2,5,Eléctrico de resistencia,Usado
+16802,1,1,4, ,36,2,0,1,4,De gas,Nuevo
+16818,1,1,1, ,30,24,0,2,1,Eléctrico con aceite térmico,Usado
+16819,1,1,2, ,90,8,0,1,1,Eléctrico de resistencia,Nuevo
+16823,1,1,2, ,20,16,0,2,1,Eléctrico de resistencia,Usado
+16834,1,1,2, ,60,0,30,2,3,Eléctrico de resistencia,Usado
+16841,1,1,5,MINISPLIT,60,24,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16842,1,2,2, ,60,6,0,1,8,Eléctrico de resistencia,Nuevo
+16842,1,1,4, ,30,1,0,1,15,De gas,Nuevo
+16843,1,3,5,MINISPLIT,60,8,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16843,1,2,5,MISMO EQUIPO DE MINISPLIT,60,8,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+16843,1,1,5,SON EL MISMO EQUIPO DE MINISPLIT,60,8,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16847,1,1,4, ,20,7,0,1,20,De gas,Nuevo
+16847,1,2,4, ,30,12,0,1,15,De gas,Nuevo
+16848,1,1,5,MINISPLIT INVERTER,30,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+16849,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,30,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+16849,1,3,5,MINISPLIT  DE ENCENDIDO Y APAGADO,30,4,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16849,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,30,2,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+16855,1,1,2, ,30,2,0,1,10,Eléctrico de resistencia,Nuevo
+16871,1,1,2, ,60,12,0,1,5,Eléctrico de resistencia,Nuevo
+16873,1,1,5,MINISPLIT,60,3,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16881,1,1,2, ,60,5,0,1,2,Eléctrico de resistencia,Nuevo
+16883,1,1,2, ,60,1,0,1,14,Eléctrico de resistencia,Nuevo
+16886,1,1,2, ,15,2,0,2,6,Eléctrico de resistencia,Usado
+16906,1,1,1, ,15,12,0,1,1,Eléctrico con aceite térmico,Nuevo
+16906,1,2,2, ,15,5,0,1,1,Eléctrico de resistencia,Nuevo
+16934,1,1,5,MINISPLIT,60,6,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16941,1,1,2, ,60,2,0,1,3,Eléctrico de resistencia,Nuevo
+16952,1,1,2, ,40,2,0,2,3,Eléctrico de resistencia,Usado
+16957,1,1,3, ,30,3,0,2,2,Eléctrico de torre,Usado
+16969,1,1,5,MINISPLIT ENCENDIDO APAGADO,60,5,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+16976,1,1,5,MINISPLIT,30,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+16979,1,1,2, ,15,3,0,1,2,Eléctrico de resistencia,Nuevo
+16986,1,1,5,MINISPLIT,30,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+17030,1,1,3, ,20,8,0,1,4,Eléctrico de torre,Nuevo
+17096,1,1,2, ,156,0,30,1,1,Eléctrico de resistencia,Nuevo
+17348,1,1,2, ,60,8,0,1,17,Eléctrico de resistencia,Nuevo
+17938,1,1,3, ,30,8,0,1,4,Eléctrico de torre,Nuevo
+17945,1,1,1, ,8,2,0,1,4,Eléctrico con aceite térmico,Nuevo
+17968,1,1,3, ,90,0,20,1,4,Eléctrico de torre,Nuevo
+18024,1,1,2, ,60,1,0,1,10,Eléctrico de resistencia,Nuevo
+18034,1,1,2, ,10,0,30,2,3,Eléctrico de resistencia,Usado
+18040,1,1,1, ,30,3,0,1,1,Eléctrico con aceite térmico,Nuevo
+18041,1,2,1, ,20,2,0,2,7,Eléctrico con aceite térmico,Usado
+18041,1,1,1, ,20,3,0,1,21,Eléctrico con aceite térmico,Nuevo
+18130,1,1,2, ,30,3,0,1,3,Eléctrico de resistencia,Nuevo
+18130,1,2,2, ,30,3,0,1,1,Eléctrico de resistencia,Nuevo
+18157,1,1,1, ,60,3,0,1,2,Eléctrico con aceite térmico,Nuevo
+18168,1,1,4, ,30,1,0,1,5,De gas,Nuevo
+18470,1,1,3, ,20,2,0,1,1,Eléctrico de torre,Nuevo
+18519,1,1,3, ,30,12,0,1,1,Eléctrico de torre,Nuevo
+18647,1,1,2, ,3,2,0,1,1,Eléctrico de resistencia,Nuevo
+18648,1,1,2, ,15,2,0,1,2,Eléctrico de resistencia,Nuevo
+18658,1,1,2, ,90,5,0,1,1,Eléctrico de resistencia,Nuevo
+18699,1,1,2, ,20,0,30,1,2,Eléctrico de resistencia,Nuevo
+18819,1,1,2, ,28,2,0,2,3,Eléctrico de resistencia,Usado
+18847,1,1,2, ,3,1,0,1,15,Eléctrico de resistencia,Nuevo
+18859,1,1,1, ,20,1,0,2,99,Eléctrico con aceite térmico,Usado
+18862,1,1,2, ,15,1,0,1,1,Eléctrico de resistencia,Nuevo
+18899,1,1,3, ,35,8,0,1,3,Eléctrico de torre,Nuevo
+18900,1,1,1, ,20,1,30,1,3,Eléctrico con aceite térmico,Nuevo
+18918,1,1,1, ,40,2,0,1,8,Eléctrico con aceite térmico,Nuevo
+18936,1,1,1, ,8,1,0,1,7,Eléctrico con aceite térmico,Nuevo
+18969,1,1,1, ,30,6,0,1,12,Eléctrico con aceite térmico,Nuevo
+18969,1,2,1, ,30,6,0,1,6,Eléctrico con aceite térmico,Nuevo
+18970,1,1,4, ,30,3,0,1,5,De gas,Nuevo
+18976,1,1,4, ,12,6,0,1,15,De gas,Nuevo
+18987,1,2,4, ,30,8,0,1,1,De gas,Nuevo
+18987,1,1,4, ,30,8,0,1,1,De gas,Nuevo
+18988,1,1,1, ,15,4,0,1,11,Eléctrico con aceite térmico,Nuevo
+19003,1,1,1, ,30,4,0,1,2,Eléctrico con aceite térmico,Nuevo
+19030,1,1,3, ,24,0,10,2,1,Eléctrico de torre,Usado
+19040,1,1,1, ,30,3,0,1,7,Eléctrico con aceite térmico,Nuevo
+19104,1,1,4, ,30,2,0,1,5,De gas,Nuevo
+19117,1,1,3, ,120,8,0,1,5,Eléctrico de torre,Nuevo
+19117,1,2,3, ,120,8,0,1,5,Eléctrico de torre,Nuevo
+19135,1,1,2, ,50,8,0,1,3,Eléctrico de resistencia,Nuevo
+19162,1,1,2, ,7,2,0,1,40,Eléctrico de resistencia,Nuevo
+19180,1,1,5,MINISPLIT EN MODO CALEFACCION,10,2,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+19184,1,1,5,AIRE ACONDICIONADO Y CALEFACCION,20,0,30,1,1,Otro tipo de calefactor (especifica),Nuevo
+19187,1,1,4, ,5,2,0,1,20,De gas,Nuevo
+19215,1,1,1, ,60,1,0,1,3,Eléctrico con aceite térmico,Nuevo
+19220,1,1,2, ,5,2,0,1,2,Eléctrico de resistencia,Nuevo
+19222,1,1,2, ,60,3,0,1,8,Eléctrico de resistencia,Nuevo
+19229,1,1,2, ,20,1,0,1,7,Eléctrico de resistencia,Nuevo
+19231,1,1,1, ,60,7,0,1,6,Eléctrico con aceite térmico,Nuevo
+19233,1,2,5,MINISPLIT,30,3,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+19233,1,1,5,MINISPLIT,30,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+19237,1,1,1, ,60,9,0,1,12,Eléctrico con aceite térmico,Nuevo
+19244,1,1,5,DE CERAMICA,90,12,0,1,7,Otro tipo de calefactor (especifica),Nuevo
+19246,1,1,2, ,15,5,0,1,1,Eléctrico de resistencia,Nuevo
+19258,1,1,2, ,10,2,0,1,2,Eléctrico de resistencia,Nuevo
+19263,1,1,1, ,4,2,0,1,10,Eléctrico con aceite térmico,Nuevo
+19271,1,1,3, ,4,0,15,1,1,Eléctrico de torre,Nuevo
+19272,1,1,1, ,8,3,0,1,25,Eléctrico con aceite térmico,Nuevo
+19272,1,2,1, ,8,3,0,1,25,Eléctrico con aceite térmico,Nuevo
+19280,1,1,4, ,90,2,0,1,1,De gas,Nuevo
+19286,1,1,2, ,20,2,0,1,25,Eléctrico de resistencia,Nuevo
+19341,1,1,1, ,60,2,0,1,7,Eléctrico con aceite térmico,Nuevo
+19367,1,1,2, ,15,1,0,1,10,Eléctrico de resistencia,Nuevo
+19368,1,1,2, ,60,5,0,1,8,Eléctrico de resistencia,Nuevo
+19401,1,1,2, ,2,0,30,1,1,Eléctrico de resistencia,Nuevo
+19427,1,1,2, ,45,1,0,1,1,Eléctrico de resistencia,Nuevo
+19441,1,1,1, ,60,6,0,1,3,Eléctrico con aceite térmico,Nuevo
+19483,1,1,3, ,90,2,0,1,8,Eléctrico de torre,Nuevo
+19549,1,2,2, ,30,3,0,1,2,Eléctrico de resistencia,Nuevo
+19549,1,1,2, ,30,3,0,1,2,Eléctrico de resistencia,Nuevo
+19588,1,1,1, ,30,8,0,2,5,Eléctrico con aceite térmico,Usado
+20687,1,1,2, ,30,8,0,1,6,Eléctrico de resistencia,Nuevo
+20713,1,1,4, ,3,0,30,1,5,De gas,Nuevo
+20735,1,1,4, ,20,2,0,1,2,De gas,Nuevo
+20770,1,1,2, ,36,0,30,1,1,Eléctrico de resistencia,Nuevo
+20783,1,1,1, ,14,7,0,2,99,Eléctrico con aceite térmico,Usado
+20796,1,2,4, ,20,3,0,1,2,De gas,Nuevo
+20796,1,1,3, ,20,3,0,1,1,Eléctrico de torre,Nuevo
+20797,1,1,2, ,24,2,0,1,1,Eléctrico de resistencia,Nuevo
+20797,1,2,2, ,12,1,0,1,1,Eléctrico de resistencia,Nuevo
+20804,1,1,4, ,2,3,0,1,5,De gas,Nuevo
+20806,1,1,1, ,30,2,0,1,10,Eléctrico con aceite térmico,Nuevo
+20807,1,1,3, ,60,0,15,1,4,Eléctrico de torre,Nuevo
+20807,1,3,4, ,60,1,0,1,2,De gas,Nuevo
+20807,1,2,4, ,60,1,0,1,3,De gas,Nuevo
+20809,1,1,4, ,10,2,0,1,5,De gas,Nuevo
+20818,1,1,2, ,5,99,99,1,1,Eléctrico de resistencia,Nuevo
+20842,1,1,1, ,50,24,0,1,15,Eléctrico con aceite térmico,Nuevo
+20843,1,1,3, ,30,0,20,1,15,Eléctrico de torre,Nuevo
+20862,1,1,2, ,25,3,0,1,8,Eléctrico de resistencia,Nuevo
+20867,1,1,1, ,10,5,0,1,15,Eléctrico con aceite térmico,Nuevo
+20868,1,1,1, ,30,6,0,1,3,Eléctrico con aceite térmico,Nuevo
+20870,1,1,2, ,15,2,0,2,1,Eléctrico de resistencia,Usado
+20902,1,1,3, ,5,8,0,1,4,Eléctrico de torre,Nuevo
+20904,1,1,3, ,30,2,0,1,1,Eléctrico de torre,Nuevo
+20920,1,1,2, ,30,0,30,2,99,Eléctrico de resistencia,Usado
+20926,1,1,2, ,20,8,0,2,5,Eléctrico de resistencia,Usado
+20932,1,1,2, ,10,1,0,1,10,Eléctrico de resistencia,Nuevo
+20935,1,1,1, ,30,7,0,1,5,Eléctrico con aceite térmico,Nuevo
+20941,1,1,2, ,15,6,0,1,1,Eléctrico de resistencia,Nuevo
+20942,1,1,2, ,15,1,0,1,1,Eléctrico de resistencia,Nuevo
+20960,1,1,2, ,30,1,0,1,2,Eléctrico de resistencia,Nuevo
+20963,1,1,2, ,7,1,0,2,2,Eléctrico de resistencia,Usado
+20977,1,1,2, ,14,7,0,1,1,Eléctrico de resistencia,Nuevo
+20981,1,1,1, ,45,2,0,1,1,Eléctrico con aceite térmico,Nuevo
+20981,1,2,3, ,45,2,0,1,3,Eléctrico de torre,Nuevo
+20984,1,1,1, ,5,4,0,1,2,Eléctrico con aceite térmico,Nuevo
+20988,1,2,2, ,5,2,0,1,10,Eléctrico de resistencia,Nuevo
+20988,1,1,2, ,5,2,0,1,8,Eléctrico de resistencia,Nuevo
+21018,1,1,2, ,30,6,0,2,15,Eléctrico de resistencia,Usado
+21029,1,1,4, ,20,2,0,1,2,De gas,Nuevo
+21059,1,2,2, ,60,6,0,1,1,Eléctrico de resistencia,Nuevo
+21059,1,1,2, ,60,6,0,1,1,Eléctrico de resistencia,Nuevo
+21087,1,1,2, ,40,6,0,1,4,Eléctrico de resistencia,Nuevo
+21128,1,1,3, ,90,2,0,1,3,Eléctrico de torre,Nuevo
+21143,1,1,2, ,15,1,0,1,1,Eléctrico de resistencia,Nuevo
+21143,1,2,2, ,15,1,0,1,1,Eléctrico de resistencia,Nuevo
+21157,1,1,2, ,14,8,0,1,1,Eléctrico de resistencia,Nuevo
+21189,1,1,5,MINIESPLIT,40,8,0,2,2,Otro tipo de calefactor (especifica),Usado
+21197,1,1,3, ,20,5,0,1,1,Eléctrico de torre,Nuevo
+21216,1,1,2, ,16,1,0,1,1,Eléctrico de resistencia,Nuevo
+21251,1,1,2, ,60,2,0,1,3,Eléctrico de resistencia,Nuevo
+21262,1,1,3, ,40,3,0,1,1,Eléctrico de torre,Nuevo
+21268,1,1,2, ,8,0,30,2,6,Eléctrico de resistencia,Usado
+21293,1,1,2, ,3,0,3,1,1,Eléctrico de resistencia,Nuevo
+21294,1,1,5,CALEFACTOR TIPO VENTILADOR PARECIDO AL DE TORRE,1,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+21299,1,1,2, ,30,8,0,1,1,Eléctrico de resistencia,Nuevo
+21339,1,1,2, ,30,2,0,1,4,Eléctrico de resistencia,Nuevo
+21349,1,1,4, ,60,1,30,1,1,De gas,Nuevo
+21384,1,1,3, ,30,3,0,1,5,Eléctrico de torre,Nuevo
+21386,1,2,2, ,5,2,0,1,3,Eléctrico de resistencia,Nuevo
+21386,1,1,3, ,10,1,0,1,6,Eléctrico de torre,Nuevo
+21429,1,1,2, ,30,12,0,2,1,Eléctrico de resistencia,Usado
+22386,1,1,2, ,60,3,0,1,8,Eléctrico de resistencia,Nuevo
+22637,1,1,3, ,30,1,0,1,1,Eléctrico de torre,Nuevo
+22638,1,1,1, ,60,10,0,1,3,Eléctrico con aceite térmico,Nuevo
+22648,1,1,2, ,5,0,5,1,1,Eléctrico de resistencia,Nuevo
+22685,1,1,2, ,60,1,0,1,1,Eléctrico de resistencia,Nuevo
+22689,1,1,3, ,90,7,0,2,4,Eléctrico de torre,Usado
+22774,1,1,2, ,30,3,0,1,7,Eléctrico de resistencia,Nuevo
+22799,1,1,2, ,8,3,0,1,1,Eléctrico de resistencia,Nuevo
+22833,1,1,1, ,4,0,15,1,15,Eléctrico con aceite térmico,Nuevo
+22841,1,1,3, ,10,6,0,1,5,Eléctrico de torre,Nuevo
+22841,1,2,3, ,10,1,0,1,3,Eléctrico de torre,Nuevo
+22866,1,1,2, ,4,2,0,2,3,Eléctrico de resistencia,Usado
+22876,1,1,2, ,60,1,0,1,7,Eléctrico de resistencia,Nuevo
+22890,1,2,2, ,30,24,0,1,1,Eléctrico de resistencia,Nuevo
+22890,1,1,1, ,3,8,0,1,6,Eléctrico con aceite térmico,Nuevo
+22898,1,1,2, ,40,3,0,1,4,Eléctrico de resistencia,Nuevo
+22901,1,1,1, ,7,8,0,1,6,Eléctrico con aceite térmico,Nuevo
+22965,1,1,1, ,30,3,0,1,8,Eléctrico con aceite térmico,Nuevo
+22970,1,1,2, ,15,3,0,1,1,Eléctrico de resistencia,Nuevo
+22988,1,1,4, ,90,8,0,1,3,De gas,Nuevo
+22990,1,2,4, ,90,5,0,1,4,De gas,Nuevo
+22990,1,1,4, ,90,6,0,1,3,De gas,Nuevo
+22992,1,2,5,MINISPLIT,20,1,40,1,2,Otro tipo de calefactor (especifica),Nuevo
+22992,1,1,4, ,180,8,0,1,5,De gas,Nuevo
+22995,1,1,4, ,32,5,0,1,3,De gas,Nuevo
+22997,1,1,2, ,90,1,0,1,1,Eléctrico de resistencia,Nuevo
+23005,1,1,4, ,90,1,0,2,5,De gas,Usado
+23007,1,1,4, ,90,4,0,1,2,De gas,Nuevo
+23012,1,2,4, ,160,5,0,1,5,De gas,Nuevo
+23012,1,1,4, ,160,5,0,1,5,De gas,Nuevo
+23012,1,3,4, ,160,5,0,1,5,De gas,Nuevo
+23014,1,1,2, ,75,0,30,1,1,Eléctrico de resistencia,Nuevo
+23016,1,1,4, ,35,0,40,1,2,De gas,Nuevo
+23017,1,1,4, ,15,1,0,1,1,De gas,Nuevo
+23018,1,1,2, ,30,3,0,1,3,Eléctrico de resistencia,Nuevo
+23021,1,2,2, ,30,1,30,1,3,Eléctrico de resistencia,Nuevo
+23021,1,1,4, ,30,6,0,1,4,De gas,Nuevo
+23022,1,1,2, ,60,6,0,1,1,Eléctrico de resistencia,Nuevo
+23024,1,2,4, ,90,10,0,1,4,De gas,Nuevo
+23024,1,1,4, ,90,10,0,1,7,De gas,Nuevo
+23025,1,1,2, ,60,2,0,1,2,Eléctrico de resistencia,Nuevo
+23027,1,2,4, ,60,4,0,1,8,De gas,Nuevo
+23027,1,1,4, ,60,4,0,1,8,De gas,Nuevo
+23030,1,1,4, ,90,10,0,1,99,De gas,Nuevo
+23033,1,1,2, ,250,0,15,1,3,Eléctrico de resistencia,Nuevo
+23038,1,1,4, ,62,1,0,1,5,De gas,Nuevo
+23039,1,1,2, ,90,4,0,1,1,Eléctrico de resistencia,Nuevo
+23039,1,2,2, ,20,2,0,1,1,Eléctrico de resistencia,Nuevo
+23041,1,1,2, ,120,12,0,1,3,Eléctrico de resistencia,Nuevo
+23045,1,1,1, ,90,3,0,1,1,Eléctrico con aceite térmico,Nuevo
+23053,1,1,2, ,60,5,0,1,3,Eléctrico de resistencia,Nuevo
+23055,1,1,2, ,60,2,0,1,1,Eléctrico de resistencia,Nuevo
+23093,1,1,4, ,150,24,0,1,2,De gas,Nuevo
+23093,1,2,2, ,60,4,0,1,2,Eléctrico de resistencia,Nuevo
+23094,1,1,4, ,40,1,0,1,20,De gas,Nuevo
+23099,1,3,4, ,120,8,0,1,3,De gas,Nuevo
+23099,1,2,4, ,120,8,0,1,3,De gas,Nuevo
+23099,1,1,4, ,120,8,0,1,2,De gas,Nuevo
+23102,1,1,4, ,15,4,0,2,2,De gas,Usado
+23106,1,1,4, ,60,12,0,1,3,De gas,Nuevo
+23108,1,1,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+23109,1,1,4, ,54,4,0,1,2,De gas,Nuevo
+23111,1,1,4, ,7,2,0,1,7,De gas,Nuevo
+23112,1,1,4, ,5,6,0,1,4,De gas,Nuevo
+23115,1,1,2, ,2,7,0,1,2,Eléctrico de resistencia,Nuevo
+23115,1,3,2, ,15,4,0,1,2,Eléctrico de resistencia,Nuevo
+23115,1,2,2, ,2,7,0,1,4,Eléctrico de resistencia,Nuevo
+23124,1,2,5,MINISPLIT,59,7,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+23124,1,1,2, ,4,4,0,2,1,Eléctrico de resistencia,Usado
+23132,1,1,2, ,6,6,0,1,5,Eléctrico de resistencia,Nuevo
+23151,1,1,2, ,30,8,0,1,1,Eléctrico de resistencia,Nuevo
+23159,1,1,3, ,60,11,0,2,1,Eléctrico de torre,Usado
+23161,1,1,2, ,10,2,0,1,99,Eléctrico de resistencia,Nuevo
+23166,1,1,4, ,180,12,0,1,10,De gas,Nuevo
+23166,1,2,4, ,120,1,0,1,3,De gas,Nuevo
+23170,1,1,2, ,120,0,15,1,1,Eléctrico de resistencia,Nuevo
+23174,1,1,5,DE LEÑA,180,24,0,2,25,Otro tipo de calefactor (especifica),Usado
+23176,1,1,2, ,90,1,30,1,4,Eléctrico de resistencia,Nuevo
+23178,1,2,4, ,240,8,0,1,3,De gas,Nuevo
+23178,1,1,4, ,240,5,0,1,3,De gas,Nuevo
+23178,1,3,4, ,240,6,0,1,3,De gas,Nuevo
+23180,1,1,4, ,180,1,0,1,5,De gas,Nuevo
+23180,1,2,4, ,150,3,0,1,5,De gas,Nuevo
+23184,1,1,1, ,2,0,10,2,10,Eléctrico con aceite térmico,Usado
+23192,1,1,3, ,15,1,0,2,1,Eléctrico de torre,Usado
+23206,1,1,2, ,8,4,0,1,12,Eléctrico de resistencia,Nuevo
+23222,1,1,2, ,60,5,0,1,5,Eléctrico de resistencia,Nuevo
+23222,1,2,2, ,60,7,0,1,5,Eléctrico de resistencia,Nuevo
+23224,1,1,4, ,5,1,0,1,2,De gas,Nuevo
+23229,1,1,2, ,90,8,0,1,2,Eléctrico de resistencia,Nuevo
+23234,1,1,2, ,2,0,25,1,1,Eléctrico de resistencia,Nuevo
+23240,1,1,2, ,90,6,0,1,4,Eléctrico de resistencia,Nuevo
+23276,1,1,4, ,90,12,0,1,4,De gas,Nuevo
+23278,1,1,4, ,60,3,0,1,8,De gas,Nuevo
+23278,1,2,3, ,60,2,0,1,1,Eléctrico de torre,Nuevo
+23279,1,1,4, ,15,2,0,1,4,De gas,Nuevo
+23282,1,1,2, ,150,20,0,1,2,Eléctrico de resistencia,Nuevo
+23285,1,1,5,DE LEÑA,120,8,0,2,8,Otro tipo de calefactor (especifica),Usado
+23286,1,1,4, ,45,0,30,1,4,De gas,Nuevo
+23291,1,1,4, ,90,2,0,1,2,De gas,Nuevo
+23297,1,1,2, ,30,8,0,1,1,Eléctrico de resistencia,Nuevo
+23315,1,1,5,ESTUFA DE LEÑA,180,3,0,2,2,Otro tipo de calefactor (especifica),Usado
+23319,1,1,5,ESTUFA DEE LEÑA,120,24,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+23321,1,1,5,ESTUFA DE LEÑA,180,15,0,1,16,Otro tipo de calefactor (especifica),Nuevo
+23323,1,1,5,ESTUFA DE LEÑA,210,14,0,2,12,Otro tipo de calefactor (especifica),Usado
+23325,1,1,5,COMO UN ABANICO D ASPS PRO NO A VUEKTAS ELECTRICO,2,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+23348,1,1,2, ,30,12,0,1,6,Eléctrico de resistencia,Nuevo
+23372,1,1,2, ,2,8,0,2,1,Eléctrico de resistencia,Usado
+23375,1,1,3, ,120,6,0,1,2,Eléctrico de torre,Nuevo
+23386,1,1,4, ,60,8,0,1,1,De gas,Nuevo
+23418,1,1,2, ,30,3,0,1,3,Eléctrico de resistencia,Nuevo
+23453,1,1,2, ,95,2,0,1,15,Eléctrico de resistencia,Nuevo
+24502,1,2,5,MINISPLIT,30,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24502,1,3,5,MINISPLIT,30,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+24502,1,1,5,MINISPLIT,30,3,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+24507,1,1,3, ,30,24,0,1,1,Eléctrico de torre,Nuevo
+24525,1,1,5,MINI SPLIT,15,8,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+24535,1,1,2, ,2,5,0,1,1,Eléctrico de resistencia,Nuevo
+24539,1,1,5,UTILIZAN EL MINISPLIT,999,3,0,1,99,Otro tipo de calefactor (especifica),Nuevo
+24543,1,2,2, ,60,1,0,1,4,Eléctrico de resistencia,Nuevo
+24543,1,1,5,MINISPLIT,14,6,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24547,1,3,5,UTILIZA EL DEL MINIPLIT INVERTER,20,3,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24547,1,2,5,UTILIZA EL DEL MINISPLIT INVERTER,20,3,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24547,1,1,5,UTILIZA EL DEL MINISPLIT INVERTER,20,3,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24548,1,1,3, ,15,7,0,1,99,Eléctrico de torre,Nuevo
+24549,1,1,5,MINISPLIT,60,8,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24549,1,2,5,MINISPLIT,60,8,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24549,1,3,5,MINISPLIT,60,8,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24550,1,1,5,UTILIZA EL DE MINISPLIT,10,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24550,1,5,5,UTILIZA EL DE MINISPLIT,10,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24550,1,2,5,UTILIZA EL DE MINISPLIT,10,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24550,1,3,5,UTILIZA EL DE MINISPLIT,10,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24550,1,4,5,UTILIZA EL DE MINISPLIT,10,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24555,1,1,1, ,15,99,99,2,2,Eléctrico con aceite térmico,Usado
+24559,1,1,2, ,10,0,20,2,3,Eléctrico de resistencia,Usado
+24560,1,1,2, ,15,1,0,1,1,Eléctrico de resistencia,Nuevo
+24563,1,2,3, ,999,2,0,1,3,Eléctrico de torre,Nuevo
+24563,1,1,1, ,999,12,0,1,3,Eléctrico con aceite térmico,Nuevo
+24564,1,1,2, ,30,24,0,2,1,Eléctrico de resistencia,Usado
+24569,1,1,3, ,30,6,0,1,3,Eléctrico de torre,Nuevo
+24571,1,2,2, ,30,6,0,2,4,Eléctrico de resistencia,Usado
+24571,1,1,2, ,30,6,0,1,3,Eléctrico de resistencia,Nuevo
+24573,1,1,5,MINISPLIT,30,2,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+24575,1,1,2, ,7,2,0,2,1,Eléctrico de resistencia,Usado
+24576,1,2,1, ,90,12,0,1,3,Eléctrico con aceite térmico,Nuevo
+24576,1,1,1, ,90,12,0,1,3,Eléctrico con aceite térmico,Nuevo
+24580,1,1,2, ,30,5,0,1,2,Eléctrico de resistencia,Nuevo
+24581,1,1,1, ,15,18,0,1,1,Eléctrico con aceite térmico,Nuevo
+24583,1,1,4, ,10,2,0,1,3,De gas,Nuevo
+24587,1,1,5,MINISPLIT,90,4,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24590,1,1,2, ,25,10,0,1,1,Eléctrico de resistencia,Nuevo
+24593,1,1,3, ,30,0,5,1,1,Eléctrico de torre,Nuevo
+24595,1,1,2, ,60,4,0,2,2,Eléctrico de resistencia,Usado
+24596,1,1,3, ,30,8,0,1,2,Eléctrico de torre,Nuevo
+24598,1,1,2, ,3,2,0,1,3,Eléctrico de resistencia,Nuevo
+24602,1,1,5,MINISPLIT,5,5,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+24604,1,1,2, ,4,2,0,1,1,Eléctrico de resistencia,Nuevo
+24612,1,1,2, ,15,3,0,1,1,Eléctrico de resistencia,Nuevo
+24612,1,2,2, ,15,4,0,1,1,Eléctrico de resistencia,Nuevo
+24613,1,1,2, ,10,4,0,1,1,Eléctrico de resistencia,Nuevo
+24616,1,1,3, ,90,6,0,1,3,Eléctrico de torre,Nuevo
+24618,1,1,1, ,10,3,0,1,2,Eléctrico con aceite térmico,Nuevo
+24619,1,2,2, ,8,0,30,1,7,Eléctrico de resistencia,Nuevo
+24619,1,1,5,UTILIZO EL DE MINISPLIT,999,8,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24621,1,1,5,USA EL DE MINISPLIT,90,10,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+24627,1,1,2, ,4,2,0,1,1,Eléctrico de resistencia,Nuevo
+24628,1,1,2, ,50,3,30,1,3,Eléctrico de resistencia,Nuevo
+24629,1,1,5,MINISPLIT,30,22,0,1,99,Otro tipo de calefactor (especifica),Nuevo
+24630,1,1,2, ,40,10,0,1,1,Eléctrico de resistencia,Nuevo
+24632,1,1,1, ,30,24,0,1,1,Eléctrico con aceite térmico,Nuevo
+24634,1,1,2, ,60,8,0,1,7,Eléctrico de resistencia,Nuevo
+24635,1,1,2, ,60,6,0,2,3,Eléctrico de resistencia,Usado
+24636,1,1,2, ,45,4,0,1,1,Eléctrico de resistencia,Nuevo
+24638,1,1,5,MINISPLIT,60,24,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24638,1,2,5,MINISPLIT,60,24,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24639,1,1,2, ,3,4,0,1,3,Eléctrico de resistencia,Nuevo
+24639,1,2,2, ,3,4,0,1,3,Eléctrico de resistencia,Nuevo
+24648,1,1,1, ,10,4,0,2,2,Eléctrico con aceite térmico,Usado
+24649,1,1,2, ,30,3,0,1,1,Eléctrico de resistencia,Nuevo
+24650,1,2,2, ,60,4,0,1,2,Eléctrico de resistencia,Nuevo
+24650,1,3,2, ,60,6,0,1,1,Eléctrico de resistencia,Nuevo
+24650,1,1,2, ,60,4,0,1,4,Eléctrico de resistencia,Nuevo
+24652,1,1,2, ,30,5,0,2,2,Eléctrico de resistencia,Usado
+24653,1,1,1, ,999,24,0,2,6,Eléctrico con aceite térmico,Usado
+24662,1,2,2, ,60,12,0,1,2,Eléctrico de resistencia,Nuevo
+24662,1,1,4, ,60,24,0,1,15,De gas,Nuevo
+24662,1,3,2, ,60,12,0,1,2,Eléctrico de resistencia,Nuevo
+24669,1,1,2, ,40,12,0,1,3,Eléctrico de resistencia,Nuevo
+24671,1,1,5,MINISPLIT INVERTER,8,8,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24676,1,1,4, ,60,4,0,1,2,De gas,Nuevo
+24677,1,1,2, ,3,5,0,2,10,Eléctrico de resistencia,Usado
+24678,1,2,2, ,2,4,0,1,2,Eléctrico de resistencia,Nuevo
+24678,1,1,2, ,2,4,0,1,2,Eléctrico de resistencia,Nuevo
+24679,1,1,3, ,10,2,0,1,1,Eléctrico de torre,Nuevo
+24684,1,1,2, ,20,3,0,1,1,Eléctrico de resistencia,Nuevo
+24685,1,1,3, ,30,3,0,1,3,Eléctrico de torre,Nuevo
+24688,1,1,2, ,90,16,0,2,1,Eléctrico de resistencia,Usado
+24689,1,1,3, ,60,8,0,2,4,Eléctrico de torre,Usado
+24690,1,1,2, ,30,12,0,1,1,Eléctrico de resistencia,Nuevo
+24693,1,1,5,DEL CLIMA CENTRAL,30,5,0,1,18,Otro tipo de calefactor (especifica),Nuevo
+24698,1,1,1, ,90,8,0,2,2,Eléctrico con aceite térmico,Usado
+24700,1,1,2, ,20,5,0,1,2,Eléctrico de resistencia,Nuevo
+24701,1,1,5,AIRE CENTRAL,90,8,0,1,13,Otro tipo de calefactor (especifica),Nuevo
+24706,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,15,5,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+24712,1,1,2, ,30,6,0,2,99,Eléctrico de resistencia,Usado
+24715,1,1,2, ,15,8,0,1,10,Eléctrico de resistencia,Nuevo
+24715,1,2,3, ,15,8,0,1,10,Eléctrico de torre,Nuevo
+24716,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,30,5,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+24719,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,30,3,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+24719,1,1,5,MINISPLIT ENCENDIDO Y APAGADO,30,3,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+24722,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,90,16,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24725,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,3,6,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+24726,1,2,2, ,30,4,0,2,1,Eléctrico de resistencia,Usado
+24726,1,1,3, ,3,3,0,1,1,Eléctrico de torre,Nuevo
+24728,1,1,5,EL AIRE DE VENTANA,30,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+24736,1,1,2, ,30,4,0,2,5,Eléctrico de resistencia,Usado
+24738,1,1,2, ,60,6,0,2,3,Eléctrico de resistencia,Usado
+24739,1,1,1, ,60,1,0,1,1,Eléctrico con aceite térmico,Nuevo
+24741,1,1,5,MINISPLIT,90,3,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24746,1,1,1, ,60,10,0,2,1,Eléctrico con aceite térmico,Usado
+24758,1,1,5,MINI SPLIT,60,8,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24759,1,1,4, ,80,2,0,1,5,De gas,Nuevo
+24763,1,3,5,MINISPLIT DE ENCENDIDO Y APAGADO,20,10,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24763,1,2,5,MINISPLIT DE ENCENDIDO Y APAGADO,20,10,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24763,1,1,5,MINISPLIT ENCENDIDO Y APAGADO,20,10,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+24765,1,1,2, ,15,8,0,1,1,Eléctrico de resistencia,Nuevo
+24765,1,2,2, ,15,8,0,1,1,Eléctrico de resistencia,Nuevo
+24769,1,1,5,MINISPLIT,90,24,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24770,1,1,5,MISISPLIT,999,12,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+24772,1,4,3, ,60,24,0,1,4,Eléctrico de torre,Nuevo
+24772,1,1,1, ,60,24,0,1,1,Eléctrico con aceite térmico,Nuevo
+24772,1,3,2, ,60,24,0,1,1,Eléctrico de resistencia,Nuevo
+24772,1,2,1, ,60,24,0,1,1,Eléctrico con aceite térmico,Nuevo
+24773,1,1,5,MINISPLIT,50,4,30,1,1,Otro tipo de calefactor (especifica),Nuevo
+24779,1,1,2, ,3,2,0,1,1,Eléctrico de resistencia,Nuevo
+24785,1,1,3, ,999,24,0,2,1,Eléctrico de torre,Usado
+24797,1,1,1, ,15,5,0,1,3,Eléctrico con aceite térmico,Nuevo
+24811,1,1,5,MINISPLIT,60,12,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+24812,1,1,5,MINISPLIT INVERTER,90,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24814,1,3,5,MINISPLIT,7,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24814,1,2,5,MINISPLIT,7,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24814,1,1,5,MINISPLIT,7,6,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24815,1,1,2, ,60,4,0,1,2,Eléctrico de resistencia,Nuevo
+24819,1,1,2, ,30,8,0,1,4,Eléctrico de resistencia,Nuevo
+24820,1,1,2, ,5,2,0,1,1,Eléctrico de resistencia,Nuevo
+24824,1,1,2, ,4,5,0,1,3,Eléctrico de resistencia,Nuevo
+24827,1,1,5,MINISPLIT,60,8,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+24827,1,2,5,MINISPLIT,60,8,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+24850,1,1,1, ,6,24,0,2,1,Eléctrico con aceite térmico,Usado
+24851,1,1,2, ,10,12,0,1,3,Eléctrico de resistencia,Nuevo
+24857,1,1,2, ,30,2,0,1,99,Eléctrico de resistencia,Nuevo
+24858,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,60,8,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+24860,1,1,2, ,60,99,99,1,99,Eléctrico de resistencia,Nuevo
+24862,1,1,1, ,6,2,0,1,2,Eléctrico con aceite térmico,Nuevo
+24865,1,1,2, ,15,18,0,1,3,Eléctrico de resistencia,Nuevo
+24867,1,1,1, ,999,3,0,1,2,Eléctrico con aceite térmico,Nuevo
+24867,1,2,1, ,999,3,0,2,2,Eléctrico con aceite térmico,Usado
+24869,1,1,2, ,20,12,0,1,5,Eléctrico de resistencia,Nuevo
+24881,1,1,2, ,25,12,0,1,1,Eléctrico de resistencia,Nuevo
+24882,1,2,5,MINISPLIT,90,3,30,1,5,Otro tipo de calefactor (especifica),Nuevo
+24882,1,1,5,MINISPLIT,90,3,30,1,5,Otro tipo de calefactor (especifica),Nuevo
+24883,1,1,2, ,20,9,0,1,4,Eléctrico de resistencia,Nuevo
+24888,1,1,2, ,30,0,30,1,12,Eléctrico de resistencia,Nuevo
+24889,1,1,5,USA EL DE MINISPLIT,15,12,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+24893,1,1,2, ,5,10,0,1,2,Eléctrico de resistencia,Nuevo
+24902,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,15,6,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+24906,1,1,5,MINISPLIT,40,1,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+24926,1,1,2, ,36,3,0,1,2,Eléctrico de resistencia,Nuevo
+24945,1,1,5,MINISPLIT,30,24,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+24947,1,1,5,MINISPLIT,30,5,0,1,6,Otro tipo de calefactor (especifica),Nuevo
+24967,1,1,2, ,30,2,30,1,1,Eléctrico de resistencia,Nuevo
+24979,1,1,5,MINISPLIT DE ENCENDIDO Y APAGADO,30,1,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+24993,1,2,2, ,45,16,0,1,2,Eléctrico de resistencia,Nuevo
+24993,1,1,1, ,45,16,0,1,1,Eléctrico con aceite térmico,Nuevo
+24998,1,1,1, ,10,8,0,1,7,Eléctrico con aceite térmico,Nuevo
+24998,1,2,2, ,10,8,0,1,3,Eléctrico de resistencia,Nuevo
+25021,1,1,2, ,8,6,0,1,2,Eléctrico de resistencia,Nuevo
+25028,1,1,2, ,30,10,0,1,2,Eléctrico de resistencia,Nuevo
+25032,1,1,5,MINISPILIT INVERTER,15,7,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+25033,1,1,3, ,30,6,0,1,4,Eléctrico de torre,Nuevo
+25041,1,1,5,MINISPLIT,10,3,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+25045,1,1,3, ,50,4,0,1,1,Eléctrico de torre,Nuevo
+25054,1,1,5,MINISPLIT,30,4,0,1,4,Otro tipo de calefactor (especifica),Nuevo
+25055,1,3,5,MINI SPLIT,60,1,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+25055,1,2,5,MINI SPLIT,60,2,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+25055,1,1,5,MINI SPLIT,60,2,0,1,3,Otro tipo de calefactor (especifica),Nuevo
+25060,1,1,4, ,10,6,0,1,3,De gas,Nuevo
+25062,1,2,2, ,60,8,0,1,2,Eléctrico de resistencia,Nuevo
+25062,1,1,2, ,60,8,0,1,1,Eléctrico de resistencia,Nuevo
+25079,1,1,2, ,60,7,0,2,5,Eléctrico de resistencia,Usado
+25085,1,1,2, ,30,8,0,2,2,Eléctrico de resistencia,Usado
+25091,1,1,1, ,60,2,0,1,1,Eléctrico con aceite térmico,Nuevo
+25107,1,1,5,MINISPLIT,5,2,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+25121,1,1,2, ,30,10,0,1,1,Eléctrico de resistencia,Nuevo
+25131,1,1,5,MINI SPLIT,30,4,0,1,5,Otro tipo de calefactor (especifica),Nuevo
+25135,1,1,2, ,2,24,0,1,2,Eléctrico de resistencia,Nuevo
+25136,1,1,1, ,6,5,0,1,3,Eléctrico con aceite térmico,Nuevo
+25140,1,1,2, ,6,8,0,1,1,Eléctrico de resistencia,Nuevo
+25144,1,1,2, ,75,4,0,2,1,Eléctrico de resistencia,Usado
+25146,1,1,2, ,60,6,0,2,1,Eléctrico de resistencia,Usado
+25147,1,2,2, ,30,24,0,1,1,Eléctrico de resistencia,Nuevo
+25147,1,1,2, ,30,24,0,1,1,Eléctrico de resistencia,Nuevo
+25155,1,1,2, ,5,3,30,2,1,Eléctrico de resistencia,Usado
+25158,1,1,2, ,15,7,0,2,1,Eléctrico de resistencia,Usado
+25159,1,1,2, ,40,5,0,2,3,Eléctrico de resistencia,Usado
+25166,1,1,2, ,30,3,0,2,3,Eléctrico de resistencia,Usado
+25170,1,1,1, ,15,4,0,2,4,Eléctrico con aceite térmico,Usado
+25266,1,1,2, ,30,3,0,1,1,Eléctrico de resistencia,Nuevo
+25285,1,1,2, ,9,12,0,1,6,Eléctrico de resistencia,Nuevo
+25291,1,1,2, ,30,6,0,2,1,Eléctrico de resistencia,Usado
+25303,1,1,2, ,15,2,0,2,1,Eléctrico de resistencia,Usado
+25322,1,1,5,MINI SPLIT,5,3,0,1,2,Otro tipo de calefactor (especifica),Nuevo
+25325,1,1,2, ,15,0,15,2,3,Eléctrico de resistencia,Usado
+25328,1,2,1, ,30,2,0,1,1,Eléctrico con aceite térmico,Nuevo
+25328,1,1,1, ,30,2,0,2,12,Eléctrico con aceite térmico,Usado
+25331,1,1,5,CALEFACTOR DE AIRE FORZADO,1,0,40,2,1,Otro tipo de calefactor (especifica),Usado
+25332,1,1,2, ,30,10,0,2,2,Eléctrico de resistencia,Usado
+25353,1,1,5,CALEFACTOR ELECTRICO NO DE TORRE,15,0,20,1,2,Otro tipo de calefactor (especifica),Nuevo
+25434,1,1,5,CALEFACTOR DE CONVECCION,30,4,0,1,1,Otro tipo de calefactor (especifica),Nuevo
+25598,1,1,1, ,60,5,0,1,4,Eléctrico con aceite térmico,Nuevo
+25618,1,1,3, ,30,1,0,1,6,Eléctrico de torre,Nuevo
+25683,1,1,2, ,45,12,0,1,1,Eléctrico de resistencia,Nuevo
+25683,1,2,2, ,30,1,0,1,3,Eléctrico de resistencia,Nuevo
+25871,1,1,2, ,8,1,30,1,1,Eléctrico de resistencia,Nuevo
+25891,1,1,2, ,90,0,40,1,1,Eléctrico de resistencia,Nuevo
+25892,1,1,1, ,30,2,0,1,1,Eléctrico con aceite térmico,Nuevo
+25892,1,2,2, ,60,3,0,1,1,Eléctrico de resistencia,Nuevo
+25892,1,3,1, ,30,1,0,1,1,Eléctrico con aceite térmico,Nuevo
+25894,1,1,1, ,30,2,0,1,10,Eléctrico con aceite térmico,Nuevo
+25898,1,1,2, ,14,0,30,1,6,Eléctrico de resistencia,Nuevo
+25946,1,1,3, ,20,2,0,1,2,Eléctrico de torre,Nuevo
+25947,1,1,1, ,3,1,0,2,7,Eléctrico con aceite térmico,Usado
+25976,1,1,3, ,30,2,0,2,4,Eléctrico de torre,Usado
+25994,1,1,1, ,30,2,0,1,3,Eléctrico con aceite térmico,Nuevo
+26076,1,2,2, ,30,3,0,1,1,Eléctrico de resistencia,Nuevo
+26076,1,1,2, ,30,3,0,1,8,Eléctrico de resistencia,Nuevo
+26110,1,1,2, ,30,1,0,1,3,Eléctrico de resistencia,Nuevo
+26248,1,1,2, ,4,1,30,1,13,Eléctrico de resistencia,Nuevo
+26334,1,1,1, ,10,3,0,2,2,Eléctrico con aceite térmico,Usado
+26340,1,1,3, ,30,2,0,1,4,Eléctrico de torre,Nuevo
+26346,1,1,2, ,10,2,0,1,6,Eléctrico de resistencia,Nuevo
+26367,1,1,1, ,30,0,30,1,1,Eléctrico con aceite térmico,Nuevo
+26369,1,1,1, ,15,5,0,1,1,Eléctrico con aceite térmico,Nuevo
+26380,1,1,3, ,40,5,0,1,4,Eléctrico de torre,Nuevo
+26393,1,1,2, ,3,6,0,1,2,Eléctrico de resistencia,Nuevo
+26407,1,1,3, ,10,5,0,1,7,Eléctrico de torre,Nuevo
+26986,1,1,2, ,10,1,0,2,5,Eléctrico de resistencia,Usado
+27199,1,1,9, ,30,6,0,1,3,No sabe,Nuevo
+28048,1,1,3, ,6,2,0,1,7,Eléctrico de torre,Nuevo
+28052,1,1,2, ,6,0,40,1,19,Eléctrico de resistencia,Nuevo
+28078,1,1,2, ,15,3,0,1,5,Eléctrico de resistencia,Nuevo
+28084,1,1,2, ,8,12,0,1,1,Eléctrico de resistencia,Nuevo
+28095,1,1,2, ,5,3,0,1,3,Eléctrico de resistencia,Nuevo
+28110,1,1,2, ,60,8,0,1,2,Eléctrico de resistencia,Nuevo
+28111,1,1,4, ,60,3,0,1,15,De gas,Nuevo
+28121,1,1,3, ,10,2,0,2,1,Eléctrico de torre,Usado
+28123,1,1,2, ,4,2,0,1,99,Eléctrico de resistencia,Nuevo
+28125,1,1,2, ,20,1,0,1,1,Eléctrico de resistencia,Nuevo
+28134,1,1,3, ,1,3,0,2,99,Eléctrico de torre,Usado
+28148,1,1,2, ,30,2,0,2,3,Eléctrico de resistencia,Usado
+28153,1,1,3, ,30,1,0,1,1,Eléctrico de torre,Nuevo
+28156,1,1,1, ,6,4,0,1,10,Eléctrico con aceite térmico,Nuevo
+28157,1,1,4, ,2,20,0,1,6,De gas,Nuevo
+28165,1,1,4, ,10,2,0,1,10,De gas,Nuevo
+28172,1,1,4, ,60,3,0,1,3,De gas,Nuevo
+28172,1,2,4, ,60,3,0,1,3,De gas,Nuevo
+28173,1,1,4, ,45,3,0,1,30,De gas,Nuevo
+28174,1,1,1, ,20,5,0,2,5,Eléctrico con aceite térmico,Usado
+28179,1,1,2, ,5,2,0,1,1,Eléctrico de resistencia,Nuevo
+28188,1,1,1, ,15,1,0,1,12,Eléctrico con aceite térmico,Nuevo
+28190,1,1,2, ,30,1,0,1,4,Eléctrico de resistencia,Nuevo
+28198,1,1,3, ,60,2,0,1,1,Eléctrico de torre,Nuevo
+28200,1,1,4, ,999,1,0,1,4,De gas,Nuevo
+28233,1,1,2, ,60,3,0,2,99,Eléctrico de resistencia,Usado
+28236,1,1,1, ,10,4,0,1,15,Eléctrico con aceite térmico,Nuevo
+28238,1,1,2, ,15,2,0,2,5,Eléctrico de resistencia,Usado
+28243,1,1,4, ,60,0,30,1,2,De gas,Nuevo
+28245,1,1,3, ,60,2,0,1,4,Eléctrico de torre,Nuevo
+28246,1,1,3, ,6,1,0,1,5,Eléctrico de torre,Nuevo
+28259,1,1,1, ,6,4,0,1,2,Eléctrico con aceite térmico,Nuevo
+28311,1,1,2, ,90,0,30,2,2,Eléctrico de resistencia,Usado
+28318,1,1,2, ,60,2,0,2,10,Eléctrico de resistencia,Usado
+28326,1,1,2, ,20,6,0,1,3,Eléctrico de resistencia,Nuevo
+28348,1,1,2, ,40,3,0,2,3,Eléctrico de resistencia,Usado
+28357,1,1,3, ,15,3,0,1,1,Eléctrico de torre,Nuevo
+28362,1,1,1, ,3,1,0,1,1,Eléctrico con aceite térmico,Nuevo
+28368,1,1,1, ,1,6,0,1,1,Eléctrico con aceite térmico,Nuevo
+28378,1,1,1, ,20,2,0,1,5,Eléctrico con aceite térmico,Nuevo
+28410,1,1,2, ,30,4,0,1,1,Eléctrico de resistencia,Nuevo
+28414,1,1,4, ,60,3,0,1,9,De gas,Nuevo
+28427,1,1,3, ,7,0,20,2,8,Eléctrico de torre,Usado
+28433,1,1,2, ,60,2,30,1,2,Eléctrico de resistencia,Nuevo
+28434,1,1,2, ,30,2,0,1,3,Eléctrico de resistencia,Nuevo
+28457,1,1,2, ,7,0,30,1,2,Eléctrico de resistencia,Nuevo
+28480,1,1,2, ,4,6,0,1,7,Eléctrico de resistencia,Nuevo
+28514,1,3,2, ,30,1,0,1,7,Eléctrico de resistencia,Nuevo
+28514,1,2,3, ,30,2,0,1,6,Eléctrico de torre,Nuevo
+28514,1,1,2, ,30,2,0,1,1,Eléctrico de resistencia,Nuevo
+28541,1,2,3, ,30,2,0,1,1,Eléctrico de torre,Nuevo
+28541,1,1,1, ,30,1,30,1,4,Eléctrico con aceite térmico,Nuevo
+28542,1,1,2, ,60,2,0,2,10,Eléctrico de resistencia,Usado
+28558,1,1,1, ,120,1,30,2,15,Eléctrico con aceite térmico,Usado
+28570,1,1,1, ,5,2,0,1,14,Eléctrico con aceite térmico,Nuevo
+28599,1,1,2, ,1,12,0,1,1,Eléctrico de resistencia,Nuevo
+28606,1,1,1, ,15,2,0,2,4,Eléctrico con aceite térmico,Usado
+28608,1,1,2, ,10,3,0,1,15,Eléctrico de resistencia,Nuevo
+28610,1,1,2, ,30,0,15,2,10,Eléctrico de resistencia,Usado
+28616,1,1,4, ,100,2,0,1,4,De gas,Nuevo
+28630,1,1,3, ,30,6,0,1,1,Eléctrico de torre,Nuevo
+28677,1,1,2, ,2,2,0,2,99,Eléctrico de resistencia,Usado
+28715,1,1,2, ,999,2,0,1,2,Eléctrico de resistencia,Nuevo
+28738,1,1,1, ,60,0,20,1,8,Eléctrico con aceite térmico,Nuevo
+28777,1,1,1, ,2,5,0,2,3,Eléctrico con aceite térmico,Usado
+28803,1,1,2, ,2,10,0,1,2,Eléctrico de resistencia,Nuevo
+28808,1,1,2, ,15,8,0,2,99,Eléctrico de resistencia,Usado
+28830,1,1,2, ,15,8,0,2,99,Eléctrico de resistencia,Usado
+28850,1,1,1, ,10,1,0,1,7,Eléctrico con aceite térmico,Nuevo
+28870,1,1,1, ,1,1,0,2,6,Eléctrico con aceite térmico,Usado
+28901,1,1,2, ,7,4,0,1,10,Eléctrico de resistencia,Nuevo
