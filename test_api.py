@@ -2,7 +2,7 @@ import requests
 import json
 
 # La URL de tu API
-url = "https://myvolt-api-iachavira.azurewebsites.net/predict/anomaly"
+url = "http://localhost:8005/predict/anomaly"
 
 # CASO 1: Datos Normales (TV encendida viendo una peli - rango 50-150W)
 datos_normales = {
@@ -20,7 +20,7 @@ datos_anomalos = {
     "current_a": 3.75
 }
 
-print("--- Enviando Caso Normal (85W) ---")
+print("--- Enviando Caso Normal (28.5W) ---")
 try:
     response = requests.post(url, json=datos_normales)
     if response.status_code == 200:
