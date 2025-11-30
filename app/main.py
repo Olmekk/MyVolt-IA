@@ -3,9 +3,6 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 import joblib
 import pandas as pd
-import tensorflow as tf
-from tensorflow.keras.models import load_model
-from sklearn.metrics import mean_absolute_error
 import os
 from sqlalchemy import create_engine
 from urllib.parse import quote_plus
@@ -13,7 +10,7 @@ from urllib.parse import quote_plus
 app = FastAPI()
 
 # ==========================================
-# ⚡ CONFIGURACIÓN DE CORS (EL PERMISO)
+# CONFIGURACIÓN DE CORS (EL PERMISO)
 # ==========================================
 app.add_middleware(
     CORSMiddleware,
@@ -26,54 +23,48 @@ app.add_middleware(
 # ==========================================
 # 1. CONFIGURACIÓN DE BASE DE DATOS (LOCAL)
 # ==========================================
+# DB_HOST = os.getenv("DB_HOST", "host.docker.internal") 
+# DB_PORT = os.getenv("DB_PORT", "5432")
+# DB_NAME = os.getenv("DB_NAME", "postgres")
+# DB_USER = os.getenv("DB_USER", "alextorres") 
+# DB_PASS = os.getenv("DB_PASS", "")
 
-DB_HOST = os.getenv("DB_HOST", "host.docker.internal") 
-DB_PORT = os.getenv("DB_PORT", "5432")
-DB_NAME = os.getenv("DB_NAME", "postgres")
-DB_USER = os.getenv("DB_USER", "alextorres") 
-DB_PASS = os.getenv("DB_PASS", "") 
+DB_USER = "postgres"
+DB_PASS = "1234"
+DB_HOST = "host.docker.internal"
+DB_PORT = "5432"
+DB_NAME = "postgres_2"
 
 DB_PASS_ENCODED = quote_plus(DB_PASS)
-
 DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASS_ENCODED}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 try:
     engine = create_engine(DATABASE_URL)
-    print(f"✅ Configuración de BD Local: Conectando a {DB_HOST}...")
+    print(f"Configuración de BD Local: Conectando a {DB_HOST}...")
 except Exception as e:
-    print(f"⚠️ Error configurando BD: {e}")
+    print(f"Error configurando BD: {e}")
     engine = None
 
 # ==========================================
 # 2. CARGA DE MODELOS (TV LED)
 # ==========================================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, '../notebooks/neural_network/RN_DT_tv_led_real_autoencoder_v1.h5')
-SCALER_PATH = os.path.join(BASE_DIR, '../notebooks/scaler/DT_tv_led_real_scaler_v1.pkl')
-THRESHOLD_PATH = os.path.join(BASE_DIR, '../notebooks/umbral/tv_led_threshold.txt')
 
-model_tv = None
-scaler_tv = None
-UMBRAL_RECONSTRUCTION = 0.05 
+# --- RUTA ---
+MODEL_PATH = os.path.join(BASE_DIR, '../notebooks/models/models_v2/RN_DT_tv_led__real_v2.pkl')
+# ------------------------------------------
 
-UMBRAL_CONSUMO_NORMAL = 80.0 # 🎯 La regla es correcta aquí
+model_if = None
+UMBRAL_CONSUMO_NORMAL = 65.0 # Regla
 
-print("🔄 Cargando modelos...")
+print(f"Buscando modelo en: {os.path.abspath(MODEL_PATH)}")
+
 try:
-    model_tv = load_model(MODEL_PATH, compile=False)
-    scaler_tv = joblib.load(SCALER_PATH)
-    
-    try:
-        with open(THRESHOLD_PATH, 'r') as f:
-            file_umbral = float(f.read().strip())
-            if file_umbral >= 0.04:
-                UMBRAL_RECONSTRUCTION = file_umbral
-    except:
-        print(f"⚠️ No se pudo cargar el umbral desde el archivo. Usando el valor por defecto: {UMBRAL_RECONSTRUCTION}")
-
-    print(f"✅ Modelos y Umbral de Reconstrucción ({UMBRAL_RECONSTRUCTION}) cargados.")
+    # Cargar ML TV LED
+    model_if = joblib.load(MODEL_PATH)
+    print("¡ML (V2) cargado exitosamente!")
 except Exception as e:
-    print(f"❌ Error cargando modelos (Verifica que existan los archivos): {e}")
+    print(f"Error fatal cargando modelo: {e}")
 
 # ==========================================
 # 3. ENDPOINT
@@ -81,8 +72,8 @@ except Exception as e:
 class ConsumptionData(BaseModel):
     device_type: str
     power_w: float 
-    voltage: float 
-    current_a: float 
+    voltage: float = 120.0
+    current_a: float = 0.0
 
 @app.get("/")
 def read_root():
@@ -90,54 +81,52 @@ def read_root():
 
 @app.post("/predict/anomaly")
 def predict_anomaly(data: ConsumptionData):
-    if model_tv is None:
-        raise HTTPException(status_code=500, detail="Modelos no cargados")
+    if model_if is None:
+        raise HTTPException(status_code=500, detail="Modelo no cargado. Revisa logs.")
 
     device_clean = data.device_type.strip()
-    power_value = data.power_w 
+    power_value = float(data.power_w)
     
-    print(f"🔍 Analizando solicitud para: '{device_clean}' con {power_value}W") 
+    print(f"Analizando solicitud para: '{device_clean}' con {power_value}W") 
 
     if device_clean == "TV LED":
         
-        # 🎯 REGLA DE NEGOCIO: SI CONSUMO < 80W, ES NORMAL (SIN ANOMALÍA)
+        # SI CONSUMO < 65W, ES NORMAL
         if power_value < UMBRAL_CONSUMO_NORMAL:
             is_anomaly = False
-            loss = 0.0
-            mensaje_humano = "✅ Todo en orden. Consumo bajo, funcionamiento correcto."
+            mensaje_humano = "Todo en orden. Consumo bajo, funcionamiento correcto."
             
         else:
-            # Si el consumo es alto (>= 80W), corremos el modelo de IA
+            # Si el consumo es alto (>= 65W), usamos el modelo Isolation Forest
             try:
                 # Pre-procesamiento
-                power_value_float = float(power_value)
-                input_scaled = scaler_tv.transform(pd.DataFrame([[power_value_float]], columns=['power']))
+                input_df = pd.DataFrame([[power_value]], columns=['power_w'])
                 
                 # Inferencia
-                reconstruction = model_tv.predict(input_scaled, verbose=0)
+                resultado_numpy = model_if.predict(input_df)[0]
                 
-                # Error
-                loss = mean_absolute_error(input_scaled, reconstruction)
-                
-                # Decisión: ¿La reconstrucción falló?
-                is_anomaly = bool(loss > UMBRAL_RECONSTRUCTION)
+                # --- CORRECCIÓN CLAVE ---
+                # Convertimos de NumPy a Python nativo para que no falle el JSON
+                prediccion = int(resultado_numpy)
+                is_anomaly = bool(prediccion == -1)
+                # ------------------------
                 
                 # Mensaje personalizado
                 if is_anomaly:
-                    mensaje_humano = f"⚠️ ¡Cuidado! Se detectó una anomalía. El consumo de {power_value}W es inusual para tu TV."
+                    mensaje_humano = f"¡Cuidado! Se detectó una anomalía. El consumo de {power_value}W es inusual para tu TV."
                 else:
-                    mensaje_humano = "✅ Todo en orden. Funcionamiento correcto."
+                    mensaje_humano = "Todo en orden. Consumo dentro del patrón normal de la TV."
 
             except Exception as e:
-                 raise HTTPException(status_code=500, detail=f"Error interno en el procesamiento del modelo: {str(e)}")
-
-
+                 # Imprimimos el error en la terminal de Docker para verlo
+                 print(f"Error en predicción IA: {e}")
+                 raise HTTPException(status_code=500, detail=f"Error interno en el modelo: {str(e)}")
+             
         # Respuesta Final
         return {
             "device": "TV LED",
             "input_watts": power_value,
-            "reconstruction_error": float(loss),
-            "threshold": UMBRAL_RECONSTRUCTION,
+            "algorithm": "ML V2",
             "is_anomaly": is_anomaly,
             "mensaje": mensaje_humano,
             "status": "ALERTA" if is_anomaly else "OK"
