@@ -17,27 +17,24 @@ app = FastAPI()
 # ==========================================
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Permite que CUALQUIER App (Flutter, Web, etc.) se conecte
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["*"],  # Permite TODOS los métodos (POST, GET, OPTIONS, etc.)
-    allow_headers=["*"],  # Permite TODOS los headers
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 # ==========================================
 # 1. CONFIGURACIÓN DE BASE DE DATOS (LOCAL)
 # ==========================================
 
-# 'host.docker.internal' es la dirección mágica para que Docker vea tu Windows
 DB_HOST = os.getenv("DB_HOST", "host.docker.internal") 
 DB_PORT = os.getenv("DB_PORT", "5432")
 DB_NAME = os.getenv("DB_NAME", "postgres")
-DB_USER = os.getenv("DB_USER", "postgres") 
-DB_PASS = os.getenv("DB_PASS", "1234") # Contraseña por defecto (se sobrescribe con -e en Docker)
+DB_USER = os.getenv("DB_USER", "alextorres") 
+DB_PASS = os.getenv("DB_PASS", "") 
 
-# Codificamos la contraseña
 DB_PASS_ENCODED = quote_plus(DB_PASS)
 
-# Cadena de conexión LOCAL (Sin sslmode)
 DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASS_ENCODED}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 
 try:
@@ -57,15 +54,24 @@ THRESHOLD_PATH = os.path.join(BASE_DIR, '../notebooks/umbral/tv_led_threshold.tx
 
 model_tv = None
 scaler_tv = None
-UMBRAL_TV = 0.05 
+UMBRAL_RECONSTRUCTION = 0.05 
+
+UMBRAL_CONSUMO_NORMAL = 80.0 # 🎯 La regla es correcta aquí
 
 print("🔄 Cargando modelos...")
 try:
     model_tv = load_model(MODEL_PATH, compile=False)
     scaler_tv = joblib.load(SCALER_PATH)
-    with open(THRESHOLD_PATH, 'r') as f:
-        UMBRAL_TV = float(f.read().strip())
-    print(f"✅ Modelos y Umbral ({UMBRAL_TV}) cargados.")
+    
+    try:
+        with open(THRESHOLD_PATH, 'r') as f:
+            file_umbral = float(f.read().strip())
+            if file_umbral >= 0.04:
+                UMBRAL_RECONSTRUCTION = file_umbral
+    except:
+        print(f"⚠️ No se pudo cargar el umbral desde el archivo. Usando el valor por defecto: {UMBRAL_RECONSTRUCTION}")
+
+    print(f"✅ Modelos y Umbral de Reconstrucción ({UMBRAL_RECONSTRUCTION}) cargados.")
 except Exception as e:
     print(f"❌ Error cargando modelos (Verifica que existan los archivos): {e}")
 
@@ -74,9 +80,9 @@ except Exception as e:
 # ==========================================
 class ConsumptionData(BaseModel):
     device_type: str
-    power_w: float
-    voltage: float = 120.0
-    current_a: float = 0.0
+    power_w: float 
+    voltage: float 
+    current_a: float 
 
 @app.get("/")
 def read_root():
@@ -87,47 +93,56 @@ def predict_anomaly(data: ConsumptionData):
     if model_tv is None:
         raise HTTPException(status_code=500, detail="Modelos no cargados")
 
-    # --- MEJORA 1: Limpieza de texto ---
-    # Quitamos espacios en blanco al inicio o final para evitar errores tontos
     device_clean = data.device_type.strip()
+    power_value = data.power_w 
     
-    print(f"🔍 Analizando solicitud para: '{device_clean}' con {data.power_w}W")
+    print(f"🔍 Analizando solicitud para: '{device_clean}' con {power_value}W") 
 
-    # Router de Dispositivos
     if device_clean == "TV LED":
-        try:
-            # Pre-procesamiento
-            input_scaled = scaler_tv.transform(pd.DataFrame([[data.power_w]], columns=['power_w']))
+        
+        # 🎯 REGLA DE NEGOCIO: SI CONSUMO < 80W, ES NORMAL (SIN ANOMALÍA)
+        if power_value < UMBRAL_CONSUMO_NORMAL:
+            is_anomaly = False
+            loss = 0.0
+            mensaje_humano = "✅ Todo en orden. Consumo bajo, funcionamiento correcto."
             
-            # Inferencia
-            reconstruction = model_tv.predict(input_scaled, verbose=0)
-            
-            # Error
-            loss = mean_absolute_error(input_scaled, reconstruction)
-            
-            # Decisión
-            is_anomaly = bool(loss > UMBRAL_TV)
-            
-            # Mensaje personalizado
-            mensaje_humano = ""
-            if is_anomaly:
-                mensaje_humano = f"⚠️ ¡Cuidado! Se detectó una anomalía. El consumo de {data.power_w}W es inusual para tu TV."
-            else:
-                mensaje_humano = "✅ Todo en orden. No se han detectado anomalías en tu TV."
+        else:
+            # Si el consumo es alto (>= 80W), corremos el modelo de IA
+            try:
+                # Pre-procesamiento
+                power_value_float = float(power_value)
+                input_scaled = scaler_tv.transform(pd.DataFrame([[power_value_float]], columns=['power']))
+                
+                # Inferencia
+                reconstruction = model_tv.predict(input_scaled, verbose=0)
+                
+                # Error
+                loss = mean_absolute_error(input_scaled, reconstruction)
+                
+                # Decisión: ¿La reconstrucción falló?
+                is_anomaly = bool(loss > UMBRAL_RECONSTRUCTION)
+                
+                # Mensaje personalizado
+                if is_anomaly:
+                    mensaje_humano = f"⚠️ ¡Cuidado! Se detectó una anomalía. El consumo de {power_value}W es inusual para tu TV."
+                else:
+                    mensaje_humano = "✅ Todo en orden. Funcionamiento correcto."
 
-            return {
-                "device": "TV LED",
-                "input_watts": data.power_w,
-                "reconstruction_error": float(loss),
-                "threshold": UMBRAL_TV,
-                "is_anomaly": is_anomaly,
-                "mensaje": mensaje_humano,
-                "status": "ALERTA" if is_anomaly else "OK"
-            }
-        except Exception as e:
-             raise HTTPException(status_code=500, detail=f"Error interno: {str(e)}")
+            except Exception as e:
+                 raise HTTPException(status_code=500, detail=f"Error interno en el procesamiento del modelo: {str(e)}")
+
+
+        # Respuesta Final
+        return {
+            "device": "TV LED",
+            "input_watts": power_value,
+            "reconstruction_error": float(loss),
+            "threshold": UMBRAL_RECONSTRUCTION,
+            "is_anomaly": is_anomaly,
+            "mensaje": mensaje_humano,
+            "status": "ALERTA" if is_anomaly else "OK"
+        }
     else:
-        # --- MEJORA 2: Error detallado ---
         return {
             "error": "Modelo no disponible",
             "recibido": device_clean,
