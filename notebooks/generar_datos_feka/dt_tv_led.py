@@ -21,7 +21,7 @@ engine = create_engine(f"postgresql+psycopg2://{DB_USER}:{pass_encoded}@{DB_HOST
 NOMBRE_APARATO = "TV LED (Entrenamiento)" 
 
 # Consumo: Pantalla encendida (30-150W) vs Standby (0.5-3W)
-WATTS_ENCENDIDO = (30, 150)
+WATTS_ENCENDIDO = (10, 150)
 WATTS_APAGADO = (0.5, 3)     
 
 # Ciclos 50/50: Sesiones de TV (2 a 4 horas) para igualar datos
