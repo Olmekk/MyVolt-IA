@@ -128,6 +128,12 @@ def predict_anomaly(data: ConsumptionData):
             "input_watts": power_value,
             "is_anomaly": True,
             "mensaje": f"Peligro! El consumo de {power_value}W supera el limite fisico de {limite_seguridad}W.",
+            "recomendacion": {
+                "titulo": "Peligro Electrico",
+                "mensaje": "Desconecta el dispositivo inmediatamente. Riesgo de corto o falla critica.",
+                "tipo": "SEGURIDAD",
+                "prioridad": "CRITICA"
+            },
             "status": "PELIGRO"
         }
 
@@ -151,6 +157,15 @@ def predict_anomaly(data: ConsumptionData):
         else:
             mensaje_humano = f"Todo en orden. Consumo dentro del patron normal para: {device_clean}."
 
+        # === LLAMADA AL MOTOR DE REGLAS (DEFINIDO ABAJO) ===
+        obj_recomendacion = ejecutar_reglas_experto(
+            device_clean, 
+            power_value, 
+            is_anomaly, 
+            limite_seguridad
+        )
+        # ===================================================
+
     except Exception as e:
             # Imprimimos el error en la terminal de Docker para verlo
             print(f"Error en prediccion IA ({device_clean}): {e}")
@@ -163,5 +178,87 @@ def predict_anomaly(data: ConsumptionData):
         "algorithm": "IsolationForest V2",
         "is_anomaly": is_anomaly,
         "mensaje": mensaje_humano,
+        "recomendacion": obj_recomendacion, # CAMPO NUEVO
         "status": "ALERTA" if is_anomaly else "OK"
     }
+
+# ==========================================
+# 4. MOTOR BASADO EN REGLAS (SISTEMA EXPERTO)
+# ==========================================
+# Memoria RAM para recordar historial reciente
+DEVICE_STATUS_MEMORY = {}
+
+def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit):
+    """
+    Analiza el historial inmediato para dar consejos utiles.
+    Retorna: Un diccionario con la recomendacion o None.
+    """
+    
+    # Inicializar memoria si es nuevo
+    if device_type not in DEVICE_STATUS_MEMORY:
+        DEVICE_STATUS_MEMORY[device_type] = {
+            'conteo_anomalias': 0,   
+            'ciclos_alto_consumo': 0, 
+            'ciclos_standby': 0      
+        }
+    
+    stats = DEVICE_STATUS_MEMORY[device_type]
+    recomendacion = None 
+
+    # --- REGLA A: MANTENIMIENTO (Inestabilidad) ---
+    if is_anomaly_ia:
+        stats['conteo_anomalias'] += 1
+    else:
+        if stats['conteo_anomalias'] > 0:
+            stats['conteo_anomalias'] -= 1 
+    
+    # Si acumula 5 errores recientes
+    if stats['conteo_anomalias'] >= 5:
+        recomendacion = {
+            "titulo": "Revision Recomendada",
+            "mensaje": f"El dispositivo {device_type} ha presentado comportamiento inestable frecuente recientemente.",
+            "tipo": "MANTENIMIENTO", 
+            "prioridad": "ALTA"
+        }
+        stats['conteo_anomalias'] = 0 
+        return recomendacion
+
+    # --- REGLA B: SOBRECARGA (Fatiga) ---
+    # Si usa mas del 85% de su potencia maxima
+    umbral_fatiga = max_limit * 0.85
+    
+    if current_watts > umbral_fatiga:
+        stats['ciclos_alto_consumo'] += 1
+    else:
+        stats['ciclos_alto_consumo'] = 0 
+    
+    # 150 ciclos = aprox 5 minutos continuos al maximo (si envias cada 2s)
+    if stats['ciclos_alto_consumo'] > 150:
+        recomendacion = {
+            "titulo": "Posible Sobrecalentamiento",
+            "mensaje": f"El dispositivo lleva mucho tiempo operando al limite ({int(current_watts)}W). Podria fatigarse.",
+            "tipo": "USO", 
+            "prioridad": "MEDIA"
+        }
+        stats['ciclos_alto_consumo'] = 0
+        return recomendacion
+
+    # --- REGLA C: CONSUMO VAMPIRO (Ahorro) ---
+    # Si consume entre 0.5W y 5W
+    if 0.5 < current_watts < 5.0:
+        stats['ciclos_standby'] += 1
+    else:
+        stats['ciclos_standby'] = 0 
+    
+    # 900 ciclos = aprox 30 minutos detectando consumo hormiga
+    if stats['ciclos_standby'] > 900:
+        recomendacion = {
+            "titulo": "Consumo Vampiro Detectado",
+            "mensaje": f"Tu {device_type} parece estar en espera gastando energia inutilmente. Desconectalo si no lo usas.",
+            "tipo": "AHORRO", 
+            "prioridad": "BAJA"
+        }
+        stats['ciclos_standby'] = 0 
+        return recomendacion
+
+    return None
