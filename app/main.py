@@ -4,6 +4,7 @@ from pydantic import BaseModel
 import joblib
 import pandas as pd
 import os
+import random
 from sqlalchemy import create_engine
 from urllib.parse import quote_plus
 
@@ -202,9 +203,22 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
     
     # si acumula 5 errores recientes
     if stats['conteo_anomalias'] >= 5:
+        mensajes_mantenimiento = [
+            f"El dispositivo {device_type} ha presentado comportamiento inestable frecuente recientemente.",
+            f"Hemos notado que tu {device_type} ha tenido varias fluctuaciones extrañas. Seria bueno revisarlo.",
+            f"Atencion: el {device_type} registro multiples anomalias seguidas. Sugerimos un chequeo preventivo.",
+            f"El patron de energia de tu {device_type} es muy inestable hoy. Podria necesitar mantenimiento.",
+            f"Detectamos picos anormales repetidos en tu {device_type}. Te sugerimos verificar su estado fisico.",
+            f"Las lecturas de tu {device_type} no son normales. Quiza sea momento de darle una revision profunda.",
+            f"Tu {device_type} esta teniendo variaciones constantes de energia. Esto podria indicar una falla interna.",
+            f"El consumo de tu {device_type} esta subiendo y bajando de forma atipica. Mantenlo vigilado.",
+            f"Registramos actividad sospechosa y constante en tu {device_type}. Un tecnico deberia revisarlo.",
+            f"La inestabilidad de tu {device_type} continua. Recomendamos desconectarlo y checarlo pronto."
+        ]
+        
         recomendacion = {
             "titulo": "Revision Recomendada",
-            "mensaje": f"El dispositivo {device_type} ha presentado comportamiento inestable frecuente recientemente.",
+            "mensaje": random.choice(mensajes_mantenimiento),
             "tipo": "MANTENIMIENTO", 
             "prioridad": "ALTA"
         }
@@ -222,9 +236,22 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
     
     # 150 ciclos son aprox 5 minutos continuos al maximo si envias cada 2s
     if stats['ciclos_alto_consumo'] > 150:
+        mensajes_sobrecarga = [
+            f"El dispositivo lleva mucho tiempo operando al limite ({int(current_watts)}W). Podria fatigarse.",
+            f"Tu {device_type} lleva un buen rato trabajando al maximo. Cuidado con el sobrecalentamiento.",
+            f"Precaucion: uso intenso prolongado en el {device_type}. Considera darle un descanso pronto.",
+            f"El {device_type} esta operando al limite de su capacidad. Vigila su temperatura para evitar daños.",
+            f"Notamos que tu {device_type} no ha bajado su consumo de {int(current_watts)}W. Pausarlo alargara su vida util.",
+            f"Alerta de fatiga: el {device_type} sigue consumiendo mucha energia. Es buen momento para apagarlo un rato.",
+            f"Trabajar a {int(current_watts)}W por tanto tiempo puede desgastar tu {device_type}. Te sugerimos un respiro.",
+            f"El esfuerzo continuo de tu {device_type} es alto. Apagarlo unos minutos ayudara a enfriar sus componentes.",
+            f"Tu {device_type} lleva demasiado tiempo exigiendo el maximo de energia. Evita un accidente termico.",
+            f"Consumo tope detectado por tiempo prolongado en tu {device_type}. Recomendamos hacer una pausa."
+        ]
+        
         recomendacion = {
             "titulo": "Posible Sobrecalentamiento",
-            "mensaje": f"El dispositivo lleva mucho tiempo operando al limite ({int(current_watts)}W). Podria fatigarse.",
+            "mensaje": random.choice(mensajes_sobrecarga),
             "tipo": "USO", 
             "prioridad": "MEDIA"
         }
@@ -240,13 +267,28 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
     
     # 900 ciclos son aprox 30 minutos detectando consumo hormiga
     if stats['ciclos_standby'] > 900:
+        mensajes_vampiro = [
+            f"Tu {device_type} parece estar en espera gastando energia inutilmente. Desconectalo si no lo usas.",
+            f"Detectamos que tu {device_type} esta en modo reposo. Desconectalo de la pared para ahorrar energia.",
+            f"El {device_type} esta consumiendo energia fantasma. Si ya terminaste de usarlo, apagalo por completo.",
+            f"Pequeño aviso: el {device_type} lleva rato consumiendo un nivel bajo. Desenchufarlo ayudara a tu recibo.",
+            f"Tu {device_type} sigue conectado pero inactivo. Evita el consumo vampiro quitandolo del enchufe.",
+            f"Hay un gasto silencioso de energia en tu {device_type}. Desconectarlo de la clavija cuidara tu bolsillo.",
+            f"El {device_type} esta en modo de espera hace bastante. Recuerda que conectado sigue consumiendo luz.",
+            f"Apagar del boton no siempre es suficiente. Tu {device_type} sigue gastando, te conviene desconectarlo.",
+            f"Detectamos consumo hormiga en tu {device_type}. Quitalo de la corriente para un ahorro total.",
+            f"Tu {device_type} no esta en uso, pero sigue jalando energia. Desenchufalo y suma ahorro a tu mes."
+        ]
+        
         recomendacion = {
             "titulo": "Consumo Vampiro Detectado",
-            "mensaje": f"Tu {device_type} parece estar en espera gastando energia inutilmente. Desconectalo si no lo usas.",
+            "mensaje": random.choice(mensajes_vampiro),
             "tipo": "AHORRO", 
             "prioridad": "BAJA"
         }
         stats['ciclos_standby'] = 0 
         return recomendacion
+
+    return None
 
     return None
