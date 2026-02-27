@@ -7,7 +7,6 @@ import os
 import random
 from sqlalchemy import create_engine
 from urllib.parse import quote_plus
-
 app = FastAPI()
 
 # configuracion de cors el permiso
