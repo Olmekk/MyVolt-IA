@@ -53,27 +53,36 @@ DEVICE_CONFIG = {
     "cafetera": {"file": "modelo_cafetera.pkl", "max_w": 1200.0, "standby_max": 3.0},
     "licuadora": {"file": "modelo_licuadora.pkl", "max_w": 1000.0, "standby_max": 1.0},
     "microondas": {"file": "modelo_microondas.pkl", "max_w": 1200.0, "standby_max": 4.0},
+    "horno de microondas": {"file": "modelo_microondas.pkl", "max_w": 1200.0, "standby_max": 4.0},
+    "horno microondas": {"file": "modelo_microondas.pkl", "max_w": 1200.0, "standby_max": 4.0},
     "refrigerador": {"file": "modelo_refrigerador.pkl", "max_w": 600.0, "standby_max": 15.0},
     "tostador pan": {"file": "modelo_tostador_pan.pkl", "max_w": 1600.0, "standby_max": 2.0},
-    "tostador": {"file": "modelo_tostador_pan.pkl", "max_w": 1600.0, "standby_max": 2.0},
+    "tostadora": {"file": "modelo_tostador_pan.pkl", "max_w": 1600.0, "standby_max": 2.0},
 
     # Cuidado Personal
     "plancha ropa": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
+    "plancha de ropa": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
     "plancha": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
     "secadora pelo": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
+    "secadora de pelo": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
     "secadora": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
 
     # Electrónica
     "computadora": {"file": "modelo_computadora.pkl", "max_w": 800.0, "standby_max": 5.0},
+    "computadora escritorio": {"file": "modelo_computadora.pkl", "max_w": 800.0, "standby_max": 5.0},
+    "computadora de escritorio": {"file": "modelo_computadora.pkl", "max_w": 800.0, "standby_max": 5.0},
     "laptop": {"file": "modelo_laptop.pkl", "max_w": 90.0, "standby_max": 3.0},
+    "laptop (cargando)": {"file": "modelo_laptop.pkl", "max_w": 90.0, "standby_max": 3.0},
     "tv led": {"file": "modelo_tv_led.pkl", "max_w": 60.0, "standby_max": 3.0},
     "tv": {"file": "modelo_tv_led.pkl", "max_w": 60.0, "standby_max": 3.0},
     "consola videojuegos": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
+    "consola de videojuegos": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
     "consola": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
 
     # Climatización
     "calefactor portatil": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
     "calefactor": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
+    "ventilador de pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0},
     "ventilador pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0},
     "ventilador": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0}
 }
