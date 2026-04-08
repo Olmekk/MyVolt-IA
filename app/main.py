@@ -49,19 +49,33 @@ MODELS_DIR = os.path.join(BASE_DIR, '../notebooks/models/models_v2/')
 
 # mapeo: dispositivo a archivo pkl, limite maximo watts y limite maximo en reposo
 DEVICE_CONFIG = {
-    "Cafetera": {"file": "modelo_cafetera.pkl", "max_w": 1200.0, "standby_max": 3.0},
-    "Calefactor Portatil": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
-    "Computadora": {"file": "modelo_computadora.pkl", "max_w": 800.0, "standby_max": 5.0},
-    "Consola Videojuegos": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
-    "Laptop": {"file": "modelo_laptop.pkl", "max_w": 90.0, "standby_max": 3.0},
-    "Licuadora": {"file": "modelo_licuadora.pkl", "max_w": 1000.0, "standby_max": 1.0},
-    "Microondas": {"file": "modelo_microondas.pkl", "max_w": 1200.0, "standby_max": 4.0},
-    "Plancha Ropa": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
-    "Refrigerador": {"file": "modelo_refrigerador.pkl", "max_w": 600.0, "standby_max": 15.0},
-    "Secadora Pelo": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
-    "Tostador Pan": {"file": "modelo_tostador_pan.pkl", "max_w": 1600.0, "standby_max": 2.0},
-    "TV LED": {"file": "modelo_tv_led.pkl", "max_w": 60.0, "standby_max": 3.0},
-    "Ventilador Pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0}
+    # Cocina
+    "cafetera": {"file": "modelo_cafetera.pkl", "max_w": 1200.0, "standby_max": 3.0},
+    "licuadora": {"file": "modelo_licuadora.pkl", "max_w": 1000.0, "standby_max": 1.0},
+    "microondas": {"file": "modelo_microondas.pkl", "max_w": 1200.0, "standby_max": 4.0},
+    "refrigerador": {"file": "modelo_refrigerador.pkl", "max_w": 600.0, "standby_max": 15.0},
+    "tostador pan": {"file": "modelo_tostador_pan.pkl", "max_w": 1600.0, "standby_max": 2.0},
+    "tostador": {"file": "modelo_tostador_pan.pkl", "max_w": 1600.0, "standby_max": 2.0},
+
+    # Cuidado Personal
+    "plancha ropa": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
+    "plancha": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
+    "secadora pelo": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
+    "secadora": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
+
+    # Electrónica
+    "computadora": {"file": "modelo_computadora.pkl", "max_w": 800.0, "standby_max": 5.0},
+    "laptop": {"file": "modelo_laptop.pkl", "max_w": 90.0, "standby_max": 3.0},
+    "tv led": {"file": "modelo_tv_led.pkl", "max_w": 60.0, "standby_max": 3.0},
+    "tv": {"file": "modelo_tv_led.pkl", "max_w": 60.0, "standby_max": 3.0},
+    "consola videojuegos": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
+    "consola": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
+
+    # Climatización
+    "calefactor portatil": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
+    "calefactor": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
+    "ventilador pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0},
+    "ventilador": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0}
 }
 
 LOADED_MODELS = {}
@@ -95,13 +109,15 @@ def read_root():
 
 @app.post("/predict/anomaly")
 def predict_anomaly(data: ConsumptionData):
-    
-    device_clean = data.device_type.strip()
+    # .strip() quita espacios al inicio/final, .lower() ignora Mayúsculas
+    device_clean = data.device_type.strip().lower()
     power_value = float(data.power_w)
     
-    if device_clean not in LOADED_MODELS:
+    # Buscamos en el diccionario normalizado
+    if device_clean not in DEVICE_CONFIG:
+        print(f"ERROR: No encontré el dispositivo '{device_clean}'")
         return {
-            "error": "Modelo no disponible o dispositivo desconocido",
+            "error": "Dispositivo desconocido",
             "recibido": device_clean,
             "status": "ERROR"
         }

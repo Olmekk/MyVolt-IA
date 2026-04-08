@@ -9,7 +9,7 @@ from datetime import datetime, timedelta
 DB_USER = "postgres"
 DB_PASS = "1234"
 DB_HOST = "localhost"
-DB_PORT = "5432"
+DB_PORT = "5433"
 DB_NAME = "myvolt_local"
 
 pass_encoded = quote_plus(DB_PASS)
