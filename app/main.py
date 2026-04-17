@@ -226,7 +226,7 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
             stats['conteo_anomalias'] -= 1 
     
     # si acumula 5 errores recientes
-    if stats['conteo_anomalias'] >= 5:
+    if stats['conteo_anomalias'] >= 10:
         mensajes_mantenimiento = [
             f"El dispositivo {device_type} ha presentado comportamiento inestable frecuente recientemente.",
             f"Hemos notado que tu {device_type} ha tenido varias fluctuaciones extrañas. Seria bueno revisarlo.",
@@ -237,7 +237,22 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
             f"Tu {device_type} esta teniendo variaciones constantes de energia. Esto podria indicar una falla interna.",
             f"El consumo de tu {device_type} esta subiendo y bajando de forma atipica. Mantenlo vigilado.",
             f"Registramos actividad sospechosa y constante en tu {device_type}. Un tecnico deberia revisarlo.",
-            f"La inestabilidad de tu {device_type} continua. Recomendamos desconectarlo y checarlo pronto."
+            f"La inestabilidad de tu {device_type} continua. Recomendamos desconectarlo y checarlo pronto.",
+            f"Las variaciones de energia en tu {device_type} no son normales. Revisa que el cable y el enchufe esten en buen estado.",
+            f"Tu {device_type} esta mostrando un patron de consumo erratico. Te sugerimos no usarlo sin supervision.",
+            f"Hemos detectado saltos electricos inusuales en tu {device_type}. Evita un posible cortocircuito revisandolo a tiempo.",
+            f"El comportamiento de tu {device_type} es impredecible hoy. Considera consultar a un tecnico especializado.",
+            f"Cuidado: tu {device_type} registra picos de corriente que podrian dañar su placa interna.",
+            f"Parece que a tu {device_type} le esta costando estabilizar su consumo. Un mantenimiento preventivo es ideal ahora.",
+            f"La IA sigue detectando ruido electrico en tu {device_type}. Podria ser un sintoma de desgaste natural.",
+            f"Tu {device_type} esta jalando energia de forma muy dispareja. Asegurate de que no este haciendo falso contacto.",
+            f"Alerta de inestabilidad prolongada. Desconecta tu {device_type} y verifica si huele a quemado o hace ruidos extraños.",
+            f"Las metricas de tu {device_type} estan fuera de su huella normal. Te recomendamos darle servicio tecnico.",
+            f"El historial de tu {device_type} muestra demasiada variabilidad. Seria prudente revisar sus conexiones internas.",
+            f"Tu {device_type} no logra mantener un flujo de energia constante. Esto acelera el deterioro de su fuente de poder.",
+            f"Hemos captado un patron de parpadeo electrico en tu {device_type}. Mantenlo bajo vigilancia estricta hoy.",
+            f"Los saltos de corriente en tu {device_type} persisten. Quiza el enchufe de la pared este fallando, revisalo.",
+            f"Tu {device_type} esta operando fuera de sus parametros normales de forma repetida. Requiere atencion tecnica."
         ]
         
         recomendacion = {
@@ -270,7 +285,22 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
             f"Trabajar a {int(current_watts)}W por tanto tiempo puede desgastar tu {device_type}. Te sugerimos un respiro.",
             f"El esfuerzo continuo de tu {device_type} es alto. Apagarlo unos minutos ayudara a enfriar sus componentes.",
             f"Tu {device_type} lleva demasiado tiempo exigiendo el maximo de energia. Evita un accidente termico.",
-            f"Consumo tope detectado por tiempo prolongado en tu {device_type}. Recomendamos hacer una pausa."
+            f"Consumo tope detectado por tiempo prolongado en tu {device_type}. Recomendamos hacer una pausa.",
+            f"Tu {device_type} lleva operando a {int(current_watts)}W sostenidos por mucho tiempo. Protegelo del estres termico.",
+            f"El nivel de exigencia de tu {device_type} no ha bajado. Darle un respiro ahora extendera su vida util.",
+            f"Detectamos carga pesada continua en tu {device_type}. Pausar su uso prevendra fallas por calor.",
+            f"Mantener tu {device_type} a {int(current_watts)}W constantes puede derretir componentes internos. Apagalo un momento.",
+            f"El motor o sistema de tu {device_type} esta trabajando sin descanso. Un ciclo de enfriamiento es altamente recomendado.",
+            f"Llevas un periodo largo exigiendo el limite a tu {device_type}. Cuida tu inversion y dejalo reposar.",
+            f"Atencion: uso severo prolongado. Si tu {device_type} se siente muy caliente al tacto, desconectalo de inmediato.",
+            f"El consumo de {int(current_watts)}W se ha mantenido demasiado tiempo. Evita que tu {device_type} se queme por fatiga.",
+            f"Tu {device_type} esta dando el 100% desde hace rato. Reducir la carga de trabajo prevendra un daño permanente.",
+            f"Aviso de seguridad termica: tu {device_type} necesita un receso despues de este ciclo de alto consumo.",
+            f"Alerta preventiva: tu {device_type} no ha tenido descanso. Reducir su uso ahora prevendra fallas criticas.",
+            f"El estres electrico en tu {device_type} es muy alto. Apagalo un rato para que sus circuitos internos respiren.",
+            f"Tu {device_type} esta operando al limite durante mucho tiempo. El exceso de calor es el enemigo numero uno.",
+            f"Advertencia de sobrecarga continua. Desconectar tu {device_type} unos minutos es la mejor practica ahora mismo.",
+            f"Notamos un consumo maximo sostenido en tu {device_type}. Usarlo asi por horas reduce drasticamente su vida util."
         ]
         
         recomendacion = {
@@ -290,7 +320,7 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
         stats['ciclos_standby'] = 0 
     
     # 900 ciclos son aprox 30 minutos detectando consumo hormiga
-    if stats['ciclos_standby'] > 900:
+    if stats['ciclos_standby'] > 250:
         mensajes_vampiro = [
             f"Tu {device_type} parece estar en espera gastando energia inutilmente. Desconectalo si no lo usas.",
             f"Detectamos que tu {device_type} esta en modo reposo. Desconectalo de la pared para ahorrar energia.",
@@ -301,7 +331,22 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
             f"El {device_type} esta en modo de espera hace bastante. Recuerda que conectado sigue consumiendo luz.",
             f"Apagar del boton no siempre es suficiente. Tu {device_type} sigue gastando, te conviene desconectarlo.",
             f"Detectamos consumo hormiga en tu {device_type}. Quitalo de la corriente para un ahorro total.",
-            f"Tu {device_type} no esta en uso, pero sigue jalando energia. Desenchufalo y suma ahorro a tu mes."
+            f"Tu {device_type} no esta en uso, pero sigue jalando energia. Desenchufalo y suma ahorro a tu mes.",
+            f"Aunque no lo uses, tu {device_type} sigue sumando centavos a tu recibo. Desenchufalo para un ahorro real.",
+            f"Tu {device_type} esta en modo pasivo chupando electricidad. Usa un multicontacto con interruptor para apagarlo facil.",
+            f"Cortar la corriente de tu {device_type} ahora mismo evitara que siga generando un gasto invisible.",
+            f"El indicador led o la fuente de tu {device_type} sigue consumiendo. Ayuda al planeta y a tu cartera desconectandolo.",
+            f"Cuidado con los consumos ocultos. Tu {device_type} lleva horas en reposo pero aun conectado a la red.",
+            f"¿Terminaste de usar tu {device_type}? Sacarlo del enchufe es el ultimo paso para ser verdaderamente eficiente.",
+            f"Tu {device_type} registra fuga pasiva de energia. Estos pequeños consumos suman mucho al final del bimestre.",
+            f"Para detener al 100% el medidor de luz, necesitas desconectar tu {device_type}, no solo apagarlo.",
+            f"Tu {device_type} esta en standby extendido. Desconectalo y convierte ese desperdicio en ahorro.",
+            f"La IA nota que tu {device_type} sigue activo a nivel minimo. Quitale la energia si no planeas usarlo pronto.",
+            f"El enchufe sigue enviando energia a tu {device_type} en modo reposo. Desconectalo y empieza a ahorrar.",
+            f"Tu {device_type} esta apagado pero su transformador interno sigue consumiendo luz. Quitalo de la corriente.",
+            f"Evita sorpresas en tu recibo electrico. Tu {device_type} esta inactivo pero consumiendo energia constante.",
+            f"Pequeñas fugas de energia detectadas en tu {device_type}. Desenchufalo por completo para maximizar la eficiencia.",
+            f"El modo espera de tu {device_type} esta sumando watts innecesarios. Un pequeño esfuerzo de desconectarlo ayuda mucho."
         ]
         
         recomendacion = {
