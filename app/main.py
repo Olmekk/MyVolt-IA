@@ -50,41 +50,41 @@ MODELS_DIR = os.path.join(BASE_DIR, '../notebooks/models/models_v2/')
 # mapeo: dispositivo a archivo pkl, limite maximo watts y limite maximo en reposo
 DEVICE_CONFIG = {
     # Cocina
-    "cafetera": {"file": "modelo_cafetera.pkl", "max_w": 1200.0, "standby_max": 3.0},
-    "licuadora": {"file": "modelo_licuadora.pkl", "max_w": 1000.0, "standby_max": 1.0},
-    "microondas": {"file": "modelo_microondas.pkl", "max_w": 1200.0, "standby_max": 4.0},
-    "horno de microondas": {"file": "modelo_microondas.pkl", "max_w": 1200.0, "standby_max": 4.0},
-    "horno microondas": {"file": "modelo_microondas.pkl", "max_w": 1200.0, "standby_max": 4.0},
-    "refrigerador": {"file": "modelo_refrigerador.pkl", "max_w": 600.0, "standby_max": 15.0},
-    "tostador pan": {"file": "modelo_tostador_pan.pkl", "max_w": 1600.0, "standby_max": 2.0},
-    "tostadora": {"file": "modelo_tostador_pan.pkl", "max_w": 1600.0, "standby_max": 2.0},
+    "cafetera": {"file": "modelo_cafetera.pkl"},
+    "licuadora": {"file": "modelo_licuadora.pkl"},
+    "microondas": {"file": "modelo_microondas.pkl"},
+    "horno de microondas": {"file": "modelo_microondas.pkl"},
+    "horno microondas": {"file": "modelo_microondas.pkl"},
+    "refrigerador": {"file": "modelo_refrigerador.pkl"},
+    "tostador pan": {"file": "modelo_tostador_pan.pkl"},
+    "tostadora": {"file": "modelo_tostador_pan.pkl"},
 
     # Cuidado Personal
-    "plancha ropa": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
-    "plancha de ropa": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
-    "plancha": {"file": "modelo_plancha_ropa.pkl", "max_w": 2400.0, "standby_max": 1.0},
-    "secadora pelo": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
-    "secadora de pelo": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
-    "secadora": {"file": "modelo_secadora_pelo.pkl", "max_w": 2000.0, "standby_max": 1.0},
+    "plancha ropa": {"file": "modelo_plancha_ropa.pkl"},
+    "plancha de ropa": {"file": "modelo_plancha_ropa.pkl"},
+    "plancha": {"file": "modelo_plancha_ropa.pkl"},
+    "secadora pelo": {"file": "modelo_secadora_pelo.pkl"},
+    "secadora de pelo": {"file": "modelo_secadora_pelo.pkl"},
+    "secadora": {"file": "modelo_secadora_pelo.pkl"},
 
     # Electrónica
-    "computadora": {"file": "modelo_computadora.pkl", "max_w": 800.0, "standby_max": 5.0},
-    "computadora escritorio": {"file": "modelo_computadora.pkl", "max_w": 800.0, "standby_max": 5.0},
-    "computadora de escritorio": {"file": "modelo_computadora.pkl", "max_w": 800.0, "standby_max": 5.0},
-    "laptop": {"file": "modelo_laptop.pkl", "max_w": 90.0, "standby_max": 3.0},
-    "laptop (cargando)": {"file": "modelo_laptop.pkl", "max_w": 90.0, "standby_max": 3.0},
-    "tv led": {"file": "modelo_tv_led.pkl", "max_w": 60.0, "standby_max": 3.0},
-    "tv": {"file": "modelo_tv_led.pkl", "max_w": 60.0, "standby_max": 3.0},
-    "consola videojuegos": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
-    "consola de videojuegos": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
-    "consola": {"file": "modelo_consola_videojuegos.pkl", "max_w": 250.0, "standby_max": 15.0},
+    "computadora": {"file": "modelo_computadora.pkl"},
+    "computadora escritorio": {"file": "modelo_computadora.pkl"},
+    "computadora de escritorio": {"file": "modelo_computadora.pkl"},
+    "laptop": {"file": "modelo_laptop.pkl"},
+    "laptop (cargando)": {"file": "modelo_laptop.pkl"},
+    "tv led": {"file": "modelo_tv_led.pkl"},
+    "tv": {"file": "modelo_tv_led.pkl"},
+    "consola videojuegos": {"file": "modelo_consola_videojuegos.pkl"},
+    "consola de videojuegos": {"file": "modelo_consola_videojuegos.pkl"},
+    "consola": {"file": "modelo_consola_videojuegos.pkl"},
 
     # Climatización
-    "calefactor portatil": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
-    "calefactor": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
-    "ventilador de pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 160.0, "standby_max": 2.0},
-    "ventilador pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 160.0, "standby_max": 2.0},
-    "ventilador": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 160.0, "standby_max": 2.0}
+    "calefactor portatil": {"file": "modelo_calefactor_portatil.pkl"},
+    "calefactor": {"file": "modelo_calefactor_portatil.pkl"},
+    "ventilador de pedestal": {"file": "modelo_ventilador_pedestal.pkl"},
+    "ventilador pedestal": {"file": "modelo_ventilador_pedestal.pkl"},
+    "ventilador": {"file": "modelo_ventilador_pedestal.pkl"}
 }
 
 LOADED_MODELS = {}
