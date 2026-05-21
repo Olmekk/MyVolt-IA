@@ -82,9 +82,9 @@ DEVICE_CONFIG = {
     # Climatización
     "calefactor portatil": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
     "calefactor": {"file": "modelo_calefactor_portatil.pkl", "max_w": 1500.0, "standby_max": 4.0},
-    "ventilador de pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0},
-    "ventilador pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0},
-    "ventilador": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 90.0, "standby_max": 2.0}
+    "ventilador de pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 160.0, "standby_max": 2.0},
+    "ventilador pedestal": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 160.0, "standby_max": 2.0},
+    "ventilador": {"file": "modelo_ventilador_pedestal.pkl", "max_w": 160.0, "standby_max": 2.0}
 }
 
 LOADED_MODELS = {}
@@ -319,7 +319,7 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
     else:
         stats['ciclos_standby'] = 0 
     
-    # 900 ciclos son aprox 30 minutos detectando consumo hormiga
+    # 250 ciclos son aprox 30 minutos detectando consumo hormiga
     if stats['ciclos_standby'] > 250:
         mensajes_vampiro = [
             f"Tu {device_type} parece estar en espera gastando energia inutilmente. Desconectalo si no lo usas.",
