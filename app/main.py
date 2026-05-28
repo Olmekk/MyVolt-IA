@@ -819,11 +819,11 @@ mensajes_especificos = {
     "ventilador": msg_ventilador
 }
 
+# motor basado en reglas sistema experto
+# memoria ram para recordar historial reciente
+DEVICE_STATUS_MEMORY = {}
+
 def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit, standby_max_limit):
-    """
-    analiza el historial inmediato para dar consejos utiles
-    retorna un diccionario con la recomendacion o none
-    """
     
     # inicializar memoria si es nuevo
     if device_type not in DEVICE_STATUS_MEMORY:
@@ -836,10 +836,10 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
     stats = DEVICE_STATUS_MEMORY[device_type]
     recomendacion = None 
 
-    # obtenemos los mensajes del diccionario maestro sin mapeos extras
+    # extraemos el diccionario especifico del aparato que la app selecciono
     mensajes_del_aparato = mensajes_especificos.get(device_type, {})
 
-    # regla a mantenimiento e inestabilidad
+    # regla a inestabilidad
     if is_anomaly_ia:
         stats['conteo_anomalias'] += 1
     else:
@@ -848,13 +848,17 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
     
     # si acumula 10 errores recientes
     if stats['conteo_anomalias'] >= 10:
-        mensajes_generales_mantenimiento = [
-            f"El dispositivo {device_type} ha presentado comportamiento inestable frecuente recientemente.",
-            f"Hemos notado que tu {device_type} ha tenido varias fluctuaciones extrañas. Seria bueno revisarlo.",
-            f"Atencion: el {device_type} registro multiples anomalias seguidas. Sugerimos un chequeo preventivo."
-        ]
         
-        lista_final = mensajes_del_aparato.get("mantenimiento", mensajes_generales_mantenimiento)
+        # logica explicita preguntamos si el aparato tiene mensajes especificos redactados
+        if "mantenimiento" in mensajes_del_aparato:
+            lista_final = mensajes_del_aparato["mantenimiento"]
+        else:
+            # paracaidas por si evaluan un aparato nuevo que aun no tiene textos en el diccionario
+            lista_final = [
+                f"el dispositivo {device_type} ha presentado comportamiento inestable frecuente.",
+                f"hemos notado que tu {device_type} ha tenido fluctuaciones extrañas.",
+                f"atencion: el {device_type} registro multiples anomalias seguidas."
+            ]
 
         recomendacion = {
             "titulo": "Revision Recomendada",
@@ -873,15 +877,18 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
     else:
         stats['ciclos_alto_consumo'] = 0 
     
-    # 150 ciclos son aprox 5 minutos continuos
+    # 150 ciclos son aprox 5 minutos continuos al maximo
     if stats['ciclos_alto_consumo'] > 150:
-        mensajes_generales_uso = [
-            f"El dispositivo lleva mucho tiempo operando al limite ({int(current_watts)}W). Podria fatigarse.",
-            f"Tu {device_type} lleva un buen rato trabajando al maximo. Cuidado con el sobrecalentamiento.",
-            f"Precaucion: uso intenso prolongado en el {device_type}. Considera darle un descanso pronto."
-        ]
         
-        lista_final = mensajes_del_aparato.get("uso", mensajes_generales_uso)
+        # logica explicita para los mensajes de uso
+        if "uso" in mensajes_del_aparato:
+            lista_final = mensajes_del_aparato["uso"]
+        else:
+            lista_final = [
+                f"el dispositivo lleva mucho tiempo operando al limite de {int(current_watts)}w.",
+                f"tu {device_type} lleva un buen rato trabajando al maximo.",
+                f"precaucion: uso intenso prolongado en el {device_type}."
+            ]
 
         recomendacion = {
             "titulo": "Posible Sobrecalentamiento",
@@ -892,21 +899,24 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
         stats['ciclos_alto_consumo'] = 0
         return recomendacion
 
-    # regla c consumo vampiro para ahorro dinamico
+    # regla c consumo vampiro
     if 0.0 < current_watts <= standby_max_limit:
         stats['ciclos_standby'] += 1
     else:
         stats['ciclos_standby'] = 0 
     
-    # 250 ciclos son aprox 30 minutos detectando consumo hormiga
+    # 250 ciclos son aprox 30 minutos de consumo hormiga
     if stats['ciclos_standby'] > 250:
-        mensajes_generales_ahorro = [
-            f"Tu {device_type} parece estar en espera gastando energia inutilmente. Desconectalo si no lo usas.",
-            f"Detectamos que tu {device_type} esta en modo reposo. Desconectalo de la pared para ahorrar energia.",
-            f"El {device_type} esta consumiendo energia fantasma. Si ya terminaste de usarlo, apagalo por completo."
-        ]
         
-        lista_final = mensajes_del_aparato.get("ahorro", mensajes_generales_ahorro)
+        # logica explicita para los mensajes de ahorro
+        if "ahorro" in mensajes_del_aparato:
+            lista_final = mensajes_del_aparato["ahorro"]
+        else:
+            lista_final = [
+                f"tu {device_type} parece estar en espera gastando energia inutilmente.",
+                f"detectamos que tu {device_type} esta en modo reposo, desconectalo.",
+                f"el {device_type} esta consumiendo energia fantasma."
+            ]
 
         recomendacion = {
             "titulo": "Consumo Vampiro Detectado",
