@@ -885,7 +885,7 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
         stats['ciclos_alto_consumo'] = 0 
     
     # 150 ciclos son aprox 5 minutos continuos al maximo
-    if stats['ciclos_alto_consumo'] > 15:
+    if stats['ciclos_alto_consumo'] > 150:
         
         # logica explicita para los mensajes de uso
         if "uso" in mensajes_del_aparato:
@@ -913,7 +913,7 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
         stats['ciclos_standby'] = 0 
     
     # 250 ciclos son aprox 30 minutos de consumo hormiga
-    if stats['ciclos_standby'] > 3:
+    if stats['ciclos_standby'] > 250:
         
         # logica explicita para los mensajes de ahorro
         if "ahorro" in mensajes_del_aparato:
