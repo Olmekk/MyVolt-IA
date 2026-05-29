@@ -25,11 +25,18 @@ app.add_middleware(
 # db_user = os.getenv("DB_USER", "") 
 # db_pass = os.getenv("DB_PASS", "")
 # configuracion de base de datos servidor postgres
+# DB_USER = "postgres"
+# DB_PASS = "1234"
+# DB_HOST = "host.docker.internal"
+# DB_PORT = "5433"
+# DB_NAME = "myvolt_local"
+
+# configuracion de la base de datos para produccion en el servidor
 DB_USER = "postgres"
-DB_PASS = "1234"
-DB_HOST = "host.docker.internal"
+DB_PASS = "MyVoltTeam2026!"
+DB_HOST = "db"
 DB_PORT = "5432"
-DB_NAME = "postgres_2"
+DB_NAME = "myvolt_local"
 
 DB_PASS_ENCODED = quote_plus(DB_PASS)
 DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASS_ENCODED}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
@@ -878,7 +885,7 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
         stats['ciclos_alto_consumo'] = 0 
     
     # 150 ciclos son aprox 5 minutos continuos al maximo
-    if stats['ciclos_alto_consumo'] > 150:
+    if stats['ciclos_alto_consumo'] > 15:
         
         # logica explicita para los mensajes de uso
         if "uso" in mensajes_del_aparato:
@@ -906,7 +913,7 @@ def ejecutar_reglas_experto(device_type, current_watts, is_anomaly_ia, max_limit
         stats['ciclos_standby'] = 0 
     
     # 250 ciclos son aprox 30 minutos de consumo hormiga
-    if stats['ciclos_standby'] > 250:
+    if stats['ciclos_standby'] > 3:
         
         # logica explicita para los mensajes de ahorro
         if "ahorro" in mensajes_del_aparato:

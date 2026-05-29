@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  myvolt-ia-local:
+    build: .
+    container_name: myvolt_ia_local_container
+    ports:
+      - "8000:8000"
+    volumes:
+      # mapear el codigo fuente de tu pc al contenedor
+      - .:/code
+      # mapear la carpeta donde estan tus modelos matematicos
+      - ../notebooks:/notebooks
+    extra_hosts:
+      # llave maestra para que docker hable con tu postgres en windows
+      - "host.docker.internal:host-gateway"
+    environment:
+      - TZ=America/Mexico_City
